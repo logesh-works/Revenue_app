@@ -10,9 +10,9 @@ from ..enquiry.models import *
 
 
 class Student(models.Model):
-    GENDER_CHOICES = [("male", "Male"), ("female", "Female")]
-    RELIGION_CHOICE = [('Hindu','Hindu'),('Christian','Christian'),('Muslim','Muslim')]
-    COMMUNITY_CHOICE = [('OC','OC'),('BC','BC'),('MBC','MBC'),('ST/SC','ST/SC')]
+    GENDER_CHOICES = [("male", "Male"), ("female", "Female"),("others","others")]
+    RELIGION_CHOICE = [('Hindu','Hindu'),('Christian','Christian'),('Muslim','Muslim'),("others","others")]
+    COMMUNITY_CHOICE = [('OC','OC'),('BC','BC'),('MBC','MBC'),('ST/SC','ST/SC'),("others","others")]
     STUDENT_ROLE_CHOICES = [
         ("Employed", "Employed"),
         ("Unemployed", "Unemployed"),
@@ -76,16 +76,20 @@ class Student(models.Model):
     
     passport = models.ImageField("Photo",blank=True, upload_to="students/passports/")
     address = models.TextField("Address", blank=True)
+    taluka = models.CharField("Taluk",max_length=255,default=None,blank=True,null=True)
+    district = models.CharField("District",max_length=255,default=None,blank=True,null=True)
+    pincode = models.IntegerField("Pincode", blank=True, default=None)
+
     #course
     date_of_admission = models.DateField(default=timezone.now)
-    course = models.CharField("Course To Join",max_length=1024,null=False,default="HDCA")
+    course = models.CharField("Course",max_length=1024,null=False,default="HDCA")
     class_time = models.CharField("Class Timinig",default="2pm - 4pm",max_length=255,null=False)
      
 
     #fees
 
     total_fee = models.IntegerField("Total Fees",null=False,default=0)
-
+    remark = models.CharField("Remark",max_length=500,default=None,blank=True)
     
     
     class Meta:
@@ -112,7 +116,9 @@ class Classmodel(models.Model):
     finised_subject = models.CharField("Finised Subject",max_length=255,default=None,blank=False)
     start_date = models.DateField("Started on")
     end_date = models.DateField("Ended on")
+    class_time = models.CharField("Class Time",max_length=255,blank=True,null=True,default=None)
     faculty = models.CharField("Handled Faculty",max_length=255,default=None,blank=False)
+
     def get_absolute_url(self):
         return reverse("student-detail", kwargs={"pk": self.student.pk})
 
@@ -121,8 +127,10 @@ class Exammodel(models.Model):
     student = models.ForeignKey(Student,on_delete=models.CASCADE)
     subject = models.CharField("Subject",max_length=355,default=None,blank=True)
     exam_date = models.DateField("Examed date",default=timezone.now)
-    contected_mode = models.CharField("Contected mode",choices=[("Online","Online"),("Offline","Offline")],max_length=255,blank=True)
-    mark = models.FloatField("Mark",blank=True)
+    contected_mode = models.CharField("Contected mode",choices=[("Online","Online"),("Offline","Offline")],max_length=255,blank=True,null=True,default=None)
+    theory_mark =models.FloatField("Theory mark",blank=True,null=True,default=None)
+    paratical_mark = models.FloatField("Paratical mark",blank=True,default=None)
+    mark = models.FloatField("Total mark",blank=True)
     def get_absolute_url(self):
         return reverse("student-detail", kwargs={"pk": self.student.pk})
 

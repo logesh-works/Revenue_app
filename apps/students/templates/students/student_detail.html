@@ -122,6 +122,7 @@
         <th>Subject</th>
         <th>Class started on</th>
         <th>calss Ended on</th>
+        <th>Class time</th>
         <th>Faculty</th>
         <th>Delete</th>
       </tr>
@@ -132,6 +133,7 @@
           <td>{{class.finised_subject}} </td>
           <td>{{class.start_date}}</td>
           <td>{{class.end_date}}</td>
+          <td>{{class.class_time}}</td>
           <td>{{class.faculty}}<td>
             <a href="{% url 'class-delete' class.id%}"><input type="button" class="btn btn-sm btn-primary" value="Delete"></a>
         </tr>
@@ -151,7 +153,10 @@
             <th>Subject</th>
             <th>Contected on</th>
             <th>Contected Mode</th>
-            <th>Mark</th>
+            <th>Theory mark</th>
+            <th>Paratical mark</th>
+            <th>
+              Total mark</th>
             <th>Delete</th>
           </tr>
         </thead>
@@ -161,6 +166,8 @@
               <td>{{exam.subject}} </td>
               <td>{{exam.exam_date}}</td>
               <td>{{exam.contected_mode}}</td>
+              <td>{{exam.theory_mark}}</td>
+              <td>{{exam.paratical_mark}}</td>
               <td>{{exam.mark}}<td>
                 <a href="{% url 'exam-delete' exam.id%}"><input type="button" class="btn btn-sm btn-primary" value="Delete"></a>
             </tr>
@@ -178,7 +185,6 @@
       <table class="table table-sm table-bordered table-hover">
         <thead class="thead-light">
           <tr>
-            <th>For</th>
             <th>Amount Payable</th>
             <th>Amount Paid</th>
             <th>balance</th>
@@ -187,7 +193,6 @@
         <tbody>
           {% for payment in payments %}
             <tr class='clickable-row' data-href="{% url 'invoice-detail' payment.id %}">
-              <td>{{payment.session}} - {{payment.term}} - {{ payment.class_for}}</td>
               <td>{{payment.total_amount_payable}}</td>
               <td>{{payment.total_amount_paid}}</td>
               <td>{{payment.balance}}</td>

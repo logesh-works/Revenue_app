@@ -6,8 +6,8 @@ from datetime import date
 
 
 class Enquiry(models.Model):
-    GENDER_CHOICES = [("male", "Male"), ("female", "Female")]
-    QUALIFICATION_STATUS_CHOICES = [("Completed", "Completed"), ("Undergoing", "Undergoing")]
+    GENDER_CHOICES = [("male", "Male"), ("female", "Female"),("others","others")]
+    QUALIFICATION_STATUS_CHOICES = [("Completed", "Completed"), ("Undergoing", "Undergoing"),("others","others")]
     STUDENT_ROLE_CHOICES = [
         ("Employed", "Employed"),
         ("Unemployed", "Unemployed"),
@@ -21,12 +21,14 @@ class Enquiry(models.Model):
         ("For a job in software profession", "For a job in software profession"),
         ("For advance study", "For advance study"),
         ("Sponsored by company", "Sponsored by company"),
+        ("others","others")
     ]
     KNOWN_CSC_CHOICES = [
         ("Television", "Television"),
         ("Newspaper", "Newspaper"),
         ("Friend recommend", "Friend recommend"),
         ("Poster", "Poster"),
+        ("others","others")
     ]
     ENQUIRY_STATUS_CHOICES = [
         ("Following", "Following"),
@@ -36,9 +38,11 @@ class Enquiry(models.Model):
 
     auto_increment = models.AutoField(primary_key=True)
     enquiry_no = models.CharField("Enquiry Number", max_length=20, unique=True, editable=False)
-    name = models.CharField("Student Name", max_length=255, blank=False, default="")
-    f_name = models.CharField("Student's Father Name", max_length=255, blank=False, default="")
+    name = models.CharField("Name", max_length=255, blank=False, default="")
+    f_name = models.CharField("Father Name", max_length=255, blank=False, default="")
     address = models.TextField("Address", blank=True)
+    taluka = models.CharField("Taluk",max_length=255,null=True,default=None,blank=True)
+    district = models.CharField("District",max_length=255,default="",blank=True)
     pincode = models.IntegerField("Pincode", blank=True, default=None)
     mobile_num_regex = RegexValidator(
         regex="^[0-9]{10,15}$", message="Entered mobile number isn't in a right format!"
@@ -50,7 +54,7 @@ class Enquiry(models.Model):
     date_of_birth = models.DateField("Date of Birth",default=timezone.now)
     gender = models.CharField("Gender", max_length=10, choices=GENDER_CHOICES, default="male")
     student_role = models.CharField(
-        "Student Occupation", choices=STUDENT_ROLE_CHOICES, max_length=1024, default="Student"
+        "Occupation", choices=STUDENT_ROLE_CHOICES, max_length=1024, default="Student"
     )
     student_company_name = models.CharField("If Emloyed Company Name",max_length=1024,blank=True,null=True)
     
@@ -66,9 +70,9 @@ class Enquiry(models.Model):
     qualification_status = models.CharField(
         "Qualification Status", max_length=50, choices=QUALIFICATION_STATUS_CHOICES, default="Completed"
     )
-    studying_year = models.IntegerField("Student Current year",default=None,null=True)
+    studying_year = models.IntegerField("Current year",default=None,null=True)
     studying_course = models.TextField("Major", max_length=255, default="",blank=True)
-    student_college_name = models.CharField("College Name",max_length=1055,default="",blank=True,null=True)
+    student_college_name = models.CharField("School/College Name",max_length=1055,default="",blank=True,null=True)
 
     #others
     need_of_study = models.CharField(
@@ -103,6 +107,8 @@ class Enquiry(models.Model):
             "mobile_number": self.mobile_number,
             "email": self.email,
             "gender": self.gender,
+            "taluka":self.taluka,
+            "district":self.district
         }
         
     @property

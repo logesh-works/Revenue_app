@@ -21019,3 +21019,123 @@ INFO 2023-12-28 17:30:23,556 "POST /student/2/examlog/ HTTP/1.1" 302 0
 INFO 2023-12-28 17:30:23,677 "GET /student/2/ HTTP/1.1" 200 13604
 INFO 2023-12-28 17:30:46,255 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
 INFO 2023-12-28 17:30:47,562 Watching for file changes with StatReloader
+INFO 2023-12-28 17:30:48,403 "GET /student/2/ HTTP/1.1" 200 13906
+INFO 2023-12-28 17:30:54,368 "GET /student/examdel/3/ HTTP/1.1" 302 0
+INFO 2023-12-28 17:30:54,486 "GET /student/2/ HTTP/1.1" 200 13625
+INFO 2023-12-28 17:30:57,332 "GET /student/examdel/1/ HTTP/1.1" 302 0
+INFO 2023-12-28 17:30:57,447 "GET /student/2/ HTTP/1.1" 200 13044
+INFO 2023-12-28 17:31:04,079 "GET /student/2/examlog/ HTTP/1.1" 200 10675
+INFO 2023-12-28 17:31:39,939 "POST /student/2/examlog/ HTTP/1.1" 302 0
+INFO 2023-12-28 17:31:40,005 "GET /student/2/ HTTP/1.1" 200 13625
+INFO 2023-12-28 17:32:09,332 "GET /student/2/ HTTP/1.1" 200 13631
+INFO 2023-12-28 17:42:47,732 "GET /finance/2/detail/ HTTP/1.1" 200 10631
+INFO 2023-12-28 17:43:37,216 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 17:43:46,243 "GET /student/select_enquiry/ HTTP/1.1" 200 9466
+INFO 2023-12-28 18:18:51,993 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 18:18:53,622 "GET /enquiry/list HTTP/1.1" 200 9927
+INFO 2023-12-28 18:18:56,454 "GET /enquiry/4/ HTTP/1.1" 200 12707
+INFO 2023-12-28 18:47:41,946 Watching for file changes with StatReloader
+INFO 2023-12-28 18:47:46,647 "GET /enquiry/4/ HTTP/1.1" 200 12707
+INFO 2023-12-28 18:47:50,476 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 18:47:52,328 "GET /student/select_enquiry/ HTTP/1.1" 200 9466
+INFO 2023-12-28 18:47:55,127 "GET /student/list HTTP/1.1" 200 9802
+INFO 2023-12-28 18:47:56,459 "GET /student/2/ HTTP/1.1" 200 13631
+INFO 2023-12-28 18:47:56,612 "GET /media/students/passports/pexels-mo-eid-9454915.jpg HTTP/1.1" 304 0
+INFO 2023-12-28 18:47:59,682 "GET /student/2/update/ HTTP/1.1" 200 16830
+INFO 2023-12-28 18:48:10,915 "GET /enquiry/list HTTP/1.1" 200 9927
+INFO 2023-12-28 18:48:12,323 "GET /enquiry/create/ HTTP/1.1" 200 20115
+INFO 2023-12-28 18:48:17,644 "GET /enquiry/4/ HTTP/1.1" 200 12707
+INFO 2023-12-28 18:48:19,105 "GET /enquiry/4/update/ HTTP/1.1" 200 20289
+INFO 2023-12-28 18:48:24,358 "POST /enquiry/4/update/ HTTP/1.1" 302 0
+INFO 2023-12-28 18:48:24,456 "GET /enquiry/4/ HTTP/1.1" 200 12851
+INFO 2023-12-28 18:48:26,908 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 18:48:27,860 "GET /student/select_enquiry/ HTTP/1.1" 200 9526
+INFO 2023-12-28 18:48:29,103 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-28 18:48:29,231 "GET /student/create/4/ HTTP/1.1" 200 16449
+INFO 2023-12-28 18:59:10,466 Watching for file changes with StatReloader
+ERROR 2023-12-28 18:59:12,739 Internal Server Error: /student/create/4/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 100, in get
+    form.initial['enrol_no'] = self.automatic_ro()
+                               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 63, in automatic_ro
+    object_id = str(self.id).zfill(4)  # Object ID with leading zeros if needed
+                    ^^^^^^^
+AttributeError: 'StudentCreateView' object has no attribute 'id'
+ERROR 2023-12-28 18:59:12,741 "GET /student/create/4/ HTTP/1.1" 500 90590
+INFO 2023-12-28 19:01:48,302 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-28 19:01:49,444 Watching for file changes with StatReloader
+INFO 2023-12-28 19:01:50,033 "GET /student/create/4/ HTTP/1.1" 200 16463
+INFO 2023-12-28 19:03:28,842 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 19:03:29,888 "GET /student/list HTTP/1.1" 200 9802
+INFO 2023-12-28 19:03:32,429 "GET /student/2/ HTTP/1.1" 200 13631
+INFO 2023-12-28 19:03:32,588 "GET /media/students/passports/pexels-mo-eid-9454915.jpg HTTP/1.1" 304 0
+INFO 2023-12-28 19:03:38,440 "GET /student/2/ HTTP/1.1" 200 13631
+INFO 2023-12-28 19:03:41,555 "GET /student/delete/2/ HTTP/1.1" 200 9372
+INFO 2023-12-28 19:03:42,948 "POST /student/delete/2/ HTTP/1.1" 302 0
+INFO 2023-12-28 19:03:43,044 "GET /student/list HTTP/1.1" 200 9525
+WARNING 2023-12-28 19:03:45,051 Not Found: /student/delete/2/
+WARNING 2023-12-28 19:03:45,052 "GET /student/delete/2/ HTTP/1.1" 404 7291
+WARNING 2023-12-28 19:03:50,380 Not Found: /student/2/
+WARNING 2023-12-28 19:03:50,381 "GET /student/2/ HTTP/1.1" 404 6662
+INFO 2023-12-28 19:03:52,364 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 19:03:55,481 "GET /enquiry/list HTTP/1.1" 200 9928
+INFO 2023-12-28 19:03:59,475 "GET /student/select_enquiry/ HTTP/1.1" 200 9526
+INFO 2023-12-28 19:04:01,320 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-28 19:04:01,452 "GET /student/create/4/ HTTP/1.1" 200 16463
+INFO 2023-12-28 19:04:03,571 "GET /student/select_enquiry/ HTTP/1.1" 200 9526
+INFO 2023-12-28 19:05:15,125 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-28 19:05:16,547 Watching for file changes with StatReloader
+INFO 2023-12-28 19:05:17,352 "GET /enquiry/list HTTP/1.1" 200 9928
+INFO 2023-12-28 19:05:19,044 "GET /student/select_enquiry/ HTTP/1.1" 200 9526
+INFO 2023-12-28 19:05:20,108 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-28 19:05:20,175 "GET /student/create/4/ HTTP/1.1" 200 16463
+INFO 2023-12-28 19:29:49,617 Watching for file changes with StatReloader
+INFO 2023-12-28 19:29:52,519 "GET / HTTP/1.1" 302 0
+INFO 2023-12-28 19:29:52,553 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-28 19:29:58,825 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-12-28 19:29:58,889 "GET / HTTP/1.1" 200 12448
+INFO 2023-12-28 19:30:01,667 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 19:30:02,856 "GET /enquiry/list HTTP/1.1" 200 9625
+INFO 2023-12-28 19:30:05,085 "GET /enquiry/create/ HTTP/1.1" 200 20972
+INFO 2023-12-28 19:32:19,523 "POST /enquiry/create/ HTTP/1.1" 302 0
+INFO 2023-12-28 19:32:19,631 "GET /enquiry/1/ HTTP/1.1" 200 11838
+INFO 2023-12-28 19:32:25,211 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 19:32:26,494 "GET /student/select_enquiry/ HTTP/1.1" 200 9528
+INFO 2023-12-28 19:32:29,050 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-28 19:32:29,182 "GET /student/create/1/ HTTP/1.1" 200 17607
+INFO 2023-12-28 19:32:57,079 "POST /student/create/1/ HTTP/1.1" 302 0
+INFO 2023-12-28 19:32:57,195 "GET /student/1/ HTTP/1.1" 200 11625
+INFO 2023-12-28 19:42:31,220 C:\Users\LOGI\Desktop\CSC\csc\apps\students\models.py changed, reloading.
+INFO 2023-12-28 19:42:32,360 Watching for file changes with StatReloader
+INFO 2023-12-28 19:47:26,856 Watching for file changes with StatReloader
+INFO 2023-12-28 19:47:29,211 "GET /student/1/ HTTP/1.1" 200 11479
+INFO 2023-12-28 19:47:31,429 "GET /student/1/booklog/ HTTP/1.1" 200 10261
+INFO 2023-12-28 19:47:34,460 "GET /student/1/classlog/ HTTP/1.1" 200 10708
+INFO 2023-12-28 19:48:36,098 Watching for file changes with StatReloader
+INFO 2023-12-28 19:48:37,864 "GET /student/1/classlog/ HTTP/1.1" 200 10724
+INFO 2023-12-28 19:48:45,575 "GET /student/1/examlog/ HTTP/1.1" 200 11187
+INFO 2023-12-28 19:49:12,857 "GET /student/1/booklog/ HTTP/1.1" 200 10261
+INFO 2023-12-28 19:49:19,042 "POST /student/1/booklog/ HTTP/1.1" 302 0
+INFO 2023-12-28 19:49:19,168 "GET /student/1/ HTTP/1.1" 200 12015
+INFO 2023-12-28 19:49:20,861 "GET /student/1/classlog/ HTTP/1.1" 200 10724
+INFO 2023-12-28 19:49:38,732 "POST /student/1/classlog/ HTTP/1.1" 302 0
+INFO 2023-12-28 19:49:38,849 "GET /student/1/ HTTP/1.1" 200 12585
+INFO 2023-12-28 19:49:43,706 "GET /student/1/examlog/ HTTP/1.1" 200 11187
+INFO 2023-12-28 19:49:57,466 "POST /student/1/examlog/ HTTP/1.1" 302 0
+INFO 2023-12-28 19:49:57,571 "GET /student/1/ HTTP/1.1" 200 13315

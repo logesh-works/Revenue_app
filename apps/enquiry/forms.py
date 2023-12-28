@@ -29,7 +29,7 @@ class EnquiryForm(forms.ModelForm):
         for field_name in optional_fields:
             self.fields[field_name].required = False
         # Group fields into sections
-        personal_info_fields = ['name', 'f_name','address', 'pincode', 'mobile_number', 'email','date_of_birth','student_role', 'student_company_name','gender']
+        personal_info_fields = ['name', 'f_name','address','taluka', 'district','pincode', 'mobile_number', 'email','date_of_birth','student_role', 'student_company_name','gender']
         office_use_fields = ['enquiry_date', 'counsellor_remark', 'enquiry_status','expected_date']
         qualification_fiedls = ['qualification', 'qualification_status', 'studying_year', 'studying_course','student_college_name']
         others_fields = [

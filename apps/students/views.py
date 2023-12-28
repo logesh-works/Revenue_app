@@ -1,5 +1,5 @@
 import csv
-
+from datetime import datetime
 from django import forms
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.messages.views import SuccessMessageMixin
@@ -57,6 +57,12 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     model = Student
     fields = "__all__"
     success_message = "New student successfully added."
+    def automatic_ro(self):
+            id = Student.objects.count()
+            year = str(datetime.now().year)[-2:]  # Last two digits of the current year
+            month = str(datetime.now().month).zfill(2)  # Month with leading zero if needed
+            object_id = str(id).zfill(4)  # Object ID with leading zeros if needed
+            return f'{year}{month}{object_id}'
     def get(self, request, *args, **kwargs):
         # Stage 1: Select Enquiry
         if 'enquiry_id' not in kwargs:
@@ -69,6 +75,7 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
 
         # Create a dynamic ModelForm for the Student model
         class StudentForm(forms.ModelForm):
+            
             class Meta:
                 model = Student
                 fields = '__all__'
@@ -91,6 +98,7 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
                 
                 # Pre-fill the form fields based on the Enquiry instance
                 form.initial['student_name'] = enquiry_instance.name
+                form.initial['enrol_no'] = self.automatic_ro()
                 form.initial['date_of_birth'] = enquiry_instance.date_of_birth
                 form.initial['address'] = enquiry_instance.address
                 form.initial['rel_name'] = enquiry_instance.f_name
@@ -100,6 +108,10 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
                 form.initial['occupation'] = enquiry_instance.student_role
                 form.initial['mobile_number'] = enquiry_instance.mobile_number
                 form.initial['email'] = enquiry_instance.email
+                form.initial['taluka'] = enquiry_instance.taluka
+                form.initial['district'] = enquiry_instance.district
+                form.initial['pincode'] = enquiry_instance.pincode
+                
 
         except Enquiry.DoesNotExist:
             raise Http404("Enquiry does not exist")
