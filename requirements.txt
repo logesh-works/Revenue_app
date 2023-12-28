@@ -17,3 +17,5 @@ pytz
 regex 
 sqlparse 
 tomli 
+mysqlclient
+
