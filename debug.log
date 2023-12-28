@@ -20908,3 +20908,114 @@ INFO 2023-12-28 16:02:40,955 "GET /student/ HTTP/1.1" 200 13484
 INFO 2023-12-28 16:02:43,717 "GET /student/ HTTP/1.1" 200 13484
 INFO 2023-12-28 16:02:46,287 "GET /staff/list/ HTTP/1.1" 200 9539
 INFO 2023-12-28 16:02:48,279 "GET /staff/create/ HTTP/1.1" 200 12636
+INFO 2023-12-28 16:19:27,225 Watching for file changes with StatReloader
+INFO 2023-12-28 16:19:47,726 "GET / HTTP/1.1" 302 0
+INFO 2023-12-28 16:19:47,752 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-28 16:19:52,782 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-12-28 16:19:52,848 "GET / HTTP/1.1" 200 12455
+INFO 2023-12-28 16:19:58,760 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 16:20:00,018 "GET /enquiry/list HTTP/1.1" 200 9927
+INFO 2023-12-28 16:20:01,693 "GET /enquiry/4/ HTTP/1.1" 200 12707
+INFO 2023-12-28 16:20:05,201 "GET /enquiry/create/ HTTP/1.1" 200 20115
+INFO 2023-12-28 16:44:24,911 "GET /staff/list/ HTTP/1.1" 200 9539
+INFO 2023-12-28 16:44:26,934 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 16:45:31,857 "GET /staff/list/ HTTP/1.1" 200 9539
+INFO 2023-12-28 16:45:32,992 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 16:45:34,997 "GET /enquiry/list HTTP/1.1" 200 9927
+INFO 2023-12-28 16:45:37,092 "GET /enquiry/create/ HTTP/1.1" 200 20115
+INFO 2023-12-28 16:46:10,178 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 16:46:14,722 "GET /student/select_enquiry/ HTTP/1.1" 200 9466
+INFO 2023-12-28 16:46:19,173 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 16:46:30,305 "GET /student/list HTTP/1.1" 200 9802
+INFO 2023-12-28 16:46:32,483 "GET /student/2/ HTTP/1.1" 200 12803
+INFO 2023-12-28 16:46:35,075 "GET /student/2/booklog/ HTTP/1.1" 200 10261
+INFO 2023-12-28 16:46:51,775 "GET /student/2/classlog/ HTTP/1.1" 200 10478
+INFO 2023-12-28 16:47:01,939 "GET /student/2/update/ HTTP/1.1" 200 16579
+INFO 2023-12-28 16:54:05,910 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-28 16:54:07,892 "GET /student/list HTTP/1.1" 200 9802
+INFO 2023-12-28 16:54:08,964 "GET /student/2/ HTTP/1.1" 200 12803
+INFO 2023-12-28 16:58:53,949 "GET /student/2/update/ HTTP/1.1" 200 16579
+INFO 2023-12-28 16:59:06,185 "POST /student/2/update/ HTTP/1.1" 302 0
+INFO 2023-12-28 16:59:06,289 "GET /student/2/ HTTP/1.1" 200 12970
+INFO 2023-12-28 16:59:06,707 "GET /media/students/passports/pexels-mo-eid-9454915.jpg HTTP/1.1" 200 581326
+INFO 2023-12-28 17:07:01,223 C:\Users\LOGI\Desktop\CSC\csc\apps\students\models.py changed, reloading.
+INFO 2023-12-28 17:07:02,346 Watching for file changes with StatReloader
+INFO 2023-12-28 17:22:30,296 Watching for file changes with StatReloader
+INFO 2023-12-28 17:22:34,549 "GET /student/2/ HTTP/1.1" 200 13493
+INFO 2023-12-28 17:22:34,673 "GET /media/students/passports/pexels-mo-eid-9454915.jpg HTTP/1.1" 304 0
+INFO 2023-12-28 17:24:21,902 "GET /student/2/ HTTP/1.1" 200 13600
+INFO 2023-12-28 17:24:37,250 "GET /student/2/ HTTP/1.1" 200 13601
+INFO 2023-12-28 17:24:43,965 "GET /student/examdel/1/ HTTP/1.1" 302 0
+INFO 2023-12-28 17:24:44,077 "GET /student/2/ HTTP/1.1" 200 12528
+INFO 2023-12-28 17:25:56,456 "GET /student/2/ HTTP/1.1" 200 12528
+INFO 2023-12-28 17:25:56,585 "GET /media/students/passports/pexels-mo-eid-9454915.jpg HTTP/1.1" 304 0
+INFO 2023-12-28 17:26:01,648 "GET /student/2/ HTTP/1.1" 200 12527
+INFO 2023-12-28 17:26:07,618 "GET /student/2/examlog/ HTTP/1.1" 200 10478
+INFO 2023-12-28 17:26:15,643 "GET /student/2/classlog/ HTTP/1.1" 200 10478
+INFO 2023-12-28 17:26:18,611 "GET /student/2/examlog/ HTTP/1.1" 200 10478
+INFO 2023-12-28 17:27:03,038 C:\Users\LOGI\Desktop\CSC\csc\apps\students\urls.py changed, reloading.
+INFO 2023-12-28 17:27:04,377 Watching for file changes with StatReloader
+INFO 2023-12-28 17:27:05,263 "GET /student/2/examlog/ HTTP/1.1" 200 10675
+INFO 2023-12-28 17:27:09,928 "GET /student/2/classlog/ HTTP/1.1" 200 10478
+INFO 2023-12-28 17:27:18,931 "POST /student/2/classlog/ HTTP/1.1" 302 0
+INFO 2023-12-28 17:27:19,086 "GET /student/2/ HTTP/1.1" 200 13604
+INFO 2023-12-28 17:27:23,018 "GET /student/2/examlog/ HTTP/1.1" 200 10675
+ERROR 2023-12-28 17:27:32,244 Internal Server Error: /student/2/examlog/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\edit.py", line 123, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Exammodel' object has no attribute 'get_absolute_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 336, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 342, in form_valid
+    response = super().form_valid(form)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\contrib\messages\views.py", line 12, in form_valid
+    response = super().form_valid(form)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\edit.py", line 134, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\edit.py", line 63, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
+ERROR 2023-12-28 17:27:32,251 "POST /student/2/examlog/ HTTP/1.1" 500 111090
+INFO 2023-12-28 17:27:59,181 C:\Users\LOGI\Desktop\CSC\csc\apps\students\models.py changed, reloading.
+INFO 2023-12-28 17:28:00,527 Watching for file changes with StatReloader
+INFO 2023-12-28 17:28:02,274 "POST /student/2/examlog/ HTTP/1.1" 302 0
+INFO 2023-12-28 17:28:02,473 "GET /student/2/ HTTP/1.1" 200 13604
+INFO 2023-12-28 17:28:06,840 "GET /student/examdel/2/ HTTP/1.1" 302 0
+INFO 2023-12-28 17:28:06,900 "GET /student/2/ HTTP/1.1" 200 13604
+WARNING 2023-12-28 17:28:09,511 Not Found: /student/examdel/2/
+WARNING 2023-12-28 17:28:09,513 "GET /student/examdel/2/ HTTP/1.1" 404 8848
+INFO 2023-12-28 17:29:42,891 "GET /student/2/ HTTP/1.1" 200 13604
+INFO 2023-12-28 17:29:43,057 "GET /media/students/passports/pexels-mo-eid-9454915.jpg HTTP/1.1" 304 0
+INFO 2023-12-28 17:30:13,307 "GET /student/2/examlog/ HTTP/1.1" 200 10675
+INFO 2023-12-28 17:30:23,556 "POST /student/2/examlog/ HTTP/1.1" 302 0
+INFO 2023-12-28 17:30:23,677 "GET /student/2/ HTTP/1.1" 200 13604
+INFO 2023-12-28 17:30:46,255 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-28 17:30:47,562 Watching for file changes with StatReloader

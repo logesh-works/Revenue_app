@@ -21,7 +21,7 @@ from django.views.generic.edit import (
 from apps.finance.models import Invoice
 
 from ..enquiry.models import *
-from .models import Student, StudentBulkUpload,Bookmodel,Classmodel
+from .models import Student, StudentBulkUpload,Bookmodel,Classmodel,Exammodel
 
 
 class StudentListView(LoginRequiredMixin, ListView):
@@ -49,6 +49,7 @@ class StudentDetailView(LoginRequiredMixin, DetailView):
         context["payments"] = Invoice.objects.filter(student=self.object)
         context["booklog"] = Bookmodel.objects.filter(student=self.object)
         context["classlog"] = Classmodel.objects.filter(student=self.object)
+        context["examlog"] = Exammodel.objects.filter(student=self.object)
         return context
 
 
@@ -267,6 +268,79 @@ class CreateClasslLog(LoginRequiredMixin, SuccessMessageMixin, CreateView):
             # Additional logic after the form is valid
             response = super().form_valid(form)
             return response
+class CreateClasslLog(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+    model = Classmodel
+    fields = '__all__'
+    template_name = "classes/add_class.html"
+    def get(self, request, *args, **kwargs):
+        class ClassForm(forms.ModelForm):
+                class Meta:
+                    model = Classmodel
+                    fields = '__all__'
+        form = ClassForm()
+        if "pk" in kwargs:
+            form.initial['student'] = kwargs['pk']
+            form.fields['student'].widget = forms.HiddenInput()
+            form.fields['student'].label = ""
+            form.fields["start_date"].widget = widgets.DateInput(attrs={"type": "date"})
+            form.fields["end_date"].widget = widgets.DateInput(attrs={"type": "date"})
+            
+        return render(request, 'classes/add_class.html', {'form': form})
+    def post(self, request, *args, **kwargs):
+
+           
+            class ClassForm(forms.ModelForm):
+                class Meta:
+                    model = Classmodel
+                    fields = '__all__'
+
+            form = ClassForm(request.POST)
+            
+            if form.is_valid():
+                return self.form_valid(form)
+            
+            return render(request, self.template_name, {'form': form})
+
+    def form_valid(self, form):
+            # Additional logic after the form is valid
+            response = super().form_valid(form)
+            return response
+class CreateExamLog(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+    model = Exammodel
+    fields = '__all__'
+    template_name = "classes/exam.html"
+    def get(self, request, *args, **kwargs):
+        class ExamForm(forms.ModelForm):
+                class Meta:
+                    model = Exammodel
+                    fields = '__all__'
+        form = ExamForm()
+        if "pk" in kwargs:
+            form.initial['student'] = kwargs['pk']
+            form.fields['student'].widget = forms.HiddenInput()
+            form.fields['student'].label = ""
+            form.fields["exam_date"].widget = widgets.DateInput(attrs={"type": "date"})
+            
+        return render(request, 'classes/exam.html', {'form': form})
+    def post(self, request, *args, **kwargs):
+
+           
+            class ExamForm(forms.ModelForm):
+                class Meta:
+                    model = Exammodel
+                    fields = '__all__'
+
+            form = ExamForm(request.POST)
+            
+            if form.is_valid():
+                return self.form_valid(form)
+            
+            return render(request, self.template_name, {'form': form})
+
+    def form_valid(self, form):
+            # Additional logic after the form is valid
+            response = super().form_valid(form)
+            return response
 def delete_book_log(request, pk):
     enquiry_log = get_object_or_404(Bookmodel, pk=pk)
     enquiry_log.delete()
@@ -274,6 +348,11 @@ def delete_book_log(request, pk):
     return redirect(referring_url) 
 def delete_class_log(request, pk):
     enquiry_log = get_object_or_404(Classmodel, pk=pk)
+    enquiry_log.delete()
+    referring_url = request.META.get('HTTP_REFERER', '/')
+    return redirect(referring_url) 
+def delete_exam_log(request, pk):
+    enquiry_log = get_object_or_404(Exammodel, pk=pk)
     enquiry_log.delete()
     referring_url = request.META.get('HTTP_REFERER', '/')
     return redirect(referring_url) 

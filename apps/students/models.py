@@ -117,7 +117,15 @@ class Classmodel(models.Model):
         return reverse("student-detail", kwargs={"pk": self.student.pk})
 
     
-    
+class Exammodel(models.Model):
+    student = models.ForeignKey(Student,on_delete=models.CASCADE)
+    subject = models.CharField("Subject",max_length=355,default=None,blank=True)
+    exam_date = models.DateField("Examed date",default=timezone.now)
+    contected_mode = models.CharField("Contected mode",choices=[("Online","Online"),("Offline","Offline")],max_length=255,blank=True)
+    mark = models.FloatField("Mark",blank=True)
+    def get_absolute_url(self):
+        return reverse("student-detail", kwargs={"pk": self.student.pk})
+
     
     
     

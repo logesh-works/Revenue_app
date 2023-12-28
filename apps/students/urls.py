@@ -13,7 +13,9 @@ from .views import (
     CreateBooklLog,
     delete_book_log,
     delete_class_log,
-    CreateClasslLog
+    CreateClasslLog,
+    CreateExamLog,
+    delete_exam_log
 )
 
 urlpatterns = [
@@ -30,4 +32,6 @@ urlpatterns = [
     path("bookdel/<int:pk>/", delete_book_log, name="book-delete"),
     path("<int:pk>/classlog/",CreateClasslLog.as_view(),name="classlog"),
     path("classdel/<int:pk>/", delete_class_log, name="class-delete"),
+    path("<int:pk>/examlog/",CreateExamLog.as_view(),name="examlog"),
+    path("examdel/<int:pk>/", delete_exam_log, name="exam-delete"),
 ]
