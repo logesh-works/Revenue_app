@@ -15,7 +15,6 @@
         <tr>
           <th>S/N</th>
           <th>invoice</th>
-          <th>Session-term</th>
           <th>Total Payable</th>
           <th>Total Paid</th>
           <th>Balance</th>
@@ -28,7 +27,6 @@
           <tr class='clickable-row' data-href="{% url 'invoice-detail' invoice.id %}">
             <td>{{ forloop.counter}}</td>
             <td>{{ invoice}}</td>
-            <td>{{ invoice.session}}-{{ invoice.term}}</td>
             <td>{{ invoice.total_amount_payable | intcomma }}</td>
             <td>{{ invoice.total_amount_paid | intcomma }}</td>
             <td>{{ invoice.balance | intcomma }}</td>

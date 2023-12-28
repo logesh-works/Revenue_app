@@ -1,17 +1,27 @@
 import csv
 
+from django import forms
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.messages.views import SuccessMessageMixin
 from django.forms import widgets
-from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse,Http404
+from django.shortcuts import redirect, render,get_object_or_404
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, ListView, View
-from django.views.generic.edit import CreateView, DeleteView, UpdateView
+from django.views.generic.edit import FormMixin, CreateView
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.messages.views import SuccessMessageMixin
+from django.views.generic.edit import (
+    CreateView,
+    DeleteView,
+    FormMixin,
+    UpdateView,
+)
 
 from apps.finance.models import Invoice
 
-from .models import Student, StudentBulkUpload
+from ..enquiry.models import *
+from .models import Student, StudentBulkUpload,Bookmodel,Classmodel
 
 
 class StudentListView(LoginRequiredMixin, ListView):
@@ -21,6 +31,14 @@ class StudentListView(LoginRequiredMixin, ListView):
         template_name = "students/student_list.html"
         return render(request, template_name , context={"students":Student.objects.all()})
 
+def select_enquiry(request):
+    enquiries = Enquiry.objects.filter(enquiry_status = "Following")
+    if request.method == 'POST':
+        selected_enquiry_id = request.POST.get('enquiry')
+        # Redirect to the next page with the selected Enquiry ID
+        return redirect('student-create', enquiry_id=selected_enquiry_id)
+
+    return render(request, 'students/ad_con.html', {'enquiries': enquiries})
 
 class StudentDetailView(LoginRequiredMixin, DetailView):
     model = Student
@@ -29,6 +47,8 @@ class StudentDetailView(LoginRequiredMixin, DetailView):
     def get_context_data(self, **kwargs):
         context = super(StudentDetailView, self).get_context_data(**kwargs)
         context["payments"] = Invoice.objects.filter(student=self.object)
+        context["booklog"] = Bookmodel.objects.filter(student=self.object)
+        context["classlog"] = Classmodel.objects.filter(student=self.object)
         return context
 
 
@@ -36,16 +56,92 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     model = Student
     fields = "__all__"
     success_message = "New student successfully added."
+    def get(self, request, *args, **kwargs):
+        # Stage 1: Select Enquiry
+        if 'enquiry_id' not in kwargs:
+            enquiries = Enquiry.objects.all()
+            return render(request, 'students/ad_con.html', {'enquiries': enquiries})
 
-    def get_form(self):
-        """add date picker in forms"""
-        form = super(StudentCreateView, self).get_form()
+        # Stage 2: Add Student Information
+        enquiry_id = kwargs['enquiry_id']
+        enquiry = Enquiry.objects.get(auto_increment=enquiry_id)
+
+        # Create a dynamic ModelForm for the Student model
+        class StudentForm(forms.ModelForm):
+            class Meta:
+                model = Student
+                fields = '__all__'
+                def __init__(self, *args, **kwargs):
+                    super().__init__(*args, **kwargs)
+                    # Make the 'enquiry_id' field readonly
+                    
+
+
+        form = StudentForm()
+        form.initial['if_enq'] = enquiry_id
+        form.fields['if_enq'].widget = forms.HiddenInput()
+        form.fields['if_enq'].label = ""
+        enquiry_id = enquiry_id  # self.kwargs.get('if_enq')
+
+        try:
+            # If enquiry_id is provided, fetch the Enquiry instance
+            if enquiry_id:
+                enquiry_instance = Enquiry.objects.get(pk=enquiry_id)
+                
+                # Pre-fill the form fields based on the Enquiry instance
+                form.initial['student_name'] = enquiry_instance.name
+                form.initial['date_of_birth'] = enquiry_instance.date_of_birth
+                form.initial['address'] = enquiry_instance.address
+                form.initial['rel_name'] = enquiry_instance.f_name
+                form.initial['date_of_birth'] = enquiry_instance.date_of_birth
+                form.initial['age'] = enquiry_instance.age
+                form.initial['gender'] = enquiry_instance.gender
+                form.initial['occupation'] = enquiry_instance.student_role
+                form.initial['mobile_number'] = enquiry_instance.mobile_number
+                form.initial['email'] = enquiry_instance.email
+
+        except Enquiry.DoesNotExist:
+            raise Http404("Enquiry does not exist")
+
+       
+        return render(request, 'students/student_form.html', {'form': form, 'enquiry_id': enquiry_id, 'enquiry': enquiry})
+
+    def get_form(self, form_class=None):
+        form = super().get_form(form_class)
+        
+        # Retrieve the enquiry_id from the URL parameters
+        # Add date pickers and customize widgets
         form.fields["date_of_birth"].widget = widgets.DateInput(attrs={"type": "date"})
         form.fields["date_of_admission"].widget = widgets.DateInput(attrs={"type": "date"})
         form.fields["address"].widget = widgets.Textarea(attrs={"rows": 2})
-        form.fields["others"].widget = widgets.Textarea(attrs={"rows": 2})
-        return form
 
+        return form
+    
+    def post(self, request, *args, **kwargs):
+            # Stage 2: Add Student Information
+            enquiry_id = kwargs['enquiry_id']
+            enquiry = Enquiry.objects.get(auto_increment=enquiry_id)
+
+            # Create a dynamic ModelForm for the Student model
+            class StudentForm(forms.ModelForm):
+                class Meta:
+                    model = Student
+                    fields = '__all__'
+
+            form = StudentForm(request.POST)
+            
+            if form.is_valid():
+                return self.form_valid(form)
+            
+            return render(request, self.template_name, {'form': form, 'enquiry_id': enquiry_id, 'enquiry': enquiry})
+
+    def form_valid(self, form):
+            # Additional logic after the form is valid
+            response = super().form_valid(form)
+            return response
+    
+def Studentdashboard(request):
+    return render(request,"students/student_dashboard.html")
 
 class StudentUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     model = Student
@@ -60,8 +156,7 @@ class StudentUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
             attrs={"type": "date"}
         )
         form.fields["address"].widget = widgets.Textarea(attrs={"rows": 2})
-        form.fields["others"].widget = widgets.Textarea(attrs={"rows": 2})
-        # form.fields['passport'].widget = widgets.FileInput()
+      
         return form
 
 
@@ -98,3 +193,87 @@ class DownloadCSVViewdownloadcsv(LoginRequiredMixin, View):
         )
 
         return response
+
+class CreateBooklLog(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+    model = Bookmodel
+    fields = '__all__'
+    template_name = "books/add_logs.html"
+    def get(self, request, *args, **kwargs):
+        class BookForm(forms.ModelForm):
+                class Meta:
+                    model = Bookmodel
+                    fields = '__all__'
+        form = BookForm()
+        if "pk" in kwargs:
+            form.initial['student'] = kwargs['pk']
+            form.fields['student'].widget = forms.HiddenInput()
+            form.fields['student'].label = ""
+            form.fields["received_date"].widget = widgets.DateInput(attrs={"type": "date"})
+            
+        return render(request, 'books/add_logs.html', {'form': form})
+    def post(self, request, *args, **kwargs):
+
+            # Create a dynamic ModelForm for the Student model
+            class BookForm(forms.ModelForm):
+                class Meta:
+                    model = Bookmodel
+                    fields = '__all__'
+
+            form = BookForm(request.POST)
+            
+            if form.is_valid():
+                return self.form_valid(form)
+            
+            return render(request, self.template_name, {'form': form})
+
+    def form_valid(self, form):
+            # Additional logic after the form is valid
+            response = super().form_valid(form)
+            return response
+class CreateClasslLog(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+    model = Classmodel
+    fields = '__all__'
+    template_name = "classes/add_class.html"
+    def get(self, request, *args, **kwargs):
+        class ClassForm(forms.ModelForm):
+                class Meta:
+                    model = Classmodel
+                    fields = '__all__'
+        form = ClassForm()
+        if "pk" in kwargs:
+            form.initial['student'] = kwargs['pk']
+            form.fields['student'].widget = forms.HiddenInput()
+            form.fields['student'].label = ""
+            form.fields["start_date"].widget = widgets.DateInput(attrs={"type": "date"})
+            form.fields["end_date"].widget = widgets.DateInput(attrs={"type": "date"})
+            
+        return render(request, 'classes/add_class.html', {'form': form})
+    def post(self, request, *args, **kwargs):
+
+           
+            class ClassForm(forms.ModelForm):
+                class Meta:
+                    model = Classmodel
+                    fields = '__all__'
+
+            form = ClassForm(request.POST)
+            
+            if form.is_valid():
+                return self.form_valid(form)
+            
+            return render(request, self.template_name, {'form': form})
+
+    def form_valid(self, form):
+            # Additional logic after the form is valid
+            response = super().form_valid(form)
+            return response
+def delete_book_log(request, pk):
+    enquiry_log = get_object_or_404(Bookmodel, pk=pk)
+    enquiry_log.delete()
+    referring_url = request.META.get('HTTP_REFERER', '/')
+    return redirect(referring_url) 
+def delete_class_log(request, pk):
+    enquiry_log = get_object_or_404(Classmodel, pk=pk)
+    enquiry_log.delete()
+    referring_url = request.META.get('HTTP_REFERER', '/')
+    return redirect(referring_url) 

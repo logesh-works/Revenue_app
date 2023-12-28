@@ -3,10 +3,6 @@
 {% block title %}Students{% endblock title %}
 
 {% block breadcrumb %}
-<a class="btn btn-primary" href="{% url 'student-create' %}"><i
-    class="fas fa-plus"></i> New student</a>
-<a class="btn btn-primary" href="{% url 'student-upload' %}"><i
-    class="fas fa-upload"></i> Upload students</a>
 {% endblock breadcrumb %}
 
 {% block content %}
@@ -28,11 +24,11 @@
         {% for student in students %}
           <tr class='clickable-row' data-href="{% url 'student-detail' student.id %}">
             <td>{{ forloop.counter}}</td>
-            <td>{{ student.surname}} {{student.firstname }} {{student.other_name }}</td>
-            <td>{{ student.registration_number}}</td>
-            <td>{{ student.current_class}}</td>
-            <td>{{ student.get_gender_display}}</td>
-            <td>{{ student.parent_mobile_number}}</td>
+            <td>{{ student.student_name}}</td>
+            <td>{{ student.enrol_no}}</td>
+            <td>{{ student.course}}</td>
+            <td>{{ student.gender}}</td>
+            <td>{{ student.mobile_number}}</td>
             <td>{{ student.get_current_status_display}}</td>
           </tr>
         {% endfor %}

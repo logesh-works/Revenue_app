@@ -1,0 +1,24 @@
+<!-- select_enquiry.html -->
+{% extends 'base.html' %}
+
+{% block title %}
+  Select Enquiry
+{% endblock title %}
+
+{% block content %}
+<div class="container mt-5">
+  <h2>Select Enquiry</h2>
+  <form method="post" action="">
+    {% csrf_token %}
+    
+    <label for="enquiry">Select Enquiry:</label>
+    <select name="enquiry" id="enquiry" class="form-control">
+      {% for enquiry in enquiries %}
+        <option value="{{ enquiry.auto_increment }}">{{ enquiry.name }}({{enquiry.enquiry_no}})</option>
+      {% endfor %}
+    </select>
+
+    <button type="submit" class="btn btn-primary mt-3">Next</button>
+  </form>
+</div>
+{% endblock content %}

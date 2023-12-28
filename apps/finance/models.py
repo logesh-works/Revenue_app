@@ -8,11 +8,7 @@ from apps.students.models import Student
 
 class Invoice(models.Model):
     total_num = 0
-    student = models.ForeignKey(Student, on_delete=models.CASCADE)
-    session = models.ForeignKey(AcademicSession, on_delete=models.CASCADE)
-    term = models.ForeignKey(AcademicTerm, on_delete=models.CASCADE)
-    class_for = models.ForeignKey(StudentClass, on_delete=models.CASCADE)
-    balance_from_previous_term = models.IntegerField(default=0)
+    student = models.ForeignKey(Student, on_delete=models.CASCADE,default=None)
     status = models.CharField(
         max_length=20,
         choices=[("active", "Active"), ("closed", "Closed")],
@@ -20,7 +16,7 @@ class Invoice(models.Model):
     )
 
     class Meta:
-        ordering = ["student", "term"]
+        ordering = ["student"]
 
     def __str__(self):
         return f"{self.student}"
@@ -38,7 +34,7 @@ class Invoice(models.Model):
         return total
 
     def total_amount_payable(self):
-        return self.balance_from_previous_term + self.amount_payable()
+        return  self.amount_payable()
 
     def total_amount_paid(self):
         receipts = Receipt.objects.filter(invoice=self)
@@ -66,11 +62,11 @@ class Receipt(models.Model):
     def stats(self):
         return self.invoice.student.current_status
     def current_cls(self):
-        return self.invoice.student.current_class
+        return self.invoice.student.course
     def regno(self):
-        return self.invoice.student.registration_number
+        return self.invoice.student.enrol_no
     def name(self):
-        return self.invoice.student.surname
+        return self.invoice.student.student_name
     def __str__(self):
         return f"Receipt on {self.date_paid}"
     

@@ -1,10 +1,10 @@
-from django.shortcuts import render
 import datetime
-from django.db.models import Sum
-from django.db.models import F
-from ..students import models as stumod
-from ..finance import models as finmod
 
+from django.db.models import F, Sum
+from django.shortcuts import render
+
+from ..finance import models as finmod
+from ..students import models as stumod
 
 
 def total_student():

@@ -6,6 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
   <style>
             /* Footer container */
             .footer {
@@ -55,10 +58,10 @@
           <a href="{% url 'home' %} " class="nav-link"><i class="fa fa-home"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="{% url 'current-session' %}" class="nav-link">Session: {{ current_session }}</a>
+          <a  class="nav-link">Session: {{ current_session }}</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="{% url 'current-session' %}" class="nav-link">Term: {{ current_term }}</a>
+          <a  class="nav-link">Term: {{ current_term }}</a>
         </li>
       </ul>
 
@@ -98,7 +101,7 @@
           <ul class="nav nav-pills nav-sidebar flex-column"
             data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item">
-              <a href="{% url 'student-list' %}" class="nav-link">
+              <a href="{% url 'dashboard' %}" class="nav-link">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                   Students
@@ -123,7 +126,6 @@
                 </p>
               </a>
             </li>
-            <li class="nav-header">Results</li>
             <li class="nav-item">
               <a href="{% url 'today' %}" class="nav-link">
                 <i class="nav-icon fas fa-money-bill-alt"></i>
@@ -148,7 +150,8 @@
                 </p>
               </a>
             </li>
-
+            
+            <li class="nav-header">Course</li>
             <li class="nav-header">Others</li>
             <li class="nav-item has-treeview">
               <a href="#" class="nav-link">
@@ -159,23 +162,6 @@
                 </p>
               </a>
               <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="{% url 'sessions' %}" class="nav-link">
-                    <i class="nav-icon fas fa-bars"></i>
-                    <p>
-                      Sessions
-                    </p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="{% url 'terms' %}" class="nav-link">
-                    <i class="nav-icon fas fa-bars"></i>
-                    <p>
-                      Terms
-                      <i class="right"></i>
-                    </p>
-                  </a>
-                </li>
                 <li class="nav-item">
                   <a href="{% url 'subjects' %}" class="nav-link">
                     <i class="nav-icon fas fa-bars"></i>
@@ -312,10 +298,6 @@
   {% block morejs %}
 
   {% endblock morejs %}
-
- <div class="footer">
-    <p>&copy; 2023  Designed By : <a href="">Logesh</a> .</p>
-</div>
 
 </body>
 

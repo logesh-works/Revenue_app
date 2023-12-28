@@ -1,12 +1,137 @@
 from django.core.validators import RegexValidator
+from datetime import datetime 
 from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 
 from apps.corecode.models import StudentClass
 
+from ..enquiry.models import *
+
 
 class Student(models.Model):
+    GENDER_CHOICES = [("male", "Male"), ("female", "Female")]
+    RELIGION_CHOICE = [('Hindu','Hindu'),('Christian','Christian'),('Muslim','Muslim')]
+    COMMUNITY_CHOICE = [('OC','OC'),('BC','BC'),('MBC','MBC'),('ST/SC','ST/SC')]
+    STUDENT_ROLE_CHOICES = [
+        ("Employed", "Employed"),
+        ("Unemployed", "Unemployed"),
+        ("Housewife", "Housewife"),
+        ("Businessman", "Businessman"),
+        ("Student", "Student"),
+        ("Others", "Others"),
+    ]
+    STATUS_CHOICES = [("active", "Active"), ("inactive", "Inactive")]
+    if_enq = models.ForeignKey(Enquiry,on_delete=models.CASCADE,default=None,null=True)
+    current_status = models.CharField(
+        max_length=10, choices=STATUS_CHOICES, default="active"
+    )
+    student_name = models.CharField("Student Name", max_length=255, blank=False, default="")
+    enrol_no = models.IntegerField("Enrollment Number",default=0,null=False,unique=True)
+    rel_name = models.CharField(
+                default=None, max_length=255, verbose_name="Father/Husband Name"
+            )
+    rel_occupation = models.CharField("Father/Husband Occupation",max_length=255,default=None,null=False)
+    date_of_birth = models.DateField(
+                default=timezone.now, verbose_name="Date of Birth"
+            )
+    age = models.IntegerField("Age",default=0,blank=True)
+    gender = models.CharField("Gender", max_length=10, choices=GENDER_CHOICES, default="male")
+    
+    religion = models.CharField("Religion",max_length=554,default="Hindu",choices=RELIGION_CHOICE)
+    community = models.CharField("Community",max_length=524,default="OC", choices=COMMUNITY_CHOICE)
+    occupation = models.CharField(
+                choices=[
+                    ("Employed", "Employed"),
+                    ("Unemployed", "Unemployed"),
+                    ("Housewife", "Housewife"),
+                    ("Businessman", "Businessman"),
+                    ("Student", "Student"),
+                    ("Others", "Others"),
+                ],
+                default="Student",
+                max_length=1024,
+                verbose_name="Student Occupation",
+            )
+    student_company_name = models.CharField(
+                blank=True,
+                max_length=1024,
+                null=True,
+                verbose_name="If Emloyed Company Name",
+            )
+    
+    aadhar_no = models.BigIntegerField("Aadhar Number",null=True,default=None,blank=True)
+
+    mobile_num_regex = RegexValidator(
+        regex="^[0-9]{10,15}$", message="Entered mobile number isn't in a right format!"
+    )
+    mobile_number = models.CharField("Mobile Number",
+        validators=[mobile_num_regex], max_length=13, blank=True
+    )
+    email = models.EmailField("Email", blank=False, default="")
+ 
+    #personal Details
+
+
+    
+    passport = models.ImageField("Photo",blank=True, upload_to="students/passports/")
+    address = models.TextField("Address", blank=True)
+    #course
+    date_of_admission = models.DateField(default=timezone.now)
+    course = models.CharField("Course To Join",max_length=1024,null=False,default="HDCA")
+    class_time = models.CharField("Class Timinig",default="2pm - 4pm",max_length=255,null=False)
+     
+
+    #fees
+
+    total_fee = models.IntegerField("Total Fees",null=False,default=0)
+
+    
+    
+    class Meta:
+        ordering = ["enrol_no"]
+
+    def __str__(self):
+        return f"{self.student_name}({self.enrol_no})"
+
+    def get_absolute_url(self):
+        return reverse("student-detail", kwargs={"pk": self.pk})
+
+    
+    
+class Bookmodel(models.Model):
+    student = models.ForeignKey(Student,on_delete=models.CASCADE)
+    received_book = models.CharField("Received Book",max_length=2046,blank=True,default=None)
+    received_date = models.DateTimeField("Book received Date",default=datetime(2023, 12, 28, 15, 30, 0))
+    handled_by = models.CharField("Handled By",max_length=255,blank=True)
+    def get_absolute_url(self):
+        return reverse("student-detail", kwargs={"pk": self.student.pk})
+
+class Classmodel(models.Model):
+    student = models.ForeignKey(Student,on_delete=models.CASCADE,blank=True)
+    finised_subject = models.CharField("Finised Subject",max_length=255,default=None,blank=False)
+    start_date = models.DateField("Started on")
+    end_date = models.DateField("Ended on")
+    faculty = models.CharField("Handled Faculty",max_length=255,default=None,blank=False)
+    def get_absolute_url(self):
+        return reverse("student-detail", kwargs={"pk": self.student.pk})
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    """ 
     STATUS_CHOICES = [("active", "Active"), ("inactive", "Inactive")]
 
     GENDER_CHOICES = [("male", "Male"), ("female", "Female")]
@@ -45,7 +170,7 @@ class Student(models.Model):
     def get_absolute_url(self):
         return reverse("student-detail", kwargs={"pk": self.pk})
 
-
+ """
 class StudentBulkUpload(models.Model):
     date_uploaded = models.DateTimeField(auto_now=True)
     csv_file = models.FileField(upload_to="students/bulkupload/")

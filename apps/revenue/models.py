@@ -1,8 +1,8 @@
 from django.db import models
 from django.db.models import Sum
 
-
 from ..finance import models as mod
+
 
 class revenue(models.Model):
     Total_student = models.IntegerField(default=None)

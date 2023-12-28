@@ -6,8 +6,8 @@ from django.shortcuts import HttpResponseRedirect, redirect, render
 from django.urls import reverse_lazy
 from django.views.generic import ListView, TemplateView, View
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
-from ..revenue import views
 
+from ..revenue import views
 from .forms import (
     AcademicSessionForm,
     AcademicTermForm,

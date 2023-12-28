@@ -1,6 +1,8 @@
-from .models import AcademicSession, AcademicTerm
 from django.shortcuts import redirect
 from django.urls import reverse
+
+from .models import AcademicSession, AcademicTerm
+
 
 class LoginRequiredMiddleware:
     """
