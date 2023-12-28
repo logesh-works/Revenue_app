@@ -2,12 +2,13 @@
 
 from django.db import migrations
 from django.contrib.auth.models import User
+import datetime
 
 
 def default_site_config(apps, schema_editor):
     """Default site configurations"""
 
-    User.objects.create_superuser("logi", "logi@logi.com", "logi")
+    User.objects.create_superuser("csc", "logi@logi.com", "csc")
 
     Config = apps.get_model("corecode", "SiteConfig")
     Config.objects.bulk_create(
@@ -20,14 +21,14 @@ def default_site_config(apps, schema_editor):
     Session = apps.get_model("corecode", "AcademicSession")
     Session.objects.bulk_create(
         [
-            Session(name="AnnamalaiNagar", current=True),
+            Session(name="Virudhachalam", current=True),
         ]
     )
 
     Term = apps.get_model("corecode", "AcademicTerm")
     Term.objects.bulk_create(
         [
-            Term(name="2023", current=True),
+            Term(name=f"{datetime.datetime.now().year}", current=True),
         ]
     )
 

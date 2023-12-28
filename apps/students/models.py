@@ -91,7 +91,7 @@ class Student(models.Model):
     total_fee = models.IntegerField("Total Fees",null=False,default=0)
     remark = models.CharField("Remark",max_length=500,default=None,blank=True)
     
-    
+    last_updated = models.DateTimeField(auto_now=True)
     class Meta:
         ordering = ["enrol_no"]
 
@@ -106,11 +106,12 @@ class Student(models.Model):
 class Bookmodel(models.Model):
     student = models.ForeignKey(Student,on_delete=models.CASCADE)
     received_book = models.CharField("Received Book",max_length=2046,blank=True,default=None)
-    received_date = models.DateTimeField("Book received Date",default=datetime(2023, 12, 28, 15, 30, 0))
+    received_date = models.DateField("Book received Date",default=timezone.now)
     handled_by = models.CharField("Handled By",max_length=255,blank=True)
     def get_absolute_url(self):
         return reverse("student-detail", kwargs={"pk": self.student.pk})
-
+    remark = models.CharField("Remark",max_length=2046,blank=True,default=None)
+    last_updated = models.DateTimeField(auto_now=True)
 class Classmodel(models.Model):
     student = models.ForeignKey(Student,on_delete=models.CASCADE,blank=True)
     finised_subject = models.CharField("Finised Subject",max_length=255,default=None,blank=False)
@@ -118,7 +119,8 @@ class Classmodel(models.Model):
     end_date = models.DateField("Ended on")
     class_time = models.CharField("Class Time",max_length=255,blank=True,null=True,default=None)
     faculty = models.CharField("Handled Faculty",max_length=255,default=None,blank=False)
-
+    remark = models.CharField("Remark",max_length=2046,blank=True,default=None)
+    last_updated = models.DateTimeField(auto_now=True)
     def get_absolute_url(self):
         return reverse("student-detail", kwargs={"pk": self.student.pk})
 
@@ -131,10 +133,26 @@ class Exammodel(models.Model):
     theory_mark =models.FloatField("Theory mark",blank=True,null=True,default=None)
     paratical_mark = models.FloatField("Paratical mark",blank=True,default=None)
     mark = models.FloatField("Total mark",blank=True)
+    remark = models.CharField("Remark",max_length=2046,blank=True,default=None)
+    last_updated = models.DateTimeField(auto_now=True)
     def get_absolute_url(self):
         return reverse("student-detail", kwargs={"pk": self.student.pk})
 
-    
+class Certificatemodel(models.Model):
+    student = models.ForeignKey(Student,on_delete=models.CASCADE)
+    course = models.CharField("Course",max_length=255,blank=True,default=None)
+    date_of_complete = models.DateField("Date of Completion",default=timezone.now)
+    certificate_no = models.IntegerField("Certificate Number",default=None,blank=True)
+    certificate_date = models.DateField("Certificate Date",default=timezone.now)
+    certificate_issued_date = models.DateField("Certificate Issued Date",default=timezone.now)
+    grade = models.CharField("Grade on Certificate",max_length=10,blank=True,default=None)
+    issued_by = models.CharField("Certificate Issued By",max_length=10,blank=True,default=None)
+    remark = models.CharField("Remark",max_length=2046,blank=True,default=None)
+    last_updated = models.DateTimeField(auto_now=True)
+
+    def get_absolute_url(self):
+        return reverse("student-detail", kwargs={"pk": self.student.pk})
+
     
     
     

@@ -15,7 +15,10 @@ from .views import (
     delete_class_log,
     CreateClasslLog,
     CreateExamLog,
-    delete_exam_log
+    delete_exam_log,
+    delete_certificate_log,
+    CreateCertificateLog,
+    PublicView
 )
 
 urlpatterns = [
@@ -34,4 +37,7 @@ urlpatterns = [
     path("classdel/<int:pk>/", delete_class_log, name="class-delete"),
     path("<int:pk>/examlog/",CreateExamLog.as_view(),name="examlog"),
     path("examdel/<int:pk>/", delete_exam_log, name="exam-delete"),
+    path("<int:pk>/certificatelog/",CreateCertificateLog.as_view(),name="certificatelog"),
+    path("certificatedel/<int:pk>/", delete_certificate_log, name="certificate-delete"),
+    
 ]

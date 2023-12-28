@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Add any additional stylesheets or custom styles here -->
+</head>
+<body>
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <div class="row mb-2">
+                <div class="float-right">
+                    <h4>Name : {{ object.student_name }}</h4>
+                    <h4>Enrollment Number: {{ object.enrol_no }}</h4>
+                </div>
+            </div>
+            <h5>Course: {{ object.course }}</h5>
+        </div>
+        <!-- Add your content here -->
+    </div>
+
+    <!-- Book Issuesed Details -->
+    <div class="row">
+        <div class="col">
+            <h4>Book Issued Details</h4>
+            {% if booklog %}
+            {% for book in booklog %}
+                {% if forloop.last %}
+                    <p>Last update: {{ book.last_updated }}</p>
+                  {% endif %}
+                    <!-- Access other fields of the last payment as needed -->{% endfor %}
+            {% endif %}
+            {% if booklog %}
+                <table class="table table-striped">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Date</th>
+                            <th>Received Book</th>
+                            <th>Handled By</th>
+                            <th>Remark</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for book in booklog %}
+                       
+                            <tr>
+                                <td>{{ book.received_date }}</td>
+                                <td>{{ book.received_book }}</td>
+                                <td>{{ book.handled_by }}</td>
+                                <td>{{ book.remark }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p>There are no booklog history for {{ object }}</p>
+            {% endif %}
+        </div>
+    </div>
+
+
+{% comment %} ---------------------------------------------------------------------------- {% endcomment %}
+
+<h4>Class Details</h4>
+{% if classlog %}
+  <table class="table table-sm table-bordered table-hover">
+    <thead class="thead-light">
+      <tr>
+        <th>Subject</th>
+        <th>Class started on</th>
+        <th>calss Ended on</th>
+        <th>Class time</th>
+        <th>Faculty</th>
+        <th>Remark</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      {% for class in classlog %}
+      {{class.last_updated}}
+        <tr>
+          <td>{{class.finised_subject}} </td>
+          <td>{{class.start_date}}</td>
+          <td>{{class.end_date}}</td>
+          <td>{{class.class_time}}</td>
+          <td>{{class.faculty}}<td>
+            <td>{{class.remark}}</td>
+           </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% else %}
+    <p>There are no class history for {{object}}</p>
+{% endif %}
+    {% comment %} ---------------------------------------------------------------------------- {% endcomment %}
+
+    <h4>Exam Details</h4><h6></h6>
+    {% if examlog %}
+    
+      <table class="table table-sm table-bordered table-hover">
+        <thead class="thead-light">
+          <tr>
+            <th>Subject</th>
+            <th>Contected on</th>
+            <th>Contected Mode</th>
+            <th>Theory mark</th>
+            <th>Paratical mark</th>
+            <th>
+              Total mark</th>
+              <th>Remark</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for exam in examlog %}
+          {{exam.last_updated}}
+            <tr>
+              <td>{{exam.subject}} </td>
+              <td>{{exam.exam_date}}</td>
+              <td>{{exam.contected_mode}}</td>
+              <td>{{exam.theory_mark}}</td>
+              <td>{{exam.paratical_mark}}</td>
+              <td>{{exam.mark}}<td>
+                <td>{{exam.remark}}</td>
+                
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+        <p>There are no Exam history for {{object}}</p>
+    {% endif %}
+    {% comment %} ---------------------------------------------------------------------------- {% endcomment %}
+
+    <h4>Certificate Details</h4>
+    {% if certilog %}
+      <table class="table table-sm table-bordered table-hover">
+        <thead class="thead-light">
+          <tr>
+            <th>Course</th>
+            <th>Date of Completion</th>
+            <th>Certificate Number</th>
+            <th>Certificate Date</th>
+            <th>Certificate Issued Date</th>
+            <th>
+              Grade on Certificate</th>
+              <th>Certificate Issued By</th>
+              <th>Remark</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for log in certilog %}
+          {{log.last_updated}}
+            <tr>
+              <td>{{log.course}} </td>
+              <td>{{log.date_of_complete}}</td>
+              <td>{{log.certificate_no}}</td>
+              <td>{{log.certificate_date}}</td>
+              <td>{{log.certificate_issued_date}}</td>
+              <td>{{log.grade}}<td>
+                {{log.issued_by}}
+                <td>{{log.remark}}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+        <p>There are no Certificate issued for {{object}}</p>
+    {% endif %}
+    
+      
+{% comment %} ---------------------------------------------------------------------------- {% endcomment %}
+    <h4>Payment Details</h4>
+    {% if payments %}
+      <table class="table table-sm table-bordered table-hover">
+        <thead class="thead-light">
+          <tr>
+            <th>Amount Payable</th>
+            <th>Amount Paid</th>
+            <th>balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for payment in payments %}
+          {{payment.last_updated}}
+            <tr>
+              <td>{{payment.total_amount_payable}}</td>
+              <td>{{payment.total_amount_paid}}</td>
+              <td>{{payment.balance}}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+        <p>There are no payment history for {{object}}</p>
+    {% endif %}
+    </div>
+

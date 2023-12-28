@@ -11,12 +11,13 @@
       <thead class="thead-light">
         <tr>
           <th>S/N</th>
-          <th>Fullname</th>
-          <th>Registration Number</th>
-          <th>Current Class</th>
+          <th>Name</th>
+          <th>Enrollment Number</th>
+          <th>Course</th>
           <th>Gender</th>
-          <th>Mobile Phone Number</th>
+          <th>Phone Number</th>
           <th>Status</th>
+          <th>Link</th>
         </tr>
       </thead>
       <tbody>
@@ -30,6 +31,7 @@
             <td>{{ student.gender}}</td>
             <td>{{ student.mobile_number}}</td>
             <td>{{ student.get_current_status_display}}</td>
+            <td><a href="{% url 'public_student_profile' student.id%}"><input type="button" class="btn btn-sm btn-primary" value="View"></a><td>
           </tr>
         {% endfor %}
 

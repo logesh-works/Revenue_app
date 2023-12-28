@@ -4,6 +4,7 @@ from django.urls import reverse
 from .models import AcademicSession, AcademicTerm
 
 
+
 class LoginRequiredMiddleware:
     """
     Middleware to redirect unauthenticated users to the login page.
@@ -12,9 +13,15 @@ class LoginRequiredMiddleware:
         self.get_response = get_response
 
     def __call__(self, request):
-        # Check if the user is not authenticated and the requested URL is not the login page
-        if not request.user.is_authenticated and not request.path == reverse('login'):
-            return redirect('login')
+        # Exclude redirection for the public view URL pattern
+        excluded_url_pattern = 'public/student/'
+
+        # Check if the user is not authenticated and the requested URL does not match the excluded pattern
+        if not request.user.is_authenticated and not request.path.startswith(excluded_url_pattern):
+            # Exclude URLs with IDs after /public/student/
+            if len(request.path.split('/')) < 4:
+                return redirect('login')
+        
         return self.get_response(request)
     
 class SiteWideConfigs:

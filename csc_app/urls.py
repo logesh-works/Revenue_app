@@ -17,7 +17,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include, path
-
+from apps.students import views
+handler404 = 'apps.students.views.handler404'
 urlpatterns = [
     path('admin/', admin.site.urls , name='admin'),
     path("accounts/", include("django.contrib.auth.urls")),
@@ -27,6 +28,8 @@ urlpatterns = [
     path("finance/", include("apps.finance.urls")),
     path("result/", include("apps.result.urls")),
     path("enquiry/",include("apps.enquiry.urls")),
-    
+    path('public/student/<int:pk>/', views.PublicView.as_view(), name='public_student_profile'),
     path("revenue/", include("apps.revenue.urls")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+

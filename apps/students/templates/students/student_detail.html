@@ -7,6 +7,7 @@
     <a href="{% url 'booklog' object.id %}"><input type="button" class="btn btn-sm btn-primary" value="Book"></a>
     <a href="{% url 'classlog' object.id %}"><input type="button" class="btn btn-sm btn-primary" value="Class"></a>
     <a href="{% url 'examlog' object.id %}"><input type="button" class="btn btn-sm btn-primary" value="Exam"></a>
+    <a href="{% url 'certificatelog' object.id %}"><input type="button" class="btn btn-sm btn-primary" value="Certificate"></a>
     
     <a href="#" class="btn btn-tool">Print</a>
     <a href="{% url 'student-update' object.id %}" class="btn btn-tool">
@@ -66,10 +67,10 @@
 
           <div class="form-group border-bottom row">
             <label class="col">
-              Address
+              Student View Link
             </label>
             <div class="col">
-              {{ object.address }}
+              <a href="{%  url 'public_student_profile'  object.id %}"><input type="button" class="btn btn-sm btn-primary" value="Link"></a>
             </div>
           </div>
           <div class="form-group border-bottom row">
@@ -85,7 +86,7 @@
 
       </div>
     </div>
-    <h4>Book Log</h4>
+    <h4>Book Issuesed Details</h4>
     {% if booklog %}
       <table class="table table-sm table-bordered table-hover">
         <thead class="thead-light">
@@ -93,6 +94,7 @@
             <th>Date</th>
             <th>Recivied Book</th>
             <th>Handel By</th>
+            <th>Remark</th>
             <th>Delete</th>
           </tr>
         </thead>
@@ -102,6 +104,7 @@
               <td>{{book.received_date}} </td>
               <td>{{book.received_book}}</td>
               <td>{{book.handled_by}}</td>
+              <td>{{book.remark}}</td>
               <td><a href="{% url 'book-delete' book.id%}"><input type="button" class="btn btn-sm btn-primary" value="Delete"></a></td>
             </tr>
           {% endfor %}
@@ -114,7 +117,7 @@
 
 {% comment %} ---------------------------------------------------------------------------- {% endcomment %}
 
-<h4>Class Log</h4>
+<h4>Class Details</h4>
 {% if classlog %}
   <table class="table table-sm table-bordered table-hover">
     <thead class="thead-light">
@@ -124,6 +127,7 @@
         <th>calss Ended on</th>
         <th>Class time</th>
         <th>Faculty</th>
+        <th>Remark</th>
         <th>Delete</th>
       </tr>
     </thead>
@@ -135,7 +139,8 @@
           <td>{{class.end_date}}</td>
           <td>{{class.class_time}}</td>
           <td>{{class.faculty}}<td>
-            <a href="{% url 'class-delete' class.id%}"><input type="button" class="btn btn-sm btn-primary" value="Delete"></a>
+          {{class.remark}}
+          <td> <a href="{% url 'class-delete' class.id%}"><input type="button" class="btn btn-sm btn-primary" value="Delete"></a></td>
         </tr>
       {% endfor %}
     </tbody>
@@ -145,7 +150,7 @@
 {% endif %}
     {% comment %} ---------------------------------------------------------------------------- {% endcomment %}
 
-    <h4>Exam Log</h4>
+    <h4>Exam Details</h4>
     {% if examlog %}
       <table class="table table-sm table-bordered table-hover">
         <thead class="thead-light">
@@ -157,6 +162,7 @@
             <th>Paratical mark</th>
             <th>
               Total mark</th>
+              <th>Remark</th>
             <th>Delete</th>
           </tr>
         </thead>
@@ -169,7 +175,9 @@
               <td>{{exam.theory_mark}}</td>
               <td>{{exam.paratical_mark}}</td>
               <td>{{exam.mark}}<td>
-                <a href="{% url 'exam-delete' exam.id%}"><input type="button" class="btn btn-sm btn-primary" value="Delete"></a>
+                {{exam.remark}}
+                <td><a href="{% url 'exam-delete' exam.id%}"><input type="button" class="btn btn-sm btn-primary" value="Delete"></a></td>
+                
             </tr>
           {% endfor %}
         </tbody>
@@ -177,10 +185,48 @@
     {% else %}
         <p>There are no Exam history for {{object}}</p>
     {% endif %}
+    {% comment %} ---------------------------------------------------------------------------- {% endcomment %}
+
+    <h4>Certificate Details</h4>
+    {% if certilog %}
+      <table class="table table-sm table-bordered table-hover">
+        <thead class="thead-light">
+          <tr>
+            <th>Course</th>
+            <th>Date of Completion</th>
+            <th>Certificate Number</th>
+            <th>Certificate Date</th>
+            <th>Certificate Issued Date</th>
+            <th>
+              Grade on Certificate</th>
+              <th>Certificate Issued By</th>
+              <th>Remark</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for log in certilog %}
+            <tr>
+              <td>{{log.course}} </td>
+              <td>{{log.date_of_complete}}</td>
+              <td>{{log.certificate_no}}</td>
+              <td>{{log.certificate_date}}</td>
+              <td>{{log.certificate_issued_date}}</td>
+              <td>{{log.grade}}<td>
+                {{log.issued_by}}
+                
+                <td>{{log.remark}}<td><a href="{% url 'certificate-delete' log.id%}"><input type="button" class="btn btn-sm btn-primary" value="Delete"></a></td>
+              </td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+        <p>There are no Certificate issued for {{object}}</p>
+    {% endif %}
     
       
 {% comment %} ---------------------------------------------------------------------------- {% endcomment %}
-    <h4>Invoice/Payment History</h4>
+    <h4>Payment History</h4>
     {% if payments %}
       <table class="table table-sm table-bordered table-hover">
         <thead class="thead-light">

@@ -1,4 +1,5 @@
 import csv
+from django.contrib.auth.mixins import AccessMixin
 from datetime import datetime
 from django import forms
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -17,12 +18,15 @@ from django.views.generic.edit import (
     FormMixin,
     UpdateView,
 )
+from django.views.generic import DetailView
 
 from apps.finance.models import Invoice
 
 from ..enquiry.models import *
-from .models import Student, StudentBulkUpload,Bookmodel,Classmodel,Exammodel
+from .models import Student, StudentBulkUpload,Bookmodel,Classmodel,Exammodel,Certificatemodel
 
+def handler404(request, exception):
+    return render(request, '404.html', status=404)
 
 class StudentListView(LoginRequiredMixin, ListView):
     model = Student
@@ -50,6 +54,7 @@ class StudentDetailView(LoginRequiredMixin, DetailView):
         context["booklog"] = Bookmodel.objects.filter(student=self.object)
         context["classlog"] = Classmodel.objects.filter(student=self.object)
         context["examlog"] = Exammodel.objects.filter(student=self.object)
+        context["certilog"] = Certificatemodel.objects.filter(student=self.object)
         return context
 
 
@@ -353,6 +358,44 @@ class CreateExamLog(LoginRequiredMixin, SuccessMessageMixin, CreateView):
             # Additional logic after the form is valid
             response = super().form_valid(form)
             return response
+class CreateCertificateLog(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+    model = Certificatemodel
+    fields = '__all__'
+    template_name = "classes/certificate.html"
+    def get(self, request, *args, **kwargs):
+        class CertificateForm(forms.ModelForm):
+                class Meta:
+                    model = Certificatemodel
+                    fields = '__all__'
+        form = CertificateForm()
+        if "pk" in kwargs:
+            form.initial['student'] = kwargs['pk']
+            form.fields['student'].widget = forms.HiddenInput()
+            form.fields['student'].label = ""
+            form.fields["date_of_complete"].widget = widgets.DateInput(attrs={"type": "date"})
+            form.fields["certificate_date"].widget = widgets.DateInput(attrs={"type": "date"})
+            form.fields["certificate_issued_date"].widget = widgets.DateInput(attrs={"type": "date"})
+            
+        return render(request, 'classes/certificate.html', {'form': form})
+    def post(self, request, *args, **kwargs):
+
+           
+            class CertificateForm(forms.ModelForm):
+                class Meta:
+                    model = Certificatemodel
+                    fields = '__all__'
+
+            form = CertificateForm(request.POST)
+            
+            if form.is_valid():
+                return self.form_valid(form)
+            
+            return render(request, self.template_name, {'form': form})
+
+    def form_valid(self, form):
+            # Additional logic after the form is valid
+            response = super().form_valid(form)
+            return response
 def delete_book_log(request, pk):
     enquiry_log = get_object_or_404(Bookmodel, pk=pk)
     enquiry_log.delete()
@@ -368,3 +411,25 @@ def delete_exam_log(request, pk):
     enquiry_log.delete()
     referring_url = request.META.get('HTTP_REFERER', '/')
     return redirect(referring_url) 
+def delete_certificate_log(request, pk):
+    enquiry_log = get_object_or_404(Certificatemodel, pk=pk)
+    enquiry_log.delete()
+    referring_url = request.META.get('HTTP_REFERER', '/')
+    return redirect(referring_url) 
+class PublicAccessMixin(AccessMixin):
+    def handle_no_permission(self):
+        return super().handle_no_permission()
+
+
+class PublicView(PublicAccessMixin,DetailView):
+    model = Student
+    template_name = "public/indexs.html"
+    login_url = None
+    def get_context_data(self, **kwargs):
+        context = super(PublicView, self).get_context_data(**kwargs)
+        context["payments"] = Invoice.objects.filter(student=self.object)
+        context["booklog"] = Bookmodel.objects.filter(student=self.object)
+        context["classlog"] = Classmodel.objects.filter(student=self.object)
+        context["examlog"] = Exammodel.objects.filter(student=self.object)
+        context["certilog"] = Certificatemodel.objects.filter(student=self.object)
+        return context
