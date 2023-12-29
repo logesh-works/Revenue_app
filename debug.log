@@ -22728,3 +22728,1998 @@ INFO 2023-12-29 13:45:54,801 "GET /enquiry/list HTTP/1.1" 200 9899
 INFO 2023-12-29 13:45:55,935 "GET /enquiry/3/ HTTP/1.1" 200 11657
 INFO 2023-12-29 13:47:57,088 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
 INFO 2023-12-29 13:48:00,008 Watching for file changes with StatReloader
+INFO 2023-12-29 17:20:24,534 Watching for file changes with StatReloader
+INFO 2023-12-29 17:20:30,228 "GET / HTTP/1.1" 302 0
+INFO 2023-12-29 17:20:30,291 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-29 17:20:30,380 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,389 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,389 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,393 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,394 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,400 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,401 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,435 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,438 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,439 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,439 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,440 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,442 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,627 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-12-29 17:20:30,754 "GET /favicon.ico HTTP/1.1" 302 0
+INFO 2023-12-29 17:20:30,794 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-29 17:20:41,571 "GET /public/student/1 HTTP/1.1" 301 0
+WARNING 2023-12-29 17:20:41,620 Not Found: /public/student/1/
+WARNING 2023-12-29 17:20:41,621 "GET /public/student/1/ HTTP/1.1" 404 6635
+INFO 2023-12-29 17:20:41,774 "GET /favicon.ico HTTP/1.1" 302 0
+INFO 2023-12-29 17:20:41,797 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-29 17:21:08,047 "GET /accounts/login HTTP/1.1" 302 0
+INFO 2023-12-29 17:21:08,065 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-29 17:21:08,311 "GET /favicon.ico HTTP/1.1" 302 0
+INFO 2023-12-29 17:21:08,330 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-29 17:21:18,005 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-12-29 17:21:18,175 "GET / HTTP/1.1" 200 12442
+INFO 2023-12-29 17:21:18,354 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-12-29 17:21:18,355 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-12-29 17:21:18,518 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+WARNING 2023-12-29 17:21:18,784 Not Found: /favicon.ico
+WARNING 2023-12-29 17:21:18,785 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 17:21:24,019 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 17:21:25,277 "GET /student/list HTTP/1.1" 200 9794
+INFO 2023-12-29 17:21:26,352 "GET /student/10/ HTTP/1.1" 200 12500
+INFO 2023-12-29 17:21:27,626 "GET /public/student/10/ HTTP/1.1" 200 1876
+INFO 2023-12-29 17:22:15,452 "GET /public/student/10/ HTTP/1.1" 200 1876
+INFO 2023-12-29 17:27:37,239 "GET /public/student/10/ HTTP/1.1" 200 4116
+INFO 2023-12-29 17:27:42,119 "GET /public/student/10/ HTTP/1.1" 200 4116
+INFO 2023-12-29 17:27:44,872 "GET /public/student/10/ HTTP/1.1" 200 4116
+INFO 2023-12-29 17:29:03,491 "GET /public/student/10/ HTTP/1.1" 200 4116
+INFO 2023-12-29 17:30:13,970 "GET /public/student/10/ HTTP/1.1" 200 4116
+INFO 2023-12-29 17:30:16,643 "GET /public/student/10/ HTTP/1.1" 200 4116
+INFO 2023-12-29 17:31:09,534 "GET /public/student/10/ HTTP/1.1" 200 4142
+INFO 2023-12-29 17:33:12,028 "GET /public/student/10/ HTTP/1.1" 200 4116
+ERROR 2023-12-29 17:44:14,688 Internal Server Error: /public/student/10/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\defaulttags.py", line 960, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 515, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 578, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 257: 'if'. Looking for one of: elif, else, endif.
+ERROR 2023-12-29 17:44:14,698 "GET /public/student/10/ HTTP/1.1" 500 167080
+INFO 2023-12-29 17:44:47,581 "GET /public/student/10/ HTTP/1.1" 200 5117
+INFO 2023-12-29 17:45:31,272 "GET / HTTP/1.1" 200 12442
+INFO 2023-12-29 17:45:37,118 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 17:45:38,834 "GET /student/list HTTP/1.1" 200 9794
+INFO 2023-12-29 17:45:39,969 "GET /student/10/ HTTP/1.1" 200 12500
+INFO 2023-12-29 17:45:40,017 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2023-12-29 17:45:41,380 "GET /student/10/certificatelog/ HTTP/1.1" 200 11936
+INFO 2023-12-29 17:45:52,276 "POST /student/10/certificatelog/ HTTP/1.1" 302 0
+INFO 2023-12-29 17:45:52,411 "GET /student/10/ HTTP/1.1" 200 13411
+INFO 2023-12-29 17:45:54,411 "GET /public/student/10/ HTTP/1.1" 200 6156
+INFO 2023-12-29 17:46:55,425 "GET /public/student/10/ HTTP/1.1" 200 6156
+INFO 2023-12-29 17:47:41,716 "GET /public/student/10/ HTTP/1.1" 200 6181
+INFO 2023-12-29 17:47:44,328 "GET /public/student/10/ HTTP/1.1" 200 6181
+INFO 2023-12-29 17:51:14,925 "GET /public/student/10/ HTTP/1.1" 200 6192
+WARNING 2023-12-29 17:51:15,713 Not Found: /favicon.ico
+WARNING 2023-12-29 17:51:15,715 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 17:51:15,799 "GET /public/student/10/ HTTP/1.1" 200 6192
+INFO 2023-12-29 17:51:16,217 "GET /public/student/10/ HTTP/1.1" 200 6192
+WARNING 2023-12-29 17:51:16,282 Not Found: /favicon.ico
+INFO 2023-12-29 17:51:16,285 - Broken pipe from ('127.0.0.1', 52017)
+INFO 2023-12-29 17:51:16,492 "GET /public/student/10/ HTTP/1.1" 200 6192
+INFO 2023-12-29 17:51:16,729 "GET /public/student/10/ HTTP/1.1" 200 6192
+WARNING 2023-12-29 17:51:17,117 Not Found: /favicon.ico
+WARNING 2023-12-29 17:51:17,119 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 17:51:32,625 "GET /public/student/10/ HTTP/1.1" 200 6192
+WARNING 2023-12-29 17:51:33,056 Not Found: /favicon.ico
+WARNING 2023-12-29 17:51:33,058 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 17:53:25,934 "GET /public/student/10/ HTTP/1.1" 200 6246
+INFO 2023-12-29 17:53:31,324 "GET /public/student/10/ HTTP/1.1" 200 6246
+WARNING 2023-12-29 17:53:31,967 Not Found: /favicon.ico
+WARNING 2023-12-29 17:53:31,969 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 17:53:38,658 "GET /public/student/10/ HTTP/1.1" 200 6246
+WARNING 2023-12-29 17:53:39,030 Not Found: /favicon.ico
+WARNING 2023-12-29 17:53:39,032 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 17:55:02,788 "GET /public/student/10/ HTTP/1.1" 200 6248
+INFO 2023-12-29 17:55:08,235 "GET /public/student/10/ HTTP/1.1" 200 6248
+INFO 2023-12-29 17:55:16,825 "GET /public/student/10/ HTTP/1.1" 200 6247
+INFO 2023-12-29 17:55:18,187 "GET /public/student/10/ HTTP/1.1" 200 6247
+INFO 2023-12-29 17:55:38,483 "GET /public/student/10/ HTTP/1.1" 200 6247
+INFO 2023-12-29 17:55:41,103 "GET /public/student/10/ HTTP/1.1" 200 6247
+WARNING 2023-12-29 17:55:45,328 Not Found: /favicon.ico
+WARNING 2023-12-29 17:55:45,329 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 17:55:52,847 "GET /public/student/10/ HTTP/1.1" 200 6246
+INFO 2023-12-29 17:55:53,870 "GET /public/student/10/ HTTP/1.1" 200 6246
+INFO 2023-12-29 17:58:40,041 "GET /public/student/10/ HTTP/1.1" 200 6329
+INFO 2023-12-29 17:58:43,350 "GET /public/student/10/ HTTP/1.1" 200 6329
+INFO 2023-12-29 17:59:13,530 "GET /public/student/10/ HTTP/1.1" 200 6327
+INFO 2023-12-29 17:59:14,495 "GET /public/student/10/ HTTP/1.1" 200 6327
+WARNING 2023-12-29 17:59:15,513 Not Found: /favicon.ico
+WARNING 2023-12-29 17:59:15,513 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 17:59:34,445 "GET /public/student/10/ HTTP/1.1" 200 6325
+INFO 2023-12-29 17:59:34,892 - Broken pipe from ('127.0.0.1', 52066)
+INFO 2023-12-29 17:59:34,970 - Broken pipe from ('127.0.0.1', 52256)
+WARNING 2023-12-29 17:59:34,986 Not Found: /favicon.ico
+WARNING 2023-12-29 17:59:34,986 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 17:59:35,037 "GET /public/student/10/ HTTP/1.1" 200 6325
+INFO 2023-12-29 18:00:13,378 "GET /public/student/10/ HTTP/1.1" 200 6327
+INFO 2023-12-29 18:02:15,741 "GET /public/student/10/ HTTP/1.1" 200 6326
+INFO 2023-12-29 18:02:16,218 - Broken pipe from ('127.0.0.1', 52258)
+INFO 2023-12-29 18:02:16,289 - Broken pipe from ('127.0.0.1', 52257)
+INFO 2023-12-29 18:02:16,351 - Broken pipe from ('127.0.0.1', 52307)
+WARNING 2023-12-29 18:02:16,397 Not Found: /favicon.ico
+WARNING 2023-12-29 18:02:16,397 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 18:02:16,418 - Broken pipe from ('127.0.0.1', 52308)
+INFO 2023-12-29 18:02:16,494 - Broken pipe from ('127.0.0.1', 52310)
+INFO 2023-12-29 18:02:16,562 - Broken pipe from ('127.0.0.1', 52311)
+INFO 2023-12-29 18:02:16,602 "GET /public/student/10/ HTTP/1.1" 200 6326
+WARNING 2023-12-29 18:02:17,041 Not Found: /favicon.ico
+WARNING 2023-12-29 18:02:17,042 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 18:02:37,446 "GET /public/student/10/ HTTP/1.1" 200 6327
+INFO 2023-12-29 18:03:03,721 "GET /public/student/10/ HTTP/1.1" 200 6326
+WARNING 2023-12-29 18:03:04,317 Not Found: /favicon.ico
+WARNING 2023-12-29 18:03:04,319 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 18:07:46,319 "GET /public/student/10/ HTTP/1.1" 200 6315
+INFO 2023-12-29 18:08:13,276 "GET /public/student/10/ HTTP/1.1" 200 6305
+INFO 2023-12-29 18:09:21,517 "GET /public/student/10/ HTTP/1.1" 200 6305
+WARNING 2023-12-29 18:09:22,208 Not Found: /favicon.ico
+WARNING 2023-12-29 18:09:22,210 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 18:09:23,631 "GET /public/student/10/ HTTP/1.1" 200 6305
+INFO 2023-12-29 18:09:23,962 "GET /public/student/10/ HTTP/1.1" 200 6305
+WARNING 2023-12-29 18:09:24,438 Not Found: /favicon.ico
+WARNING 2023-12-29 18:09:24,442 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 18:09:24,496 "GET /public/student/10/ HTTP/1.1" 200 6305
+INFO 2023-12-29 18:16:35,797 "GET /public/student/10/ HTTP/1.1" 200 6305
+INFO 2023-12-29 21:04:56,706 "GET / HTTP/1.1" 302 0
+INFO 2023-12-29 21:04:57,454 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-29 21:04:57,796 "GET /favicon.ico HTTP/1.1" 302 0
+INFO 2023-12-29 21:04:57,823 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-29 21:05:05,602 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-12-29 21:05:05,692 "GET / HTTP/1.1" 200 12442
+WARNING 2023-12-29 21:05:06,460 Not Found: /favicon.ico
+WARNING 2023-12-29 21:05:06,461 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 21:05:08,171 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 21:05:09,346 "GET /student/list HTTP/1.1" 200 9794
+INFO 2023-12-29 21:05:11,291 "GET /student/10/ HTTP/1.1" 200 13411
+INFO 2023-12-29 21:05:13,949 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 21:05:26,807 "GET /finance/list/ HTTP/1.1" 200 9936
+INFO 2023-12-29 21:05:28,604 "GET /finance/9/detail/ HTTP/1.1" 200 10495
+INFO 2023-12-29 21:05:30,944 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 21:05:32,545 "GET /finance/list/ HTTP/1.1" 200 9936
+INFO 2023-12-29 21:05:33,837 "GET /finance/9/detail/ HTTP/1.1" 200 10495
+INFO 2023-12-29 21:05:37,959 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 21:05:40,842 "GET /student/list HTTP/1.1" 200 9794
+INFO 2023-12-29 21:05:41,864 "GET /student/10/ HTTP/1.1" 200 13411
+INFO 2023-12-29 21:05:43,706 "GET /finance/9/detail/ HTTP/1.1" 200 10495
+INFO 2023-12-29 21:05:47,512 "GET /finance/list/ HTTP/1.1" 200 9936
+INFO 2023-12-29 21:06:13,874 "GET /finance/list/ HTTP/1.1" 200 9938
+INFO 2023-12-29 21:06:15,844 "GET /finance/list/ HTTP/1.1" 200 9938
+INFO 2023-12-29 21:06:18,334 "GET /finance/create/ HTTP/1.1" 200 11528
+INFO 2023-12-29 21:06:22,334 "GET /finance/receipt/create?invoice=9 HTTP/1.1" 200 10777
+INFO 2023-12-29 21:12:41,308 "GET /finance/list/ HTTP/1.1" 200 9938
+INFO 2023-12-29 21:12:48,652 "GET /finance/9/detail/ HTTP/1.1" 200 10497
+INFO 2023-12-29 21:12:55,708 "GET /finance/receipt/create?invoice=9 HTTP/1.1" 200 10777
+INFO 2023-12-29 21:21:17,726 "GET /student/ HTTP/1.1" 200 13752
+INFO 2023-12-29 21:21:19,385 "GET /enquiry/list HTTP/1.1" 200 10179
+INFO 2023-12-29 21:21:21,938 "GET /staff/list/ HTTP/1.1" 200 9807
+INFO 2023-12-29 21:21:24,436 "GET /student/ HTTP/1.1" 200 13752
+INFO 2023-12-29 21:21:25,273 "GET /student/list HTTP/1.1" 200 10074
+INFO 2023-12-29 21:21:29,543 "GET /student/ HTTP/1.1" 200 13752
+INFO 2023-12-29 21:21:30,463 "GET /student/select_enquiry/ HTTP/1.1" 200 9985
+INFO 2023-12-29 21:21:52,441 Watching for file changes with StatReloader
+INFO 2023-12-29 21:21:54,688 "GET /student/select_enquiry/ HTTP/1.1" 200 9985
+INFO 2023-12-29 21:21:57,039 "GET /student/select_enquiry/ HTTP/1.1" 200 9985
+INFO 2023-12-29 21:22:35,468 "GET /student/select_enquiry/ HTTP/1.1" 200 9795
+INFO 2023-12-29 21:22:37,746 "GET /student/select_enquiry/ HTTP/1.1" 200 9795
+INFO 2023-12-29 21:23:57,595 "GET /student/select_enquiry/ HTTP/1.1" 200 9992
+INFO 2023-12-29 21:23:59,621 "GET /student/select_enquiry/ HTTP/1.1" 200 9992
+INFO 2023-12-29 21:29:18,686 C:\Users\LOGI\Desktop\CSC\csc\csc_app\settings.py changed, reloading.
+INFO 2023-12-29 21:29:20,165 Watching for file changes with StatReloader
+INFO 2023-12-29 21:32:12,428 C:\Users\LOGI\Desktop\CSC\csc\csc_app\settings.py changed, reloading.
+INFO 2023-12-29 21:32:13,869 Watching for file changes with StatReloader
+INFO 2023-12-29 21:32:58,751 "GET /student/select_enquiry/ HTTP/1.1" 200 9852
+INFO 2023-12-29 21:33:24,177 "GET /student/ HTTP/1.1" 200 13752
+INFO 2023-12-29 21:33:25,767 "GET /enquiry/list HTTP/1.1" 200 10179
+INFO 2023-12-29 21:33:27,864 "GET /enquiry/create/ HTTP/1.1" 200 21995
+INFO 2023-12-29 21:34:47,177 "GET /enquiry/create/ HTTP/1.1" 200 21995
+INFO 2023-12-29 21:35:51,909 "GET /enquiry/create/ HTTP/1.1" 200 21995
+INFO 2023-12-29 21:40:47,855 "GET /enquiry/create/ HTTP/1.1" 200 21995
+INFO 2023-12-29 21:41:47,206 "POST /enquiry/create/ HTTP/1.1" 302 0
+INFO 2023-12-29 21:41:47,319 "GET /enquiry/4/ HTTP/1.1" 200 12075
+INFO 2023-12-29 21:41:49,076 "GET /student/ HTTP/1.1" 200 13752
+INFO 2023-12-29 21:41:52,352 "GET /student/select_enquiry/ HTTP/1.1" 200 9900
+ERROR 2023-12-29 21:42:41,365 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'Ram (EN24-0004)'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 21:42:41,370 "POST /student/select_enquiry/ HTTP/1.1" 500 93991
+ERROR 2023-12-29 21:45:20,217 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'Ram (EN24-0004)'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 21:45:20,224 "POST /student/select_enquiry/ HTTP/1.1" 500 93991
+INFO 2023-12-29 21:45:23,079 "GET /student/select_enquiry/ HTTP/1.1" 200 9920
+INFO 2023-12-29 21:48:52,329 "GET /student/select_enquiry/ HTTP/1.1" 200 9946
+ERROR 2023-12-29 21:48:55,953 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'fhasdhf (EN24-0001)'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 21:48:55,956 "POST /student/select_enquiry/ HTTP/1.1" 500 94051
+INFO 2023-12-29 21:52:24,190 "GET /student/select_enquiry/ HTTP/1.1" 200 9962
+INFO 2023-12-29 21:56:28,865 "GET /student/select_enquiry/ HTTP/1.1" 200 10033
+INFO 2023-12-29 21:57:35,153 "GET /student/select_enquiry/ HTTP/1.1" 200 10033
+INFO 2023-12-29 21:57:37,271 "GET /student/select_enquiry/ HTTP/1.1" 200 10033
+INFO 2023-12-29 21:57:37,992 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-12-29 21:57:37,993 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-12-29 21:57:38,001 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-12-29 21:57:38,002 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2023-12-29 21:57:38,014 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-12-29 21:57:38,034 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-12-29 21:57:38,050 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-12-29 21:57:38,066 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-12-29 21:57:38,070 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-12-29 21:57:38,077 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-12-29 21:57:38,086 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-12-29 21:57:38,096 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2023-12-29 21:57:38,096 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-12-29 21:57:38,104 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-12-29 21:57:38,702 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+WARNING 2023-12-29 21:57:39,069 Not Found: /favicon.ico
+WARNING 2023-12-29 21:57:39,070 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 21:58:05,211 "GET /student/select_enquiry/ HTTP/1.1" 200 10031
+INFO 2023-12-29 21:59:24,014 "GET /student/select_enquiry/ HTTP/1.1" 200 10009
+INFO 2023-12-29 22:02:21,961 "GET /student/select_enquiry/ HTTP/1.1" 200 10159
+INFO 2023-12-29 22:02:49,027 "GET /student/select_enquiry/ HTTP/1.1" 200 10141
+INFO 2023-12-29 22:02:55,448 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 22:02:55,677 "GET /student/create/3/ HTTP/1.1" 200 18396
+INFO 2023-12-29 22:02:57,939 "GET /student/select_enquiry/ HTTP/1.1" 200 10141
+INFO 2023-12-29 22:06:31,373 "GET /student/select_enquiry/ HTTP/1.1" 200 11158
+ERROR 2023-12-29 22:06:41,570 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'Ram (EN24-0004)'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 22:06:41,576 "POST /student/select_enquiry/ HTTP/1.1" 500 94127
+INFO 2023-12-29 22:07:13,524 "GET /student/select_enquiry/ HTTP/1.1" 200 11158
+INFO 2023-12-29 22:07:43,392 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+ERROR 2023-12-29 22:07:43,706 Internal Server Error: /student/create/5/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 80, in get
+    enquiry = Enquiry.objects.get(auto_increment=enquiry_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.enquiry.models.Enquiry.DoesNotExist: Enquiry matching query does not exist.
+ERROR 2023-12-29 22:07:43,715 "GET /student/create/5/ HTTP/1.1" 500 93465
+INFO 2023-12-29 22:07:46,059 "GET /student/select_enquiry/ HTTP/1.1" 200 11158
+INFO 2023-12-29 22:07:49,795 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+ERROR 2023-12-29 22:07:49,994 Internal Server Error: /student/create/1/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 80, in get
+    enquiry = Enquiry.objects.get(auto_increment=enquiry_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.enquiry.models.Enquiry.DoesNotExist: Enquiry matching query does not exist.
+ERROR 2023-12-29 22:07:50,002 "GET /student/create/1/ HTTP/1.1" 500 93465
+INFO 2023-12-29 22:07:52,505 "GET /student/select_enquiry/ HTTP/1.1" 200 11158
+INFO 2023-12-29 22:07:57,387 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+ERROR 2023-12-29 22:07:57,566 Internal Server Error: /student/create/2/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 80, in get
+    enquiry = Enquiry.objects.get(auto_increment=enquiry_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.enquiry.models.Enquiry.DoesNotExist: Enquiry matching query does not exist.
+ERROR 2023-12-29 22:07:57,573 "GET /student/create/2/ HTTP/1.1" 500 93465
+INFO 2023-12-29 22:07:58,756 "GET /student/select_enquiry/ HTTP/1.1" 200 11158
+INFO 2023-12-29 22:08:01,974 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 22:08:02,103 "GET /student/create/3/ HTTP/1.1" 200 18396
+INFO 2023-12-29 22:08:03,412 "GET /student/select_enquiry/ HTTP/1.1" 200 11158
+INFO 2023-12-29 22:08:15,592 "GET /student/select_enquiry/ HTTP/1.1" 200 9852
+INFO 2023-12-29 22:18:51,609 "GET /student/select_enquiry/ HTTP/1.1" 200 10083
+INFO 2023-12-29 22:19:18,395 "GET /student/select_enquiry/ HTTP/1.1" 200 10063
+INFO 2023-12-29 22:20:13,556 "GET /student/select_enquiry/ HTTP/1.1" 200 9577
+INFO 2023-12-29 22:24:48,278 C:\Users\LOGI\Desktop\CSC\csc\csc_app\settings.py changed, reloading.
+INFO 2023-12-29 22:24:50,253 Watching for file changes with StatReloader
+INFO 2023-12-29 22:25:59,668 Watching for file changes with StatReloader
+INFO 2023-12-29 22:26:49,149 Watching for file changes with StatReloader
+INFO 2023-12-29 22:26:55,701 "GET /student/select_enquiry/ HTTP/1.1" 200 9358
+ERROR 2023-12-29 22:26:57,898 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 52, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': None}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 22:26:57,903 "POST /student/select_enquiry/ HTTP/1.1" 500 93547
+ERROR 2023-12-29 22:27:50,808 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 54, in select_enquiry
+    return render(request, 'students/ad_con.html', {'enquiries': enquiries})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+ERROR 2023-12-29 22:27:50,815 "GET /student/select_enquiry/ HTTP/1.1" 500 202962
+ERROR 2023-12-29 22:27:57,534 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 54, in select_enquiry
+    return render(request, 'students/ad_con.html', {'enquiries': enquiries})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+ERROR 2023-12-29 22:27:57,538 "GET /student/select_enquiry/ HTTP/1.1" 500 202825
+INFO 2023-12-29 22:28:40,736 "GET /student/select_enquiry/ HTTP/1.1" 200 9359
+INFO 2023-12-29 22:28:42,942 "GET /student/select_enquiry/ HTTP/1.1" 200 9359
+INFO 2023-12-29 22:28:43,911 "GET /student/select_enquiry/ HTTP/1.1" 200 9359
+INFO 2023-12-29 22:28:44,780 "GET /student/select_enquiry/ HTTP/1.1" 200 9359
+INFO 2023-12-29 22:28:45,548 "GET /student/select_enquiry/ HTTP/1.1" 200 9359
+INFO 2023-12-29 22:29:09,637 "GET /student/select_enquiry/ HTTP/1.1" 200 9989
+INFO 2023-12-29 22:29:11,150 "GET /student/select_enquiry/ HTTP/1.1" 200 9989
+INFO 2023-12-29 22:29:12,128 "GET /student/select_enquiry/ HTTP/1.1" 200 9989
+INFO 2023-12-29 22:29:16,980 "GET /student/select_enquiry/ HTTP/1.1" 200 9989
+INFO 2023-12-29 22:30:09,094 C:\Users\LOGI\Desktop\CSC\csc\apps\students\urls.py changed, reloading.
+INFO 2023-12-29 22:30:10,778 Watching for file changes with StatReloader
+INFO 2023-12-29 22:34:56,113 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 304 0
+INFO 2023-12-29 22:34:56,114 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 304 0
+INFO 2023-12-29 22:34:56,115 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 304 0
+WARNING 2023-12-29 22:34:56,134 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2023-12-29 22:34:56,150 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 304 0
+INFO 2023-12-29 22:35:00,336 "GET /student/select_enquiry/ HTTP/1.1" 200 9750
+WARNING 2023-12-29 22:35:01,288 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2023-12-29 23:13:24,687 Watching for file changes with StatReloader
+INFO 2023-12-29 23:13:27,643 "GET /student/select_enquiry/ HTTP/1.1" 200 9645
+WARNING 2023-12-29 23:13:28,959 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2023-12-29 23:13:33,523 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'Ram (EN24-0004)'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:13:33,535 "POST /student/select_enquiry/ HTTP/1.1" 500 94099
+INFO 2023-12-29 23:14:42,161 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-29 23:14:44,994 Watching for file changes with StatReloader
+ERROR 2023-12-29 23:14:46,758 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'Ram (EN24-0004)'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:14:46,762 "POST /student/select_enquiry/ HTTP/1.1" 500 94099
+INFO 2023-12-29 23:14:54,328 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:14:54,659 "GET /student/create/4/ HTTP/1.1" 200 18112
+INFO 2023-12-29 23:14:56,010 "GET /student/select_enquiry/ HTTP/1.1" 200 9645
+INFO 2023-12-29 23:17:12,904 "GET /student/select_enquiry/ HTTP/1.1" 200 9682
+INFO 2023-12-29 23:18:00,988 "GET /student/select_enquiry/ HTTP/1.1" 200 9714
+WARNING 2023-12-29 23:18:11,002 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2023-12-29 23:18:31,358 "GET /student/select_enquiry/ HTTP/1.1" 200 9714
+WARNING 2023-12-29 23:18:32,960 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2023-12-29 23:19:07,049 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+ERROR 2023-12-29 23:19:07,387 Internal Server Error: /student/create/2/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 80, in get
+    enquiry = Enquiry.objects.get(auto_increment=enquiry_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.enquiry.models.Enquiry.DoesNotExist: Enquiry matching query does not exist.
+ERROR 2023-12-29 23:19:07,391 "GET /student/create/2/ HTTP/1.1" 500 93510
+INFO 2023-12-29 23:19:09,949 "GET /student/select_enquiry/ HTTP/1.1" 200 9714
+INFO 2023-12-29 23:19:50,386 "GET /student/select_enquiry/ HTTP/1.1" 200 9713
+INFO 2023-12-29 23:20:16,886 "GET /student/select_enquiry/ HTTP/1.1" 200 9732
+INFO 2023-12-29 23:20:59,991 "GET /student/select_enquiry/ HTTP/1.1" 200 9733
+INFO 2023-12-29 23:21:20,256 "GET /student/select_enquiry/ HTTP/1.1" 200 9733
+INFO 2023-12-29 23:21:51,760 "GET /student/select_enquiry/ HTTP/1.1" 200 9732
+INFO 2023-12-29 23:22:16,607 "GET /student/select_enquiry/ HTTP/1.1" 200 9775
+INFO 2023-12-29 23:24:07,318 "GET /student/select_enquiry/ HTTP/1.1" 200 9848
+INFO 2023-12-29 23:24:43,041 "GET /student/select_enquiry/ HTTP/1.1" 200 9849
+INFO 2023-12-29 23:26:27,338 "GET /student/select_enquiry/ HTTP/1.1" 200 9869
+INFO 2023-12-29 23:26:31,061 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:26:31,209 "GET /student/create/4/ HTTP/1.1" 200 18112
+INFO 2023-12-29 23:26:33,033 "GET /student/select_enquiry/ HTTP/1.1" 200 9869
+INFO 2023-12-29 23:26:35,284 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:26:35,434 "GET /student/create/3/ HTTP/1.1" 200 18121
+INFO 2023-12-29 23:26:37,239 "GET /student/select_enquiry/ HTTP/1.1" 200 9869
+INFO 2023-12-29 23:26:42,279 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:26:42,423 "GET /student/create/3/ HTTP/1.1" 200 18121
+INFO 2023-12-29 23:26:43,551 "GET /student/select_enquiry/ HTTP/1.1" 200 9869
+INFO 2023-12-29 23:26:51,283 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:26:51,429 "GET /student/create/4/ HTTP/1.1" 200 18112
+INFO 2023-12-29 23:26:54,441 "GET /student/select_enquiry/ HTTP/1.1" 200 9869
+INFO 2023-12-29 23:30:29,675 "GET /student/select_enquiry/ HTTP/1.1" 200 9869
+INFO 2023-12-29 23:31:40,434 "GET /student/select_enquiry/ HTTP/1.1" 200 9884
+ERROR 2023-12-29 23:31:43,345 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'fhasdhf(EN24-0001) 3'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:31:43,347 "POST /student/select_enquiry/ HTTP/1.1" 500 94154
+INFO 2023-12-29 23:32:04,985 "GET /student/select_enquiry/ HTTP/1.1" 200 9883
+ERROR 2023-12-29 23:32:07,681 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'Ram(EN24-0004) 4'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:32:07,685 "POST /student/select_enquiry/ HTTP/1.1" 500 94094
+INFO 2023-12-29 23:33:29,726 "GET /student/select_enquiry/ HTTP/1.1" 200 9973
+INFO 2023-12-29 23:33:32,430 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:33:32,594 "GET /student/create/4/ HTTP/1.1" 200 18112
+INFO 2023-12-29 23:33:34,305 "GET /student/select_enquiry/ HTTP/1.1" 200 9973
+INFO 2023-12-29 23:33:36,459 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:33:36,600 "GET /student/create/3/ HTTP/1.1" 200 18121
+INFO 2023-12-29 23:33:38,568 "GET /student/select_enquiry/ HTTP/1.1" 200 9973
+ERROR 2023-12-29 23:33:43,973 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': ' '}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:33:43,980 "POST /student/select_enquiry/ HTTP/1.1" 500 93868
+INFO 2023-12-29 23:33:47,512 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:33:47,672 "GET /student/create/3/ HTTP/1.1" 200 18121
+INFO 2023-12-29 23:33:48,559 "GET /student/select_enquiry/ HTTP/1.1" 200 9973
+INFO 2023-12-29 23:34:16,217 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:34:16,358 "GET /student/create/3/ HTTP/1.1" 200 18121
+INFO 2023-12-29 23:34:20,226 "GET /student/select_enquiry/ HTTP/1.1" 200 9973
+INFO 2023-12-29 23:37:26,124 "GET /student/select_enquiry/ HTTP/1.1" 200 10456
+INFO 2023-12-29 23:38:51,528 "GET /student/select_enquiry/ HTTP/1.1" 200 10460
+ERROR 2023-12-29 23:39:02,849 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:39:02,854 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+ERROR 2023-12-29 23:39:09,834 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:39:09,837 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+WARNING 2023-12-29 23:41:05,569 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2023-12-29 23:42:06,790 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:42:06,795 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+ERROR 2023-12-29 23:42:39,235 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:42:39,237 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+WARNING 2023-12-29 23:43:07,039 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2023-12-29 23:43:25,637 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:43:25,641 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+ERROR 2023-12-29 23:45:32,543 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:45:32,548 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+INFO 2023-12-29 23:45:44,486 "GET /student/select_enquiry/ HTTP/1.1" 200 9974
+ERROR 2023-12-29 23:45:46,606 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:45:46,608 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+WARNING 2023-12-29 23:47:01,664 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2023-12-29 23:47:49,725 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:47:49,731 "POST /student/select_enquiry/ HTTP/1.1" 500 94009
+INFO 2023-12-29 23:48:00,936 "GET /student/select_enquiry/ HTTP/1.1" 200 9974
+INFO 2023-12-29 23:48:01,905 "GET /student/select_enquiry/ HTTP/1.1" 200 9974
+ERROR 2023-12-29 23:48:04,039 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:48:04,046 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+ERROR 2023-12-29 23:48:55,730 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:48:55,732 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+ERROR 2023-12-29 23:49:01,279 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:49:01,286 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+ERROR 2023-12-29 23:49:07,995 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:49:08,002 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+ERROR 2023-12-29 23:49:35,436 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 44, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': 'undefined'}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 23:49:35,441 "POST /student/select_enquiry/ HTTP/1.1" 500 93989
+INFO 2023-12-29 23:50:10,954 "GET /student/select_enquiry/ HTTP/1.1" 200 9976
+INFO 2023-12-29 23:50:11,405 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2023-12-29 23:50:11,410 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-12-29 23:50:11,419 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-12-29 23:50:11,423 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-12-29 23:50:11,436 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-12-29 23:50:11,448 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-12-29 23:50:11,460 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-12-29 23:50:11,485 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-12-29 23:50:11,487 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-12-29 23:50:11,507 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-12-29 23:50:11,510 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-12-29 23:50:11,520 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-12-29 23:50:11,521 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2023-12-29 23:50:11,534 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-12-29 23:50:12,001 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2023-12-29 23:50:12,380 "GET /student/select_enquiry/ HTTP/1.1" 200 9976
+INFO 2023-12-29 23:50:12,475 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-12-29 23:50:12,476 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2023-12-29 23:50:12,480 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-12-29 23:50:12,486 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-12-29 23:50:12,496 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-12-29 23:50:12,499 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-12-29 23:50:12,505 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-12-29 23:50:12,511 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-12-29 23:50:12,513 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-12-29 23:50:12,514 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-12-29 23:50:12,522 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-12-29 23:50:12,559 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-12-29 23:50:12,596 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+WARNING 2023-12-29 23:50:12,597 Not Found: /favicon.ico
+WARNING 2023-12-29 23:50:12,598 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 23:50:12,666 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-12-29 23:50:12,668 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2023-12-29 23:50:13,123 Not Found: /favicon.ico
+WARNING 2023-12-29 23:50:13,124 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 23:50:15,929 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:50:16,120 "GET /student/create/3/ HTTP/1.1" 200 18121
+INFO 2023-12-29 23:50:18,058 "GET /student/select_enquiry/ HTTP/1.1" 200 9976
+INFO 2023-12-29 23:50:20,191 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:50:20,380 "GET /student/create/4/ HTTP/1.1" 200 18112
+INFO 2023-12-29 23:50:21,731 "GET /student/select_enquiry/ HTTP/1.1" 200 9976
+INFO 2023-12-29 23:51:42,795 "GET /student/select_enquiry/ HTTP/1.1" 200 10465
+INFO 2023-12-29 23:51:45,111 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:51:45,276 "GET /student/create/3/ HTTP/1.1" 200 18121
+INFO 2023-12-29 23:51:46,866 "GET /student/select_enquiry/ HTTP/1.1" 200 10465
+INFO 2023-12-29 23:51:54,686 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:51:54,837 "GET /student/create/4/ HTTP/1.1" 200 18112
+INFO 2023-12-29 23:51:56,641 "GET /student/select_enquiry/ HTTP/1.1" 200 10465
+INFO 2023-12-29 23:54:18,256 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:54:18,373 "GET /student/create/3/ HTTP/1.1" 200 18121
+INFO 2023-12-29 23:54:19,619 "GET /student/select_enquiry/ HTTP/1.1" 200 10465
+INFO 2023-12-29 23:54:21,771 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-29 23:54:24,161 "GET /student/list HTTP/1.1" 200 9799
+INFO 2023-12-29 23:54:27,078 "GET /student/10/ HTTP/1.1" 200 13416
+INFO 2023-12-29 23:56:42,161 "GET /student/list HTTP/1.1" 200 9799
+INFO 2023-12-29 23:56:44,076 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-29 23:56:45,200 "GET /student/select_enquiry/ HTTP/1.1" 200 10767
+INFO 2023-12-29 23:57:16,720 "GET /student/select_enquiry/ HTTP/1.1" 200 11536
+INFO 2023-12-29 23:57:16,957 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-12-29 23:57:16,965 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2023-12-29 23:57:16,966 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-12-29 23:57:16,968 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-12-29 23:57:16,978 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-12-29 23:57:16,978 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-12-29 23:57:16,980 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-12-29 23:57:16,982 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-12-29 23:57:16,986 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-12-29 23:57:16,991 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-12-29 23:57:16,993 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-12-29 23:57:17,009 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-12-29 23:57:17,022 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2023-12-29 23:57:17,220 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-12-29 23:57:17,222 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2023-12-29 23:57:17,636 Not Found: /favicon.ico
+WARNING 2023-12-29 23:57:17,637 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 23:58:25,875 "GET /student/select_enquiry/ HTTP/1.1" 200 10468
+INFO 2023-12-29 23:58:27,938 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 23:58:28,117 "GET /student/create/4/ HTTP/1.1" 200 18112
+INFO 2023-12-29 23:58:29,574 "GET /student/select_enquiry/ HTTP/1.1" 200 10468
+INFO 2023-12-29 23:58:32,156 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-29 23:58:34,641 "GET /finance/list/ HTTP/1.1" 200 9941
+INFO 2023-12-29 23:59:20,629 C:\Users\LOGI\Desktop\CSC\csc\csc_app\settings.py changed, reloading.
+INFO 2023-12-29 23:59:22,429 Watching for file changes with StatReloader
+INFO 2023-12-30 00:00:57,426 "GET /finance/receipt/create?invoice=9 HTTP/1.1" 200 10780
+INFO 2023-12-30 00:01:20,497 "GET /finance/receipt/create?invoice=9 HTTP/1.1" 200 10780
+WARNING 2023-12-30 00:02:30,242 Method Not Allowed (GET): /accounts/logout/
+WARNING 2023-12-30 00:02:30,268 Method Not Allowed: /accounts/logout/
+WARNING 2023-12-30 00:02:30,270 "GET /accounts/logout/ HTTP/1.1" 405 0
+WARNING 2023-12-30 00:02:33,860 Method Not Allowed (GET): /accounts/logout/
+WARNING 2023-12-30 00:02:33,878 Method Not Allowed: /accounts/logout/
+WARNING 2023-12-30 00:02:33,878 "GET /accounts/logout/ HTTP/1.1" 405 0
+WARNING 2023-12-30 00:02:35,118 Method Not Allowed (GET): /accounts/logout/
+WARNING 2023-12-30 00:02:35,143 Method Not Allowed: /accounts/logout/
+WARNING 2023-12-30 00:02:35,144 "GET /accounts/logout/ HTTP/1.1" 405 0
+INFO 2023-12-30 00:13:49,914 "GET /finance/9/detail/ HTTP/1.1" 200 10500
+INFO 2023-12-30 00:16:15,066 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 00:16:17,591 "GET /student/list HTTP/1.1" 200 9799
+INFO 2023-12-30 00:16:21,209 "GET /student/10/ HTTP/1.1" 200 13416
+INFO 2023-12-30 00:16:27,948 "GET /finance/9/detail/ HTTP/1.1" 200 10500
+INFO 2023-12-30 00:16:39,075 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 00:57:38,525 Watching for file changes with StatReloader
+INFO 2023-12-30 00:57:56,658 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\urls.py changed, reloading.
+INFO 2023-12-30 00:57:58,352 Watching for file changes with StatReloader
+INFO 2023-12-30 00:58:00,862 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 00:58:03,039 "GET /finance/list/ HTTP/1.1" 200 9941
+ERROR 2023-12-30 00:58:08,681 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 57, in save_bill_details
+    return render(request, 'bill.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: bill.html
+ERROR 2023-12-30 00:58:08,686 "GET /finance/bill HTTP/1.1" 500 86735
+INFO 2023-12-30 00:59:47,619 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py changed, reloading.
+INFO 2023-12-30 00:59:49,276 Watching for file changes with StatReloader
+ERROR 2023-12-30 00:59:50,172 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 57, in save_bill_details
+    return render(request, 'finance/bill.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'save_bill_details' not found. 'save_bill_details' is not a valid view function or pattern name.
+ERROR 2023-12-30 00:59:50,178 "GET /finance/bill HTTP/1.1" 500 188025
+INFO 2023-12-30 01:01:05,399 "GET /finance/bill HTTP/1.1" 200 10038
+INFO 2023-12-30 01:05:50,753 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:07:12,334 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py changed, reloading.
+INFO 2023-12-30 01:07:14,410 Watching for file changes with StatReloader
+INFO 2023-12-30 01:07:15,184 "GET /finance/list/ HTTP/1.1" 200 9941
+INFO 2023-12-30 01:07:22,587 "GET /finance/bill HTTP/1.1" 200 11065
+ERROR 2023-12-30 01:07:54,564 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 52, in save_bill_details
+    Receipt.objects.create(invoice=student,bill_number=bill_number, bill_date=bill_date, amount=amount)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 675, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Receipt() got unexpected keyword arguments: 'bill_number', 'bill_date', 'amount'
+ERROR 2023-12-30 01:07:54,572 "POST /finance/bill HTTP/1.1" 500 87755
+INFO 2023-12-30 01:10:11,698 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\models.py changed, reloading.
+INFO 2023-12-30 01:10:13,457 Watching for file changes with StatReloader
+INFO 2023-12-30 01:15:21,232 Watching for file changes with StatReloader
+INFO 2023-12-30 01:15:23,634 "GET /finance/bill HTTP/1.1" 200 11433
+INFO 2023-12-30 01:19:22,811 "GET /finance/bill HTTP/1.1" 200 11603
+INFO 2023-12-30 01:19:25,448 "GET /finance/bill HTTP/1.1" 200 11603
+INFO 2023-12-30 01:19:26,225 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-12-30 01:19:26,239 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-12-30 01:19:26,243 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-12-30 01:19:26,261 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2023-12-30 01:19:26,274 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-12-30 01:19:26,284 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-12-30 01:19:26,300 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-12-30 01:19:26,316 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-12-30 01:19:26,317 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-12-30 01:19:26,328 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-12-30 01:19:26,328 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-12-30 01:19:26,371 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-12-30 01:19:26,400 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2023-12-30 01:19:26,437 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-12-30 01:19:26,438 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2023-12-30 01:19:26,705 Not Found: /favicon.ico
+WARNING 2023-12-30 01:19:26,706 "GET /favicon.ico HTTP/1.1" 404 6682
+ERROR 2023-12-30 01:19:53,218 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(invoice=Invoice.objects.get(student=student).id,Bill_No=bill_number, date_paid=bill_date, amount_paid=amount,comment=comment,recived_by=re_by)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:19:53,227 "POST /finance/bill HTTP/1.1" 500 81366
+INFO 2023-12-30 01:20:46,968 "GET /finance/bill HTTP/1.1" 200 11599
+ERROR 2023-12-30 01:21:06,327 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(invoice=Invoice.objects.get(student=student).id,Bill_No=bill_number, date_paid=bill_date, amount_paid=amount,comment=comment,recived_by=re_by)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:21:06,333 "POST /finance/bill HTTP/1.1" 500 81372
+WARNING 2023-12-30 01:21:52,765 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2023-12-30 01:22:31,127 "GET /finance/bill HTTP/1.1" 200 11641
+INFO 2023-12-30 01:22:31,196 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2023-12-30 01:22:31,203 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-12-30 01:22:31,206 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-12-30 01:22:31,211 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-12-30 01:22:31,222 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-12-30 01:22:31,224 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-12-30 01:22:31,230 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-12-30 01:22:31,231 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-12-30 01:22:31,234 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-12-30 01:22:31,234 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-12-30 01:22:31,237 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-12-30 01:22:31,246 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-12-30 01:22:31,259 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2023-12-30 01:22:31,522 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-12-30 01:22:31,524 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2023-12-30 01:22:32,625 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2023-12-30 01:22:32,816 Not Found: /favicon.ico
+WARNING 2023-12-30 01:22:32,816 "GET /favicon.ico HTTP/1.1" 404 6682
+ERROR 2023-12-30 01:22:43,238 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(invoice=Invoice.objects.get(student=student).id,Bill_No=bill_number, date_paid=bill_date, amount_paid=amount,comment=comment,recived_by=re_by)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:22:43,242 "POST /finance/bill HTTP/1.1" 500 81392
+WARNING 2023-12-30 01:22:48,470 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2023-12-30 01:22:52,952 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(invoice=Invoice.objects.get(student=student).id,Bill_No=bill_number, date_paid=bill_date, amount_paid=amount,comment=comment,recived_by=re_by)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:22:52,956 "POST /finance/bill HTTP/1.1" 500 81392
+WARNING 2023-12-30 01:22:55,153 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2023-12-30 01:23:00,859 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(invoice=Invoice.objects.get(student=student).id,Bill_No=bill_number, date_paid=bill_date, amount_paid=amount,comment=comment,recived_by=re_by)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:23:00,862 "POST /finance/bill HTTP/1.1" 500 81392
+WARNING 2023-12-30 01:23:05,374 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2023-12-30 01:24:13,203 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(invoice=Invoice.objects.get(student=student).id,Bill_No=bill_number, date_paid=bill_date, amount_paid=amount,comment=comment,recived_by=re_by)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:24:13,205 "POST /finance/bill HTTP/1.1" 500 81392
+INFO 2023-12-30 01:25:44,933 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py changed, reloading.
+INFO 2023-12-30 01:25:47,373 Watching for file changes with StatReloader
+ERROR 2023-12-30 01:25:49,697 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=student).id, amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:25:49,704 "POST /finance/bill HTTP/1.1" 500 81414
+INFO 2023-12-30 01:28:03,119 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py changed, reloading.
+INFO 2023-12-30 01:28:04,771 Watching for file changes with StatReloader
+ERROR 2023-12-30 01:28:08,496 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=student), amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:28:08,504 "POST /finance/bill HTTP/1.1" 500 81408
+INFO 2023-12-30 01:29:09,723 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py changed, reloading.
+INFO 2023-12-30 01:29:11,451 Watching for file changes with StatReloader
+INFO 2023-12-30 01:29:12,346 "GET /finance/bill HTTP/1.1" 200 11641
+ERROR 2023-12-30 01:29:25,914 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=int(student)), amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                                                   ^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ERROR 2023-12-30 01:29:25,925 "POST /finance/bill HTTP/1.1" 500 72962
+ERROR 2023-12-30 01:30:35,864 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=int(student)), amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                                                   ^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ERROR 2023-12-30 01:30:35,867 "POST /finance/bill HTTP/1.1" 500 72944
+WARNING 2023-12-30 01:32:27,226 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2023-12-30 01:32:51,969 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=int(student)), amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                                                   ^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ERROR 2023-12-30 01:32:51,974 "POST /finance/bill HTTP/1.1" 500 72945
+INFO 2023-12-30 01:32:56,899 "GET /finance/bill HTTP/1.1" 200 11641
+INFO 2023-12-30 01:32:57,679 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2023-12-30 01:32:57,687 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-12-30 01:32:57,702 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-12-30 01:32:57,716 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-12-30 01:32:57,784 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-12-30 01:32:57,793 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-12-30 01:32:57,802 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-12-30 01:32:57,834 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-12-30 01:32:57,839 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-12-30 01:32:57,848 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-12-30 01:32:57,865 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-12-30 01:32:57,872 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-12-30 01:32:57,873 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2023-12-30 01:32:57,876 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-12-30 01:32:58,380 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+WARNING 2023-12-30 01:32:58,809 Not Found: /favicon.ico
+WARNING 2023-12-30 01:32:58,810 "GET /favicon.ico HTTP/1.1" 404 6682
+ERROR 2023-12-30 01:33:19,327 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=int(student)), amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                                                   ^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ERROR 2023-12-30 01:33:19,333 "POST /finance/bill HTTP/1.1" 500 72958
+ERROR 2023-12-30 01:33:37,964 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=int(student)), amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                                                   ^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ERROR 2023-12-30 01:33:37,965 "POST /finance/bill HTTP/1.1" 500 72958
+INFO 2023-12-30 01:34:21,676 "GET /finance/bill HTTP/1.1" 200 11647
+INFO 2023-12-30 01:34:21,831 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-12-30 01:34:21,838 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-12-30 01:34:21,840 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2023-12-30 01:34:21,870 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-12-30 01:34:21,870 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-12-30 01:34:21,873 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-12-30 01:34:21,882 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-12-30 01:34:21,885 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-12-30 01:34:21,899 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-12-30 01:34:21,913 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-12-30 01:34:21,916 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-12-30 01:34:21,925 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-12-30 01:34:21,949 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2023-12-30 01:34:22,075 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-12-30 01:34:22,078 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2023-12-30 01:34:22,511 Not Found: /favicon.ico
+WARNING 2023-12-30 01:34:22,512 "GET /favicon.ico HTTP/1.1" 404 6682
+ERROR 2023-12-30 01:34:35,036 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=int(student)), amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                                                   ^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ERROR 2023-12-30 01:34:35,040 "POST /finance/bill HTTP/1.1" 500 72948
+INFO 2023-12-30 01:36:00,549 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py changed, reloading.
+INFO 2023-12-30 01:36:02,249 Watching for file changes with StatReloader
+ERROR 2023-12-30 01:36:06,378 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=student).id, amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:36:06,387 "POST /finance/bill HTTP/1.1" 500 81394
+ERROR 2023-12-30 01:36:36,195 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=student).id, amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:36:36,197 "POST /finance/bill HTTP/1.1" 500 81394
+ERROR 2023-12-30 01:36:49,499 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=student).id, amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:36:49,504 "POST /finance/bill HTTP/1.1" 500 81394
+INFO 2023-12-30 01:37:00,601 "GET /finance/bill HTTP/1.1" 200 11647
+INFO 2023-12-30 01:37:01,239 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-12-30 01:37:01,248 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-12-30 01:37:01,249 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2023-12-30 01:37:01,256 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-12-30 01:37:01,262 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-12-30 01:37:01,267 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-12-30 01:37:01,276 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-12-30 01:37:01,286 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-12-30 01:37:01,287 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-12-30 01:37:01,287 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-12-30 01:37:01,298 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-12-30 01:37:01,326 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-12-30 01:37:01,367 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2023-12-30 01:37:01,413 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2023-12-30 01:37:01,414 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2023-12-30 01:37:01,628 Not Found: /favicon.ico
+WARNING 2023-12-30 01:37:01,629 "GET /favicon.ico HTTP/1.1" 404 6682
+ERROR 2023-12-30 01:37:18,154 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=student).id, amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:37:18,156 "POST /finance/bill HTTP/1.1" 500 81392
+ERROR 2023-12-30 01:38:32,134 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=student).id, amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:38:32,138 "POST /finance/bill HTTP/1.1" 500 81392
+INFO 2023-12-30 01:39:30,778 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py changed, reloading.
+INFO 2023-12-30 01:39:32,412 Watching for file changes with StatReloader
+ERROR 2023-12-30 01:39:40,878 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=1).id, amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.finance.models.Invoice.DoesNotExist: Invoice matching query does not exist.
+ERROR 2023-12-30 01:39:40,886 "POST /finance/bill HTTP/1.1" 500 81362
+INFO 2023-12-30 01:39:58,778 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py changed, reloading.
+INFO 2023-12-30 01:40:00,441 Watching for file changes with StatReloader
+ERROR 2023-12-30 01:40:10,231 Internal Server Error: /finance/bill
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 55, in save_bill_details
+    Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=10).id, amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 675, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 283, in __set__
+    raise ValueError(
+ValueError: Cannot assign "9": "Receipt.invoice" must be a "Invoice" instance.
+ERROR 2023-12-30 01:40:10,237 "POST /finance/bill HTTP/1.1" 500 92114
+INFO 2023-12-30 01:40:23,771 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py changed, reloading.
+INFO 2023-12-30 01:40:25,302 Watching for file changes with StatReloader
+INFO 2023-12-30 01:40:32,654 "POST /finance/bill HTTP/1.1" 302 0
+WARNING 2023-12-30 01:40:32,765 Not Found: /finance/finance/bill.html
+WARNING 2023-12-30 01:40:32,766 "GET /finance/finance/bill.html HTTP/1.1" 404 8343
+INFO 2023-12-30 01:40:38,827 "GET /finance/bill HTTP/1.1" 200 11647
+INFO 2023-12-30 01:40:40,959 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:40:43,803 "GET / HTTP/1.1" 200 12444
+INFO 2023-12-30 01:41:12,307 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py changed, reloading.
+INFO 2023-12-30 01:41:13,947 Watching for file changes with StatReloader
+INFO 2023-12-30 01:41:38,392 "GET /finance/list/ HTTP/1.1" 200 9940
+WARNING 2023-12-30 01:41:45,485 Not Found: /finance/bill/
+WARNING 2023-12-30 01:41:45,487 "GET /finance/bill/ HTTP/1.1" 404 8307
+WARNING 2023-12-30 01:41:53,624 Not Found: /finance/bill/
+WARNING 2023-12-30 01:41:53,625 "GET /finance/bill/ HTTP/1.1" 404 8307
+WARNING 2023-12-30 01:42:22,979 Not Found: /finance/ bill/
+WARNING 2023-12-30 01:42:22,980 "GET /finance/%20bill/ HTTP/1.1" 404 8312
+INFO 2023-12-30 01:42:33,555 "GET /finance/list/ HTTP/1.1" 200 9940
+WARNING 2023-12-30 01:42:47,666 Not Found: /finance/bill/
+WARNING 2023-12-30 01:42:47,668 "GET /finance/bill/ HTTP/1.1" 404 8307
+INFO 2023-12-30 01:43:10,929 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\urls.py changed, reloading.
+INFO 2023-12-30 01:43:12,314 Watching for file changes with StatReloader
+ERROR 2023-12-30 01:43:16,268 Internal Server Error: /finance/bill/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py", line 60, in save_bill_details
+    return render(request, 'bill.html',context={'stu':Student.objects.all()})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: bill.html
+ERROR 2023-12-30 01:43:16,272 "GET /finance/bill/ HTTP/1.1" 500 87264
+INFO 2023-12-30 01:43:52,039 C:\Users\LOGI\Desktop\CSC\csc\apps\finance\views.py changed, reloading.
+INFO 2023-12-30 01:43:53,685 Watching for file changes with StatReloader
+INFO 2023-12-30 01:43:55,294 "GET /finance/bill/ HTTP/1.1" 200 11648
+INFO 2023-12-30 01:44:28,278 "POST /finance/bill/ HTTP/1.1" 302 0
+INFO 2023-12-30 01:44:28,380 "GET /finance/bill/ HTTP/1.1" 200 11648
+INFO 2023-12-30 01:44:31,209 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:44:33,567 "GET / HTTP/1.1" 200 12444
+INFO 2023-12-30 01:44:36,416 "GET /revenue/today HTTP/1.1" 200 10249
+INFO 2023-12-30 01:44:39,296 "GET /revenue/today HTTP/1.1" 200 10249
+INFO 2023-12-30 01:44:40,773 "GET /revenue/today HTTP/1.1" 200 10249
+INFO 2023-12-30 01:44:42,895 "GET /revenue/month HTTP/1.1" 200 11171
+INFO 2023-12-30 01:44:46,862 "GET /revenue/revenue HTTP/1.1" 200 10341
+INFO 2023-12-30 01:45:00,146 "GET /revenue/today HTTP/1.1" 200 10249
+INFO 2023-12-30 01:45:02,671 "GET /finance/list/ HTTP/1.1" 200 9940
+INFO 2023-12-30 01:45:04,604 "GET /finance/9/detail/ HTTP/1.1" 200 10750
+INFO 2023-12-30 01:45:18,896 "GET /finance/list/ HTTP/1.1" 200 9940
+INFO 2023-12-30 01:46:49,905 Watching for file changes with StatReloader
+INFO 2023-12-30 01:46:53,048 "GET / HTTP/1.1" 200 12444
+INFO 2023-12-30 01:47:00,005 "GET /finance/bill/ HTTP/1.1" 200 11648
+INFO 2023-12-30 01:47:18,995 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:47:20,999 "GET /student/select_enquiry/ HTTP/1.1" 200 10468
+INFO 2023-12-30 01:47:25,580 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-30 01:47:25,938 "GET /student/create/4/ HTTP/1.1" 200 18112
+INFO 2023-12-30 01:47:35,435 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:47:38,075 "GET /student/list HTTP/1.1" 200 9799
+INFO 2023-12-30 01:47:41,273 "GET /student/select_enquiry/ HTTP/1.1" 200 10468
+INFO 2023-12-30 01:47:43,659 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-30 01:47:43,756 "GET /student/create/4/ HTTP/1.1" 200 18112
+INFO 2023-12-30 01:48:03,725 "POST /student/create/4/ HTTP/1.1" 302 0
+INFO 2023-12-30 01:48:03,890 "GET /student/11/ HTTP/1.1" 200 12625
+INFO 2023-12-30 01:48:05,816 "GET /finance/bill/ HTTP/1.1" 200 11718
+INFO 2023-12-30 01:48:20,227 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:48:21,948 "GET /student/list HTTP/1.1" 200 10076
+INFO 2023-12-30 01:48:23,704 "GET /student/11/ HTTP/1.1" 200 12479
+INFO 2023-12-30 01:48:29,906 "GET /student/11/update/ HTTP/1.1" 200 18268
+INFO 2023-12-30 01:48:35,992 "POST /student/11/update/ HTTP/1.1" 302 0
+INFO 2023-12-30 01:48:36,111 "GET /student/11/ HTTP/1.1" 200 12622
+INFO 2023-12-30 01:48:37,259 "GET /finance/bill/ HTTP/1.1" 200 11718
+INFO 2023-12-30 01:48:52,211 "POST /finance/bill/ HTTP/1.1" 302 0
+INFO 2023-12-30 01:48:52,308 "GET /finance/bill/ HTTP/1.1" 200 11718
+INFO 2023-12-30 01:48:55,500 "GET /revenue/today HTTP/1.1" 200 10523
+INFO 2023-12-30 01:50:42,472 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:50:43,445 "GET /student/select_enquiry/ HTTP/1.1" 200 10613
+INFO 2023-12-30 01:50:59,763 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-30 01:50:59,966 "GET /student/create/3/ HTTP/1.1" 200 18121
+INFO 2023-12-30 01:51:03,964 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:51:05,452 "GET /enquiry/list HTTP/1.1" 200 10183
+INFO 2023-12-30 01:51:10,212 "GET /enquiry/3/ HTTP/1.1" 200 11662
+INFO 2023-12-30 01:51:14,448 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:51:15,710 "GET /student/list HTTP/1.1" 200 10076
+INFO 2023-12-30 01:51:17,799 "GET /student/10/ HTTP/1.1" 200 13416
+INFO 2023-12-30 01:51:19,112 "GET /student/delete/10/ HTTP/1.1" 200 9368
+INFO 2023-12-30 01:51:20,453 "POST /student/delete/10/ HTTP/1.1" 302 0
+INFO 2023-12-30 01:51:20,547 "GET /student/list HTTP/1.1" 200 9795
+INFO 2023-12-30 01:51:21,871 "GET /student/11/ HTTP/1.1" 200 12484
+INFO 2023-12-30 01:51:23,032 "GET /student/delete/11/ HTTP/1.1" 200 9364
+INFO 2023-12-30 01:51:24,143 "POST /student/delete/11/ HTTP/1.1" 302 0
+INFO 2023-12-30 01:51:24,229 "GET /student/list HTTP/1.1" 200 9518
+INFO 2023-12-30 01:51:25,080 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:51:26,581 "GET /enquiry/list HTTP/1.1" 200 10183
+INFO 2023-12-30 01:51:27,862 "GET /enquiry/3/ HTTP/1.1" 200 11662
+INFO 2023-12-30 01:51:29,057 "GET /enquiry/delete/3/ HTTP/1.1" 200 9360
+INFO 2023-12-30 01:51:30,143 "POST /enquiry/delete/3/ HTTP/1.1" 302 0
+INFO 2023-12-30 01:51:30,232 "GET /enquiry/list HTTP/1.1" 200 9897
+INFO 2023-12-30 01:51:31,438 "GET /enquiry/4/ HTTP/1.1" 200 11653
+INFO 2023-12-30 01:51:32,364 "GET /enquiry/delete/4/ HTTP/1.1" 200 9360
+INFO 2023-12-30 01:51:33,535 "POST /enquiry/delete/4/ HTTP/1.1" 302 0
+INFO 2023-12-30 01:51:33,617 "GET /enquiry/list HTTP/1.1" 200 9618
+INFO 2023-12-30 01:51:34,655 "GET /finance/bill/ HTTP/1.1" 200 11574
+INFO 2023-12-30 01:51:56,319 "GET /revenue/today HTTP/1.1" 200 10249
+INFO 2023-12-30 01:51:56,846 "GET /revenue/month HTTP/1.1" 200 10894
+INFO 2023-12-30 01:51:57,226 "GET /revenue/revenue HTTP/1.1" 200 9787
+INFO 2023-12-30 01:51:57,988 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:52:00,299 "GET /student/select_enquiry/ HTTP/1.1" 200 10551
+INFO 2023-12-30 01:52:03,644 "GET /enquiry/list HTTP/1.1" 200 9618
+INFO 2023-12-30 01:52:05,916 "GET /student/list HTTP/1.1" 200 9518
+INFO 2023-12-30 01:52:07,787 "GET /finance/bill/ HTTP/1.1" 200 11574
+INFO 2023-12-30 01:52:37,510 "GET /finance/bill/ HTTP/1.1" 200 11574
+INFO 2023-12-30 01:53:05,162 "GET /staff/list/ HTTP/1.1" 200 9532
+INFO 2023-12-30 01:53:05,968 "GET /student/ HTTP/1.1" 200 13477
+INFO 2023-12-30 01:53:07,368 "GET /enquiry/list HTTP/1.1" 200 9618

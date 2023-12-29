@@ -41,6 +41,23 @@ class InvoiceCreateView(LoginRequiredMixin, CreateView):
                 formset.save()
         return super().form_valid(form)
 
+def save_bill_details(request):
+    if request.method == 'POST':
+        student = request.POST.get('student')
+        bill_number = request.POST.get('bill_number')
+        bill_date = request.POST.get('bill_date')
+        amount = request.POST.get('amount')
+        re_by = request.POST.get('recived_by')
+        comment = request.POST.get('comment')
+
+
+        # Perform any necessary validation and save to the database
+        Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=student), amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+
+        # Redirect to a success page or wherever you'd like
+        return redirect('bill')
+
+    return render(request, 'finance/bill.html',context={'stu':Student.objects.all()})
 
 class InvoiceDetailView(LoginRequiredMixin, DetailView):
     model = Invoice

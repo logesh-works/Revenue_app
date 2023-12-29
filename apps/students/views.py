@@ -78,6 +78,9 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
         # Stage 2: Add Student Information
         enquiry_id = kwargs['enquiry_id']
         enquiry = Enquiry.objects.get(auto_increment=enquiry_id)
+       
+        
+        
 
         # Create a dynamic ModelForm for the Student model
         class StudentForm(forms.ModelForm):

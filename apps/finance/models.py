@@ -59,6 +59,7 @@ class Receipt(models.Model):
     amount_paid = models.IntegerField()
     date_paid = models.DateField(default=timezone.now)
     comment = models.CharField(max_length=200, blank=True)
+    received_by = models.CharField("Recived By",max_length=200, blank=True)
     def stats(self):
         return self.invoice.student.current_status
     def current_cls(self):

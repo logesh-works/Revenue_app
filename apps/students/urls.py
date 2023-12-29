@@ -18,7 +18,8 @@ from .views import (
     delete_exam_log,
     delete_certificate_log,
     CreateCertificateLog,
-    PublicView
+    PublicView,
+
 )
 
 urlpatterns = [

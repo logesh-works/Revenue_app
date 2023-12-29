@@ -9,9 +9,11 @@ from .views import (
     ReceiptCreateView,
     ReceiptUpdateView,
     bulk_invoice,
+    save_bill_details
 )
 
 urlpatterns = [
+    path("bill/",save_bill_details,name="bill"),
     path("list/", InvoiceListView.as_view(), name="invoice-list"),
     path("create/", InvoiceCreateView.as_view(), name="invoice-create"),
     path("<int:pk>/detail/", InvoiceDetailView.as_view(), name="invoice-detail"),
