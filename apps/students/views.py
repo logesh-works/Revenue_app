@@ -18,6 +18,7 @@ from django.views.generic.edit import (
     FormMixin,
     UpdateView,
 )
+from ..finance.models import Invoice,InvoiceItem
 from django.views.generic import DetailView
 
 from apps.finance.models import Invoice
@@ -141,6 +142,7 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
             # Stage 2: Add Student Information
             enquiry_id = kwargs['enquiry_id']
             enquiry = Enquiry.objects.get(auto_increment=enquiry_id)
+            self.usefrfollow =enquiry_id
 
             # Create a dynamic ModelForm for the Student model
             class StudentForm(forms.ModelForm):
@@ -153,11 +155,26 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
             if form.is_valid():
                 return self.form_valid(form)
             
+
+
             return render(request, self.template_name, {'form': form, 'enquiry_id': enquiry_id, 'enquiry': enquiry})
 
     def form_valid(self, form):
             # Additional logic after the form is valid
             response = super().form_valid(form)
+            total_fee = form.cleaned_data.get('total_fee', 0)
+            invoice = Invoice.objects.create(
+            student=self.object, 
+            status = "Active",)
+            invoice_create = InvoiceItem.objects.create(
+            invoice = invoice,
+            description = "Total Fee",
+            amount = total_fee
+            )
+            objectcha = Enquiry.objects.filter(auto_increment=self.usefrfollow)
+            for object1 in objectcha:
+                object1.enquiry_status = "Admitted"
+                object1.save()
             return response
     
 def Studentdashboard(request):

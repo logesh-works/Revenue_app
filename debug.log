@@ -22340,3 +22340,391 @@ INFO 2023-12-29 10:39:18,399 "GET /enquiry/list HTTP/1.1" 200 9614
 INFO 2023-12-29 10:39:19,908 "GET /enquiry/create/ HTTP/1.1" 200 21716
 INFO 2023-12-29 11:05:19,852 C:\Users\LOGI\Desktop\CSC\csc\csc_app\settings.py changed, reloading.
 INFO 2023-12-29 11:05:20,915 Watching for file changes with StatReloader
+INFO 2023-12-29 11:58:00,212 Watching for file changes with StatReloader
+INFO 2023-12-29 11:58:30,814 Watching for file changes with StatReloader
+INFO 2023-12-29 11:58:35,360 "GET /student/ HTTP/1.1" 302 0
+INFO 2023-12-29 11:58:35,382 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-29 11:58:38,547 "POST /accounts/login/ HTTP/1.1" 200 3944
+INFO 2023-12-29 11:58:45,014 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-12-29 11:58:45,048 "GET / HTTP/1.1" 200 12436
+INFO 2023-12-29 11:58:51,063 "GET /staff/list/ HTTP/1.1" 200 9527
+INFO 2023-12-29 11:58:51,745 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 11:59:15,415 "GET /enquiry/list HTTP/1.1" 200 9613
+INFO 2023-12-29 11:59:17,018 "GET /enquiry/create/ HTTP/1.1" 200 21715
+INFO 2023-12-29 12:00:18,789 "POST /enquiry/create/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:00:18,825 "GET /enquiry/1/ HTTP/1.1" 200 11806
+INFO 2023-12-29 12:00:20,884 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:00:21,991 "GET /student/select_enquiry/ HTTP/1.1" 200 9511
+INFO 2023-12-29 12:00:23,332 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:00:23,382 "GET /student/create/1/ HTTP/1.1" 200 18122
+INFO 2023-12-29 12:24:02,325 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-29 12:24:03,141 Watching for file changes with StatReloader
+INFO 2023-12-29 12:24:23,094 "GET /student/select_enquiry/ HTTP/1.1" 200 9511
+INFO 2023-12-29 12:24:24,675 "GET /finance/list/ HTTP/1.1" 200 9556
+INFO 2023-12-29 12:24:26,366 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:24:27,585 "GET /enquiry/list HTTP/1.1" 200 9900
+INFO 2023-12-29 12:24:30,254 "GET /student/list HTTP/1.1" 200 9513
+INFO 2023-12-29 12:24:32,214 "GET /student/select_enquiry/ HTTP/1.1" 200 9511
+INFO 2023-12-29 12:24:33,274 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:24:33,385 "GET /student/create/1/ HTTP/1.1" 200 18122
+ERROR 2023-12-29 12:24:49,914 Internal Server Error: /student/create/1/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 155, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 165, in form_valid
+    invoice = Invoice.objects.create(
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 675, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Invoice() got unexpected keyword arguments: 'description', 'amount'
+ERROR 2023-12-29 12:24:49,920 "POST /student/create/1/ HTTP/1.1" 500 110553
+INFO 2023-12-29 12:29:55,697 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-29 12:29:56,488 Watching for file changes with StatReloader
+INFO 2023-12-29 12:29:58,915 "GET /student/create/1/ HTTP/1.1" 200 18268
+INFO 2023-12-29 12:30:02,367 "GET /finance/list/ HTTP/1.1" 200 9556
+INFO 2023-12-29 12:30:03,740 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:30:04,738 "GET /student/list HTTP/1.1" 200 9789
+INFO 2023-12-29 12:30:06,397 "GET /student/1/ HTTP/1.1" 200 12063
+INFO 2023-12-29 12:30:07,617 "GET /student/delete/1/ HTTP/1.1" 200 9359
+INFO 2023-12-29 12:30:08,685 "POST /student/delete/1/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:30:08,716 "GET /student/list HTTP/1.1" 200 9513
+INFO 2023-12-29 12:30:09,448 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:30:10,574 "GET /student/select_enquiry/ HTTP/1.1" 200 9511
+INFO 2023-12-29 12:30:11,738 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:30:11,782 "GET /student/create/1/ HTTP/1.1" 200 18122
+INFO 2023-12-29 12:30:25,988 "POST /student/create/1/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:30:26,028 "GET /student/2/ HTTP/1.1" 200 12623
+INFO 2023-12-29 12:30:28,317 "GET /finance/list/ HTTP/1.1" 200 9924
+INFO 2023-12-29 12:30:29,839 "GET /finance/list/ HTTP/1.1" 200 9924
+INFO 2023-12-29 12:30:34,239 "GET /finance/1/detail/ HTTP/1.1" 200 10480
+INFO 2023-12-29 12:30:35,628 "GET /finance/1/update/ HTTP/1.1" 200 12363
+INFO 2023-12-29 12:30:42,647 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:30:48,023 "GET /student/select_enquiry/ HTTP/1.1" 200 9511
+INFO 2023-12-29 12:30:50,245 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:30:51,034 "GET /student/list HTTP/1.1" 200 9789
+INFO 2023-12-29 12:30:52,147 "GET /student/2/ HTTP/1.1" 200 12477
+INFO 2023-12-29 12:30:53,059 "GET /student/delete/2/ HTTP/1.1" 200 9359
+INFO 2023-12-29 12:30:54,012 "POST /student/delete/2/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:30:54,043 "GET /student/list HTTP/1.1" 200 9513
+INFO 2023-12-29 12:30:54,662 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:30:55,389 "GET /student/select_enquiry/ HTTP/1.1" 200 9511
+INFO 2023-12-29 12:30:56,314 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:30:56,361 "GET /student/create/1/ HTTP/1.1" 200 18122
+INFO 2023-12-29 12:31:15,011 "POST /student/create/1/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:31:15,049 "GET /student/3/ HTTP/1.1" 200 12634
+INFO 2023-12-29 12:31:16,754 "GET /finance/list/ HTTP/1.1" 200 9934
+INFO 2023-12-29 12:31:18,758 "GET /finance/receipt/create?invoice=2 HTTP/1.1" 200 10773
+INFO 2023-12-29 12:31:27,235 "GET /finance/2/detail/ HTTP/1.1" 200 10494
+INFO 2023-12-29 12:31:31,781 "GET /finance/receipt/create?invoice=2 HTTP/1.1" 200 10773
+INFO 2023-12-29 12:31:35,643 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:31:37,939 "GET /student/select_enquiry/ HTTP/1.1" 200 9511
+INFO 2023-12-29 12:31:41,859 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:31:42,656 "GET /enquiry/list HTTP/1.1" 200 9900
+INFO 2023-12-29 12:31:44,054 "GET /enquiry/1/ HTTP/1.1" 200 11660
+INFO 2023-12-29 12:31:45,049 "GET /enquiry/delete/1/ HTTP/1.1" 200 9355
+INFO 2023-12-29 12:31:46,017 "POST /enquiry/delete/1/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:31:46,048 "GET /enquiry/list HTTP/1.1" 200 9613
+INFO 2023-12-29 12:31:46,633 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:31:47,450 "GET /student/select_enquiry/ HTTP/1.1" 200 9454
+INFO 2023-12-29 12:31:48,915 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:31:49,735 "GET /student/list HTTP/1.1" 200 9513
+INFO 2023-12-29 12:31:52,242 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:31:54,317 "GET /finance/list/ HTTP/1.1" 200 9556
+INFO 2023-12-29 12:31:55,533 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:31:56,437 "GET /enquiry/list HTTP/1.1" 200 9613
+INFO 2023-12-29 12:31:58,389 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:31:59,057 "GET /student/select_enquiry/ HTTP/1.1" 200 9454
+INFO 2023-12-29 12:32:00,931 "GET /student/list HTTP/1.1" 200 9513
+INFO 2023-12-29 12:32:17,684 "GET /enquiry/list HTTP/1.1" 200 9613
+INFO 2023-12-29 12:32:39,817 "GET /enquiry/create/ HTTP/1.1" 200 21715
+INFO 2023-12-29 12:35:48,571 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-29 12:35:49,450 Watching for file changes with StatReloader
+INFO 2023-12-29 12:35:51,241 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:35:52,127 "GET /enquiry/list HTTP/1.1" 200 9613
+INFO 2023-12-29 12:35:54,171 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:35:55,050 "GET /enquiry/list HTTP/1.1" 200 9613
+INFO 2023-12-29 12:35:55,777 "GET /enquiry/create/ HTTP/1.1" 200 21715
+INFO 2023-12-29 12:36:29,416 "POST /enquiry/create/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:36:29,449 "GET /enquiry/2/ HTTP/1.1" 200 11810
+INFO 2023-12-29 12:36:31,121 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:36:31,931 "GET /student/select_enquiry/ HTTP/1.1" 200 9514
+INFO 2023-12-29 12:36:33,067 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:36:33,113 "GET /student/create/2/ HTTP/1.1" 200 18124
+ERROR 2023-12-29 12:36:48,849 Internal Server Error: /student/create/2/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\fields\__init__.py", line 2112, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Enquiry'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 156, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 174, in form_valid
+    objectcha = Enquiry.objects.get(auto_increment=self.usefrfollow)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 633, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\sql\query.py", line 1600, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\sql\query.py", line 1632, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\sql\query.py", line 1546, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\sql\query.py", line 1376, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\lookups.py", line 362, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\fields\__init__.py", line 2114, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'auto_increment' expected a number but got <Enquiry: EN24-0001>.
+ERROR 2023-12-29 12:36:48,856 "POST /student/create/2/ HTTP/1.1" 500 161593
+INFO 2023-12-29 12:37:27,355 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-29 12:37:28,093 Watching for file changes with StatReloader
+ERROR 2023-12-29 12:37:30,344 Internal Server Error: /student/create/2/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 160, in post
+    return render(request, self.template_name, {'form': form, 'enquiry_id': enquiry_id, 'enquiry': enquiry})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loaders\base.py", line 17, in get_template
+    for origin in self.get_template_sources(template_name):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loaders\cached.py", line 70, in get_template_sources
+    yield from loader.get_template_sources(template_name)
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\template\loaders\filesystem.py", line 35, in get_template_sources
+    name = safe_join(template_dir, template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\utils\_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+                         ^^^^^^^^^^^^^^^^^^
+  File "<frozen ntpath>", line 147, in join
+  File "<frozen genericpath>", line 152, in _check_arg_types
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'NoneType'
+ERROR 2023-12-29 12:37:30,347 "POST /student/create/2/ HTTP/1.1" 500 146419
+INFO 2023-12-29 12:39:00,082 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-29 12:39:01,045 Watching for file changes with StatReloader
+INFO 2023-12-29 12:39:02,081 "GET /student/create/2/ HTTP/1.1" 200 18270
+INFO 2023-12-29 12:39:04,340 "POST /student/create/2/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:39:04,392 "GET /student/5/ HTTP/1.1" 200 12634
+INFO 2023-12-29 12:39:06,178 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:39:07,445 "GET /student/select_enquiry/ HTTP/1.1" 200 9514
+INFO 2023-12-29 12:39:09,097 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:39:10,046 "GET /enquiry/list HTTP/1.1" 200 9899
+INFO 2023-12-29 12:39:13,145 "GET /staff/list/ HTTP/1.1" 200 9527
+INFO 2023-12-29 12:39:13,651 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:39:14,298 "GET /student/list HTTP/1.1" 200 10071
+INFO 2023-12-29 12:39:17,170 "GET /student/4/ HTTP/1.1" 200 12488
+INFO 2023-12-29 12:39:21,410 "GET /student/5/ HTTP/1.1" 200 12488
+INFO 2023-12-29 12:39:26,782 "GET /student/4/ HTTP/1.1" 200 12488
+INFO 2023-12-29 12:39:27,965 "GET /student/delete/4/ HTTP/1.1" 200 9362
+INFO 2023-12-29 12:39:28,913 "POST /student/delete/4/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:39:28,969 "GET /student/list HTTP/1.1" 200 9792
+INFO 2023-12-29 12:39:29,739 "GET /student/5/ HTTP/1.1" 200 12488
+INFO 2023-12-29 12:39:30,517 "GET /student/delete/5/ HTTP/1.1" 200 9362
+INFO 2023-12-29 12:39:31,264 "POST /student/delete/5/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:39:31,293 "GET /student/list HTTP/1.1" 200 9513
+INFO 2023-12-29 12:39:32,110 "GET /staff/list/ HTTP/1.1" 200 9527
+INFO 2023-12-29 12:39:49,501 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:39:51,073 "GET /student/select_enquiry/ HTTP/1.1" 200 9514
+INFO 2023-12-29 12:39:52,746 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:39:52,794 "GET /student/create/2/ HTTP/1.1" 200 18124
+INFO 2023-12-29 12:40:06,016 "POST /student/create/2/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:40:06,052 "GET /student/6/ HTTP/1.1" 200 12634
+INFO 2023-12-29 12:40:08,039 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:40:09,061 "GET /enquiry/list HTTP/1.1" 200 9899
+INFO 2023-12-29 12:40:12,174 "GET / HTTP/1.1" 200 12442
+INFO 2023-12-29 12:42:40,036 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-29 12:42:40,906 Watching for file changes with StatReloader
+INFO 2023-12-29 12:42:46,752 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:42:47,637 "GET /enquiry/list HTTP/1.1" 200 9899
+INFO 2023-12-29 12:42:49,431 "GET /student/select_enquiry/ HTTP/1.1" 200 9514
+INFO 2023-12-29 12:42:50,949 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:42:51,006 "GET /student/create/2/ HTTP/1.1" 200 18124
+ERROR 2023-12-29 12:43:06,737 Internal Server Error: /student/create/2/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 156, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 175, in form_valid
+    objectcha = Enquiry.objects.get(enquiry_no=self.usefrfollow)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\db\models\query.py", line 647, in get
+    raise self.model.DoesNotExist(
+apps.enquiry.models.Enquiry.DoesNotExist: Enquiry matching query does not exist.
+ERROR 2023-12-29 12:43:06,742 "POST /student/create/2/ HTTP/1.1" 500 104113
+INFO 2023-12-29 12:43:33,188 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-29 12:43:33,943 Watching for file changes with StatReloader
+INFO 2023-12-29 12:43:34,601 "GET /student/create/2/ HTTP/1.1" 200 18270
+INFO 2023-12-29 12:43:38,361 "POST /student/create/2/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:43:38,406 "GET /student/8/ HTTP/1.1" 200 12627
+INFO 2023-12-29 12:43:39,871 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:43:41,316 "GET /student/select_enquiry/ HTTP/1.1" 200 9514
+INFO 2023-12-29 12:43:43,298 "GET /enquiry/list HTTP/1.1" 200 9899
+INFO 2023-12-29 12:43:49,300 "GET /enquiry/2/ HTTP/1.1" 200 11664
+INFO 2023-12-29 12:46:30,409 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-29 12:46:31,195 Watching for file changes with StatReloader
+INFO 2023-12-29 12:46:32,577 "GET /enquiry/delete/2/ HTTP/1.1" 200 9355
+INFO 2023-12-29 12:46:33,466 "POST /enquiry/delete/2/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:46:33,497 "GET /enquiry/list HTTP/1.1" 200 9613
+INFO 2023-12-29 12:46:35,714 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:46:36,611 "GET /student/select_enquiry/ HTTP/1.1" 200 9454
+INFO 2023-12-29 12:46:37,703 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:46:38,808 "GET /enquiry/list HTTP/1.1" 200 9613
+INFO 2023-12-29 12:46:39,412 "GET /enquiry/create/ HTTP/1.1" 200 21715
+INFO 2023-12-29 12:47:26,620 "POST /enquiry/create/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:47:26,653 "GET /enquiry/3/ HTTP/1.1" 200 11803
+INFO 2023-12-29 12:47:28,606 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:47:29,587 "GET /student/select_enquiry/ HTTP/1.1" 200 9515
+INFO 2023-12-29 12:47:30,486 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:47:30,540 "GET /student/create/3/ HTTP/1.1" 200 18116
+INFO 2023-12-29 12:47:42,970 "POST /student/create/3/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:47:43,012 "GET /student/9/ HTTP/1.1" 200 12641
+INFO 2023-12-29 12:47:44,518 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:47:46,786 "GET /enquiry/list HTTP/1.1" 200 9899
+INFO 2023-12-29 12:48:56,141 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-29 12:48:56,904 Watching for file changes with StatReloader
+INFO 2023-12-29 12:49:00,869 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:49:01,662 "GET /student/select_enquiry/ HTTP/1.1" 200 9515
+INFO 2023-12-29 12:49:03,758 "GET /student/list HTTP/1.1" 200 9793
+INFO 2023-12-29 12:49:04,493 "GET /student/9/ HTTP/1.1" 200 12495
+INFO 2023-12-29 12:49:05,635 "GET /student/delete/9/ HTTP/1.1" 200 9363
+INFO 2023-12-29 12:49:06,819 "POST /student/delete/9/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:49:06,853 "GET /student/list HTTP/1.1" 200 9513
+INFO 2023-12-29 12:49:08,630 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:49:10,230 "GET /student/select_enquiry/ HTTP/1.1" 200 9515
+INFO 2023-12-29 12:49:11,120 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:49:11,175 "GET /student/create/3/ HTTP/1.1" 200 18116
+INFO 2023-12-29 12:49:27,408 "POST /student/create/3/ HTTP/1.1" 302 0
+INFO 2023-12-29 12:49:27,445 "GET /student/10/ HTTP/1.1" 200 12646
+INFO 2023-12-29 12:49:28,310 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 12:49:29,148 "GET /enquiry/list HTTP/1.1" 200 9899
+INFO 2023-12-29 13:45:26,087 "GET /enquiry/list HTTP/1.1" 200 9899
+INFO 2023-12-29 13:45:27,316 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 13:45:29,066 "GET /enquiry/list HTTP/1.1" 200 9899
+INFO 2023-12-29 13:45:32,915 "GET /enquiry/3/ HTTP/1.1" 200 11657
+INFO 2023-12-29 13:45:36,293 "GET /staff/list/ HTTP/1.1" 200 9527
+INFO 2023-12-29 13:45:37,491 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 13:45:38,397 "GET /student/list HTTP/1.1" 200 9794
+INFO 2023-12-29 13:45:40,100 "GET /student/10/ HTTP/1.1" 200 12500
+INFO 2023-12-29 13:45:45,735 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 13:45:47,117 "GET /student/list HTTP/1.1" 200 9794
+INFO 2023-12-29 13:45:53,813 "GET /student/ HTTP/1.1" 200 13472
+INFO 2023-12-29 13:45:54,801 "GET /enquiry/list HTTP/1.1" 200 9899
+INFO 2023-12-29 13:45:55,935 "GET /enquiry/3/ HTTP/1.1" 200 11657
+INFO 2023-12-29 13:47:57,088 C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py changed, reloading.
+INFO 2023-12-29 13:48:00,008 Watching for file changes with StatReloader
