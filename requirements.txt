@@ -1,4 +1,5 @@
-﻿appdirs 
+﻿pymysql
+appdirs 
 asgiref 
 black 
 click 
