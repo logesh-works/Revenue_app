@@ -68,6 +68,13 @@
 
 <h4>Class Details</h4>
 {% if classlog %}
+{% for class in classlog %}
+    {% if forloop.last %}
+        <p>Last update: {{ class.last_updated }}</p>
+      {% endif %}
+        <!-- Access other fields of the last payment as needed -->{% endfor %}
+{% endif %}
+{% if classlog %}
   <table class="table table-sm table-bordered table-hover">
     <thead class="thead-light">
       <tr>
@@ -100,6 +107,13 @@
     {% comment %} ---------------------------------------------------------------------------- {% endcomment %}
 
     <h4>Exam Details</h4><h6></h6>
+    {% if examlog %}
+    {% for exam in examlog %}
+        {% if forloop.last %}
+            <p>Last update: {{ exam.last_updated }}</p>
+          {% endif %}
+            <!-- Access other fields of the last payment as needed -->{% endfor %}
+    {% endif %}
     {% if examlog %}
     
       <table class="table table-sm table-bordered table-hover">
@@ -137,6 +151,13 @@
     {% comment %} ---------------------------------------------------------------------------- {% endcomment %}
 
     <h4>Certificate Details</h4>
+    {% if certilog %}
+    {% for cert in certilog %}
+        {% if forloop.last %}
+            <p>Last update: {{ cert.last_updated }}</p>
+          {% endif %}
+            <!-- Access other fields of the last payment as needed -->{% endfor %}
+    {% endif %}
     {% if certilog %}
       <table class="table table-sm table-bordered table-hover">
         <thead class="thead-light">

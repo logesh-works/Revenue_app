@@ -106,6 +106,8 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
                 form.initial['enrol_no'] = self.automatic_ro()
                 form.initial['date_of_birth'] = enquiry_instance.date_of_birth
                 form.initial['address'] = enquiry_instance.address
+                form.initial['address1'] = enquiry_instance.address1
+                form.initial['address2'] = enquiry_instance.address2
                 form.initial['rel_name'] = enquiry_instance.f_name
                 form.initial['date_of_birth'] = enquiry_instance.date_of_birth
                 form.initial['age'] = enquiry_instance.age

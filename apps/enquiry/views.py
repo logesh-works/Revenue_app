@@ -47,7 +47,6 @@ class EnquiryCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
         form.fields["expected_date"].widget = widgets.DateInput(attrs={"type": "date"})
         
         # Customize widget for the address field
-        form.fields["address"].widget = widgets.Textarea(attrs={"rows": 1,"cols":25})
         form.fields["qualification"].widget = widgets.Textarea(attrs={"rows": 1,"cols":25})
         form.fields["studying_course"].widget = widgets.Textarea(attrs={"rows": 1,"cols":25})
         form.fields["counsellor_remark"].widget = widgets.Textarea(attrs={"rows": 1,"cols":25})

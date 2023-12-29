@@ -22125,3 +22125,218 @@ INFO 2023-12-29 02:09:27,518 "GET /student/ HTTP/1.1" 200 13484
 INFO 2023-12-29 02:09:30,045 "GET /student/ HTTP/1.1" 200 13484
 INFO 2023-12-29 02:09:31,222 "GET /enquiry/list HTTP/1.1" 200 9625
 INFO 2023-12-29 02:09:34,400 "GET /student/list HTTP/1.1" 200 9529
+INFO 2023-12-29 09:16:44,414 Watching for file changes with StatReloader
+INFO 2023-12-29 09:16:55,601 "GET / HTTP/1.1" 302 0
+INFO 2023-12-29 09:16:55,836 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-29 09:16:55,920 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,922 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,924 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,930 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,931 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,931 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,933 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,952 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,952 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,952 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,953 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,953 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:55,965 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:56,065 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-12-29 09:16:56,147 "GET /favicon.ico HTTP/1.1" 302 0
+INFO 2023-12-29 09:16:56,163 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-29 09:17:00,843 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-12-29 09:17:00,889 "GET / HTTP/1.1" 200 12448
+INFO 2023-12-29 09:17:01,021 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2023-12-29 09:17:01,031 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2023-12-29 09:17:01,218 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+WARNING 2023-12-29 09:17:01,500 Not Found: /favicon.ico
+WARNING 2023-12-29 09:17:01,501 "GET /favicon.ico HTTP/1.1" 404 6682
+INFO 2023-12-29 09:17:03,607 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:17:05,321 "GET /student/list HTTP/1.1" 200 9529
+INFO 2023-12-29 09:17:08,570 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:17:11,646 "GET /enquiry/list HTTP/1.1" 200 9625
+INFO 2023-12-29 09:17:16,935 "GET /student/select_enquiry/ HTTP/1.1" 200 9466
+INFO 2023-12-29 09:17:21,062 "GET /student/list HTTP/1.1" 200 9529
+INFO 2023-12-29 09:17:36,606 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:17:38,175 "GET /enquiry/list HTTP/1.1" 200 9625
+INFO 2023-12-29 09:17:40,335 "GET /enquiry/create/ HTTP/1.1" 200 20972
+INFO 2023-12-29 09:17:43,271 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:17:49,358 "GET /student/list HTTP/1.1" 200 9529
+INFO 2023-12-29 09:17:55,468 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:17:56,783 "GET /enquiry/list HTTP/1.1" 200 9625
+INFO 2023-12-29 09:26:44,886 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:26:46,779 "GET /enquiry/list HTTP/1.1" 200 9625
+INFO 2023-12-29 09:26:50,937 "GET /enquiry/create/ HTTP/1.1" 200 20972
+INFO 2023-12-29 09:30:26,356 "POST /enquiry/create/ HTTP/1.1" 200 21547
+INFO 2023-12-29 09:30:41,634 "POST /enquiry/create/ HTTP/1.1" 302 0
+INFO 2023-12-29 09:30:41,729 "GET /enquiry/2/ HTTP/1.1" 200 11813
+INFO 2023-12-29 09:30:41,815 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2023-12-29 09:30:53,236 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:30:55,546 "GET /student/select_enquiry/ HTTP/1.1" 200 9466
+ERROR 2023-12-29 09:31:47,463 Internal Server Error: /student/select_enquiry/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\csc\apps\students\views.py", line 43, in select_enquiry
+    return redirect('student-create', enquiry_id=selected_enquiry_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\shortcuts.py", line 179, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\CSC\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' with keyword arguments '{'enquiry_id': None}' not found. 1 pattern(s) tried: ['student/create/(?P<enquiry_id>[0-9]+)/\\Z']
+ERROR 2023-12-29 09:31:47,467 "POST /student/select_enquiry/ HTTP/1.1" 500 93167
+INFO 2023-12-29 09:31:55,828 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:31:57,282 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:31:59,452 "GET /student/list HTTP/1.1" 200 9529
+INFO 2023-12-29 09:32:02,417 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:32:04,271 "GET /enquiry/list HTTP/1.1" 200 9917
+INFO 2023-12-29 09:32:12,722 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:32:14,680 "GET /student/select_enquiry/ HTTP/1.1" 200 9466
+INFO 2023-12-29 09:35:49,538 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:35:51,146 "GET /enquiry/list HTTP/1.1" 200 9917
+INFO 2023-12-29 09:35:53,114 "GET /enquiry/2/ HTTP/1.1" 200 11667
+INFO 2023-12-29 09:36:01,871 "GET /student/select_enquiry/ HTTP/1.1" 200 9466
+INFO 2023-12-29 09:36:05,407 "GET /student/select_enquiry/ HTTP/1.1" 200 9466
+INFO 2023-12-29 09:36:08,750 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:36:10,448 "GET /enquiry/list HTTP/1.1" 200 9917
+INFO 2023-12-29 09:36:13,005 "GET /enquiry/2/ HTTP/1.1" 200 11667
+INFO 2023-12-29 09:36:15,843 "GET /enquiry/2/update/ HTTP/1.1" 200 21218
+INFO 2023-12-29 09:36:32,610 "POST /enquiry/2/update/ HTTP/1.1" 302 0
+INFO 2023-12-29 09:36:32,705 "GET /enquiry/2/ HTTP/1.1" 200 11810
+INFO 2023-12-29 09:36:35,914 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:36:37,343 "GET /student/select_enquiry/ HTTP/1.1" 200 9466
+INFO 2023-12-29 09:36:39,888 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:37:10,276 "GET /enquiry/list HTTP/1.1" 200 9917
+INFO 2023-12-29 09:37:14,807 "GET /enquiry/2/ HTTP/1.1" 200 11667
+INFO 2023-12-29 09:37:19,994 "GET /enquiry/2/update/ HTTP/1.1" 200 21218
+INFO 2023-12-29 09:37:27,602 "POST /enquiry/2/update/ HTTP/1.1" 302 0
+INFO 2023-12-29 09:37:27,715 "GET /enquiry/2/ HTTP/1.1" 200 11811
+INFO 2023-12-29 09:37:30,265 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:37:31,723 "GET /enquiry/list HTTP/1.1" 200 9918
+INFO 2023-12-29 09:37:38,523 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:37:40,499 "GET /student/select_enquiry/ HTTP/1.1" 200 9524
+INFO 2023-12-29 09:37:44,707 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 09:37:44,860 "GET /student/create/2/ HTTP/1.1" 200 17668
+INFO 2023-12-29 09:38:04,324 "POST /student/create/2/ HTTP/1.1" 302 0
+INFO 2023-12-29 09:38:04,456 "GET /student/2/ HTTP/1.1" 200 11955
+INFO 2023-12-29 09:38:15,398 "GET /public/student/2/ HTTP/1.1" 200 1470
+INFO 2023-12-29 09:38:21,268 "GET /student/2/ HTTP/1.1" 200 11809
+INFO 2023-12-29 09:38:24,355 "GET /public/student/2/ HTTP/1.1" 200 1470
+INFO 2023-12-29 09:38:34,531 "GET /student/2/booklog/ HTTP/1.1" 200 10606
+INFO 2023-12-29 09:38:42,801 "POST /student/2/booklog/ HTTP/1.1" 302 0
+INFO 2023-12-29 09:38:42,916 "GET /student/2/ HTTP/1.1" 200 12395
+INFO 2023-12-29 09:38:44,931 "GET /student/2/classlog/ HTTP/1.1" 200 10955
+INFO 2023-12-29 09:38:56,962 "POST /student/2/classlog/ HTTP/1.1" 302 0
+INFO 2023-12-29 09:38:57,075 "GET /student/2/ HTTP/1.1" 200 13016
+INFO 2023-12-29 09:38:58,622 "GET /student/2/examlog/ HTTP/1.1" 200 11418
+INFO 2023-12-29 09:39:10,629 "POST /student/2/examlog/ HTTP/1.1" 302 0
+INFO 2023-12-29 09:39:10,733 "GET /student/2/ HTTP/1.1" 200 13826
+INFO 2023-12-29 09:39:15,717 "GET /public/student/2/ HTTP/1.1" 200 3627
+INFO 2023-12-29 09:39:19,535 "GET /public/student/2/ HTTP/1.1" 200 3627
+INFO 2023-12-29 09:42:58,012 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 09:53:28,182 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 10:00:10,616 "GET /student/list HTTP/1.1" 200 9925
+INFO 2023-12-29 10:00:12,748 "GET /public/student/2/ HTTP/1.1" 200 3627
+INFO 2023-12-29 10:01:01,525 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 10:05:25,524 "GET /student/list HTTP/1.1" 200 9925
+INFO 2023-12-29 10:05:27,215 "GET /student/2/ HTTP/1.1" 200 13826
+INFO 2023-12-29 10:05:28,828 "GET /public/student/2/ HTTP/1.1" 200 3627
+INFO 2023-12-29 10:14:42,504 Watching for file changes with StatReloader
+INFO 2023-12-29 10:14:47,373 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 10:14:48,453 "GET /enquiry/list HTTP/1.1" 200 9918
+INFO 2023-12-29 10:14:49,743 "GET /enquiry/create/ HTTP/1.1" 200 21727
+INFO 2023-12-29 10:15:07,697 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 10:15:09,542 "GET /student/select_enquiry/ HTTP/1.1" 200 9524
+INFO 2023-12-29 10:15:11,816 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-29 10:15:11,883 "GET /student/create/2/ HTTP/1.1" 200 18200
+INFO 2023-12-29 10:15:23,023 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 10:15:24,490 "GET /student/list HTTP/1.1" 200 9925
+INFO 2023-12-29 10:15:26,317 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 10:15:28,885 "GET /student/list HTTP/1.1" 200 9925
+INFO 2023-12-29 10:15:29,926 "GET /student/2/ HTTP/1.1" 200 13826
+INFO 2023-12-29 10:15:33,778 "GET /student/ HTTP/1.1" 200 13484
+INFO 2023-12-29 10:17:20,175 "GET /staff/list/ HTTP/1.1" 200 9539
+INFO 2023-12-29 10:18:29,456 "GET /staff/list/ HTTP/1.1" 200 9528
+INFO 2023-12-29 10:18:30,714 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:18:31,984 "GET /staff/list/ HTTP/1.1" 200 9528
+INFO 2023-12-29 10:18:32,824 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:18:33,493 "GET /staff/list/ HTTP/1.1" 200 9528
+INFO 2023-12-29 10:18:34,125 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:18:35,559 "GET /staff/list/ HTTP/1.1" 200 9528
+INFO 2023-12-29 10:18:41,509 "GET /finance/list/ HTTP/1.1" 200 9557
+INFO 2023-12-29 10:18:43,074 "GET /revenue/today HTTP/1.1" 200 10245
+INFO 2023-12-29 10:18:43,660 "GET /revenue/month HTTP/1.1" 200 10890
+INFO 2023-12-29 10:18:44,276 "GET /revenue/revenue HTTP/1.1" 200 9783
+INFO 2023-12-29 10:18:45,001 "GET /revenue/month HTTP/1.1" 200 10890
+INFO 2023-12-29 10:18:56,726 "GET /revenue/month HTTP/1.1" 200 10890
+INFO 2023-12-29 10:18:58,386 "GET /revenue/revenue HTTP/1.1" 200 9783
+INFO 2023-12-29 10:18:59,341 "GET /revenue/month HTTP/1.1" 200 10890
+INFO 2023-12-29 10:19:00,273 "GET /revenue/today HTTP/1.1" 200 10245
+INFO 2023-12-29 10:19:04,304 "GET /finance/list/ HTTP/1.1" 200 9557
+INFO 2023-12-29 10:19:06,769 "GET /staff/list/ HTTP/1.1" 200 9528
+INFO 2023-12-29 10:19:07,422 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:19:09,159 "GET /enquiry/list HTTP/1.1" 200 9907
+INFO 2023-12-29 10:19:12,527 "GET /student/select_enquiry/ HTTP/1.1" 200 9513
+INFO 2023-12-29 10:19:15,715 "GET /enquiry/list HTTP/1.1" 200 9907
+INFO 2023-12-29 10:19:17,259 "GET /enquiry/create/ HTTP/1.1" 200 21716
+INFO 2023-12-29 10:20:23,442 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:20:24,654 "GET /student/list HTTP/1.1" 200 9914
+INFO 2023-12-29 10:20:27,678 "GET /student/list HTTP/1.1" 200 9914
+INFO 2023-12-29 10:20:31,988 "GET /student/list HTTP/1.1" 200 9914
+INFO 2023-12-29 10:23:01,706 "GET /student/list HTTP/1.1" 200 9914
+INFO 2023-12-29 10:23:04,638 "GET /student/list HTTP/1.1" 200 9914
+INFO 2023-12-29 10:23:05,361 "GET /student/list HTTP/1.1" 200 9914
+INFO 2023-12-29 10:23:21,689 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:23:23,786 "GET /student/list HTTP/1.1" 200 9914
+INFO 2023-12-29 10:23:27,512 "GET /enquiry/list HTTP/1.1" 200 9907
+INFO 2023-12-29 10:24:47,776 Watching for file changes with StatReloader
+INFO 2023-12-29 10:24:51,615 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:24:53,441 "GET /student/list HTTP/1.1" 200 9914
+INFO 2023-12-29 10:24:55,637 "GET /student/2/ HTTP/1.1" 200 13815
+INFO 2023-12-29 10:25:03,530 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:25:04,427 "GET /enquiry/list HTTP/1.1" 200 9907
+INFO 2023-12-29 10:25:29,368 "GET /enquiry/2/ HTTP/1.1" 200 11657
+INFO 2023-12-29 10:25:31,170 "GET /enquiry/2/histroy HTTP/1.1" 200 10497
+INFO 2023-12-29 10:28:02,320 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:28:03,143 "GET /student/list HTTP/1.1" 200 9791
+INFO 2023-12-29 10:28:19,792 "GET /student/2/ HTTP/1.1" 200 13815
+INFO 2023-12-29 10:28:23,408 "GET /student/2/ HTTP/1.1" 200 13815
+INFO 2023-12-29 10:28:37,289 "GET /student/2/ HTTP/1.1" 200 13815
+INFO 2023-12-29 10:28:39,284 "GET /student/2/update/ HTTP/1.1" 200 18318
+INFO 2023-12-29 10:28:51,994 "POST /student/2/update/ HTTP/1.1" 302 0
+INFO 2023-12-29 10:28:52,035 "GET /student/2/ HTTP/1.1" 200 13958
+INFO 2023-12-29 10:28:54,119 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:28:54,940 "GET /student/list HTTP/1.1" 200 9791
+INFO 2023-12-29 10:29:32,921 "GET /student/2/ HTTP/1.1" 200 13815
+INFO 2023-12-29 10:30:23,153 "GET /student/2/ HTTP/1.1" 200 14115
+INFO 2023-12-29 10:30:41,350 "GET /student/2/ HTTP/1.1" 200 14157
+INFO 2023-12-29 10:30:59,223 "GET /student/2/ HTTP/1.1" 200 14165
+INFO 2023-12-29 10:31:25,327 "GET /student/delete/2/ HTTP/1.1" 200 9361
+INFO 2023-12-29 10:31:26,887 "POST /student/delete/2/ HTTP/1.1" 302 0
+INFO 2023-12-29 10:31:26,919 "GET /student/list HTTP/1.1" 200 9514
+INFO 2023-12-29 10:31:28,088 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:31:28,919 "GET /enquiry/list HTTP/1.1" 200 9907
+INFO 2023-12-29 10:31:30,127 "GET /enquiry/2/ HTTP/1.1" 200 11657
+INFO 2023-12-29 10:31:31,332 "GET /enquiry/delete/2/ HTTP/1.1" 200 9356
+INFO 2023-12-29 10:31:32,716 "POST /enquiry/delete/2/ HTTP/1.1" 302 0
+INFO 2023-12-29 10:31:32,746 "GET /enquiry/list HTTP/1.1" 200 9614
+INFO 2023-12-29 10:31:34,702 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:31:35,822 "GET /student/select_enquiry/ HTTP/1.1" 200 9455
+INFO 2023-12-29 10:31:38,529 "GET /student/list HTTP/1.1" 200 9514
+INFO 2023-12-29 10:39:17,269 "GET /student/ HTTP/1.1" 200 13473
+INFO 2023-12-29 10:39:18,399 "GET /enquiry/list HTTP/1.1" 200 9614
+INFO 2023-12-29 10:39:19,908 "GET /enquiry/create/ HTTP/1.1" 200 21716
+INFO 2023-12-29 11:05:19,852 C:\Users\LOGI\Desktop\CSC\csc\csc_app\settings.py changed, reloading.
+INFO 2023-12-29 11:05:20,915 Watching for file changes with StatReloader
