@@ -13,7 +13,7 @@ class BatchModel(models.Model):
     batch_id = models.CharField("Batch Id",max_length=255,blank=True)
     batch_course = models.ForeignKey(Subject,verbose_name="Batch subject",on_delete=models.PROTECT)
     batch_staff = models.ForeignKey(Staff,on_delete=models.PROTECT)
-    batch_students = models.ManyToManyField(Student,null=True,blank=True)
+    batch_students = models.ManyToManyField(Student,blank=True)
     batch_start_date = models.DateField("Batch Start Date",default=timezone.now)
     batch_end_date = models.DateField("Batch End Date",default=None , blank=True , null=True)
     batch_timing = models.ForeignKey(Time,verbose_name="Class Timing",on_delete=models.DO_NOTHING,blank=True)
