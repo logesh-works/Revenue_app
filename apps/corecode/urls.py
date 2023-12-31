@@ -21,6 +21,14 @@ from .views import (
     TermDeleteView,
     TermListView,
     TermUpdateView,
+    BookCreateView,
+    BookDeleteView,
+    BookListView,
+    BookUpdateView,
+    ExamCreateView,
+    ExamDeleteView,
+    ExamListView,
+    ExamUpdateView
 )
 
 urlpatterns = [
@@ -60,5 +68,29 @@ urlpatterns = [
         "subject/<int:pk>/delete/",
         SubjectDeleteView.as_view(),
         name="subject-delete",
+    ),
+    path("book/list/", BookListView.as_view(), name="book"),
+    path("book/create/", BookCreateView.as_view(), name="book-create"),
+    path(
+        "book/<int:pk>/update/",
+        BookUpdateView.as_view(),
+        name="book-update",
+    ),
+    path(
+        "book/<int:pk>/delete/",
+        BookDeleteView.as_view(),
+        name="bookdelete",
+    ),
+    path("exam/list/", ExamListView.as_view(), name="exam"),
+    path("exam/create/", ExamCreateView.as_view(), name="exam-create"),
+    path(
+        "exam/<int:pk>/update/",
+        ExamUpdateView.as_view(),
+        name="exam-update",
+    ),
+    path(
+        "exam/<int:pk>/delete/",
+        ExamDeleteView.as_view(),
+        name="examdelete",
     ),
 ]

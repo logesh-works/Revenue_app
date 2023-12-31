@@ -43,6 +43,30 @@ class Subject(models.Model):
     """Subject"""
 
     name = models.CharField(max_length=200, unique=True)
+    duration = models.CharField(max_length=200,blank=True)
+
+    class Meta:
+        ordering = ["name"]
+
+    def __str__(self):
+        return self.name
+class Book(models.Model):
+    """Book"""
+
+    name = models.CharField(max_length=200, unique=True,blank=True)
+
+    class Meta:
+        ordering = ["name"]
+
+    def __str__(self):
+        return self.name
+class Exam(models.Model):
+    """Exam"""
+
+    name = models.CharField(max_length=200, unique=True,blank=True)
+    exam_mode = models.CharField(max_length=255,choices=[("Online","online"),("Offline","Offline")],default="Offline")
+    exam_duration = models.CharField(max_length=200,blank=True)
+
 
     class Meta:
         ordering = ["name"]

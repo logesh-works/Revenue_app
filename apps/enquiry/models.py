@@ -3,6 +3,7 @@ from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 from datetime import date
+from apps.staffs.models import Staff
 
 
 class Enquiry(models.Model):
@@ -62,6 +63,7 @@ class Enquiry(models.Model):
     
     # Office Use
     enquiry_date = models.DateField(default=timezone.now)
+    counsellor = models.ForeignKey(Staff,on_delete=models.DO_NOTHING,default=None)
     counsellor_remark = models.TextField("Counsellor Remark", default="",null=True)
     enquiry_status = models.CharField(
         "Enquiry Status", choices=ENQUIRY_STATUS_CHOICES, max_length=1024, default="Following"
@@ -147,8 +149,8 @@ class Enquiry(models.Model):
 
 class Enquirylogs(models.Model):
     contact_choice = [("Phone","Phone"),("Whatsapp","Whatsapp"),("Email","Email")]
-    student = models.ForeignKey(Enquiry,on_delete=models.CASCADE)
-    staff_contact = models.CharField("Contacted Staff",max_length=255,default="Shanthi")
+    student = models.ForeignKey(Enquiry,on_delete=models.PROTECT)
+    staff_contact = models.ForeignKey(Staff,on_delete=models.DO_NOTHING)
     exp_date = models.DateField("Expected date",default=timezone.now)
     contact_by = models.CharField("Contact By",max_length=255,choices=contact_choice,default="Phone")
     log_date = models.DateField("Enquired Date",auto_now=True)

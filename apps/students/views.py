@@ -153,9 +153,11 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
                     model = Student
                     fields = '__all__'
 
-            form = StudentForm(request.POST)
+            form = StudentForm(request.POST,request.FILES)
             
             if form.is_valid():
+                if 'passport' in request.FILES:
+                    form.cleaned_data['passport'] = request.FILES['passport']
                 return self.form_valid(form)
             
 

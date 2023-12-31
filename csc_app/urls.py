@@ -30,6 +30,8 @@ urlpatterns = [
     path("enquiry/",include("apps.enquiry.urls")),
     path('public/student/<int:pk>/', views.PublicView.as_view(), name='public_student_profile'),
     path("revenue/", include("apps.revenue.urls")),
+    path("course/", include("apps.course.urls")),
+    path("batches/",include("apps.batch.urls"))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 

@@ -77,6 +77,7 @@
       <th>Bill No</th>
       <th>Amount Paid</th>
       <th>Date Paid</th>
+      <th>Recived By</th>
       <th>Comment Paid</th>
     </tr>
   </thead>
@@ -87,6 +88,7 @@
       <td>{{ receipt.Bill_No }}</td>
       <td>{{ receipt.amount_paid}}</td>
       <td>{{ receipt.date_paid}}</td>
+      <td>{{receipt.received_by}}</td>
       <td>{{ receipt.comment}}</td>
     </tr>
     {% endfor %}

@@ -15,6 +15,9 @@ from .forms import (
     SiteConfigForm,
     StudentClassForm,
     SubjectForm,
+    BookForm,
+    ExamForm
+    
 )
 from .models import (
     AcademicSession,
@@ -22,6 +25,7 @@ from .models import (
     SiteConfig,
     StudentClass,
     Subject,
+    Book,Exam
 )
 
 
@@ -243,6 +247,79 @@ class SubjectDeleteView(LoginRequiredMixin, DeleteView):
         obj = self.get_object()
         messages.success(self.request, self.success_message.format(obj.name))
         return super(SubjectDeleteView, self).delete(request, *args, **kwargs)
+
+class BookListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
+    model = Book
+    template_name = "corecode/book-list.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["form"] = BookForm()
+        return context
+
+
+class BookCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+    model = Book
+    form_class = BookForm
+    template_name = "corecode/mgt_form.html"
+    success_url = reverse_lazy("book")
+    success_message = "New Book successfully added"
+
+
+class BookUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
+    model = Book
+    fields = ["name"]
+    success_url = reverse_lazy("book")
+    success_message = "Book successfully updated."
+    template_name = "corecode/mgt_form.html"
+
+
+class BookDeleteView(LoginRequiredMixin, DeleteView):
+    model = Book
+    success_url = reverse_lazy("book")
+    template_name = "corecode/core_confirm_delete.html"
+    success_message = "The Book {} has been deleted with all its attached content"
+
+    def delete(self, request, *args, **kwargs):
+        obj = self.get_object()
+        messages.success(self.request, self.success_message.format(obj.name))
+        return super(BookDeleteView, self).delete(request, *args, **kwargs)
+class ExamListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
+    model = Exam
+    template_name = "corecode/exam_list.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["form"] = ExamForm()
+        return context
+
+
+class ExamCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+    model = Exam
+    form_class = ExamForm
+    template_name = "corecode/mgt_form.html"
+    success_url = reverse_lazy("exam")
+    success_message = "New Exam successfully added"
+
+
+class ExamUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
+    model = Exam
+    fields = ["name","exam_mode","exam_duration"]
+    success_url = reverse_lazy("exam")
+    success_message = "Exam successfully updated."
+    template_name = "corecode/mgt_form.html"
+
+
+class ExamDeleteView(LoginRequiredMixin, DeleteView):
+    model = Exam
+    success_url = reverse_lazy("exam")
+    template_name = "corecode/core_confirm_delete.html"
+    success_message = "The Exam {} has been deleted with all its attached content"
+
+    def delete(self, request, *args, **kwargs):
+        obj = self.get_object()
+        messages.success(self.request, self.success_message.format(obj.name))
+        return super(ExamDeleteView, self).delete(request, *args, **kwargs)
 
 
 class CurrentSessionAndTermView(LoginRequiredMixin, View):

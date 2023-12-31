@@ -30,7 +30,7 @@ class EnquiryForm(forms.ModelForm):
             self.fields[field_name].required = False
         # Group fields into sections
         personal_info_fields = ['name', 'f_name','address','address1','address2','taluka', 'district','pincode', 'mobile_number', 'email','date_of_birth','student_role', 'student_company_name','gender']
-        office_use_fields = ['enquiry_date', 'counsellor_remark', 'enquiry_status','expected_date']
+        office_use_fields = ['enquiry_date','counsellor', 'counsellor_remark', 'enquiry_status','expected_date']
         qualification_fiedls = ['qualification', 'qualification_status', 'studying_year', 'studying_course','student_college_name']
         others_fields = [
             
@@ -61,4 +61,5 @@ class LogForm(forms.ModelForm):
         self.fields['student'].widget.attrs['style'] = "display:none;"
         self.fields['student'].label = ""
         self.fields['comment'].widget = forms.widgets.Textarea(attrs={"rows": 1,"cols":25})
+        self.fields["exp_date"].widget = forms.widgets.DateInput(attrs={"type": "date"})
 

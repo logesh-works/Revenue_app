@@ -7,6 +7,8 @@ from .models import (
     SiteConfig,
     StudentClass,
     Subject,
+    Book,
+    Exam
 )
 
 SiteConfigForm = modelformset_factory(
@@ -40,7 +42,19 @@ class SubjectForm(ModelForm):
 
     class Meta:
         model = Subject
+        fields = ["name",'duration']
+class BookForm(ModelForm):
+    prefix = "Book"
+
+    class Meta:
+        model = Book
         fields = ["name"]
+class ExamForm(ModelForm):
+    prefix = "Exam"
+
+    class Meta:
+        model = Exam
+        fields = ["name","exam_mode","exam_duration"]
 
 
 class StudentClassForm(ModelForm):

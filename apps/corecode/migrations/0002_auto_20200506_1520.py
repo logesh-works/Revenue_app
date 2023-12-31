@@ -33,12 +33,6 @@ def default_site_config(apps, schema_editor):
     )
 
     Subject = apps.get_model("corecode", "Subject")
-    Subject.objects.bulk_create(
-        [
-            Subject(name="JAVA"),
-            Subject(name="Python"),
-        ]
-    )
 
     StudentClass = apps.get_model("corecode", "StudentClass")
     StudentClass.objects.bulk_create(

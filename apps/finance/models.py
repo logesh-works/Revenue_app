@@ -1,7 +1,7 @@
 from django.db import models
 from django.urls import reverse
 from django.utils import timezone
-
+from apps.staffs.models import Staff
 from apps.corecode.models import AcademicSession, AcademicTerm, StudentClass
 from apps.students.models import Student
 
@@ -59,7 +59,7 @@ class Receipt(models.Model):
     amount_paid = models.IntegerField()
     date_paid = models.DateField(default=timezone.now)
     comment = models.CharField(max_length=200, blank=True)
-    received_by = models.CharField("Recived By",max_length=200, blank=True)
+    received_by = models.ForeignKey(Staff,verbose_name="Billing Staff",on_delete=models.DO_NOTHING)
     def stats(self):
         return self.invoice.student.current_status
     def current_cls(self):

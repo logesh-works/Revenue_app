@@ -28,6 +28,7 @@
         }
   </style>
   <title>CSC</title>
+  <link rel="icon" href="https://content.jdmagicbox.com/comp/krishnagiri/d9/9999p4343.4343.160817161634.c1d9/catalogue/csc-computer-education-krishnagiri-ho-krishnagiri-computer-training-institutes-mmcytnevnv-250.jpg">
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="{% static 'plugins/fontawesome-free/css/all.min.css' %}">
@@ -117,6 +118,23 @@
                 </p>
               </a>
             </li>
+            <li class="nav-item">
+              <a href="{% url 'list_course' %}" class="nav-link">
+                <i class="nav-icon fas fa-book"></i>
+                <p>
+                 Course
+                </p>
+              </a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a href="{% url 'batch_list' %}" class="nav-link">
+                <i class="nav-icon fas fa-users"></i>
+                <p>
+                 Batch
+                </p>
+              </a>
+            </li>
 
             <li class="nav-header">Finance</li>
             <li class="nav-item">
@@ -152,7 +170,6 @@
               </a>
             </li>
             
-            <li class="nav-header">Course</li>
             <li class="nav-header">Others</li>
             <li class="nav-item has-treeview">
               <a href="#" class="nav-link">
@@ -172,10 +189,18 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="{% url 'classes' %}" class="nav-link">
+                  <a href="{% url 'book' %}" class="nav-link">
                     <i class="nav-icon fas fa-bars"></i>
                     <p>
-                      Classes
+                      Book
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{% url 'exam' %}" class="nav-link">
+                    <i class="nav-icon fas fa-bars"></i>
+                    <p>
+                      Exam
                     </p>
                   </a>
                 </li>

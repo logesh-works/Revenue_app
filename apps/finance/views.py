@@ -5,6 +5,9 @@ from django.shortcuts import redirect, render
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, ListView
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
+from apps.staffs.models import Staff
+from django.contrib import messages
+
 
 from apps.students.models import Student
 
@@ -42,6 +45,7 @@ class InvoiceCreateView(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
 
 def save_bill_details(request):
+    last_receipt = Receipt.objects.last()
     if request.method == 'POST':
         student = request.POST.get('student')
         bill_number = request.POST.get('bill_number')
@@ -49,15 +53,20 @@ def save_bill_details(request):
         amount = request.POST.get('amount')
         re_by = request.POST.get('recived_by')
         comment = request.POST.get('comment')
-
+        
+        try:
+            staff = Staff.objects.get(id=re_by)
+        except Staff.DoesNotExist:
+            messages.error(request, 'Error: Staff ID not found.')
+            return redirect('bill')
 
         # Perform any necessary validation and save to the database
-        Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=student), amount_paid=amount,date_paid=bill_date, comment=comment,received_by=re_by)
+        Receipt.objects.create(Bill_No=bill_number,invoice=Invoice.objects.get(student=student), amount_paid=amount,date_paid=bill_date, comment=comment,received_by=Staff.objects.get(id=re_by))
 
         # Redirect to a success page or wherever you'd like
         return redirect('bill')
 
-    return render(request, 'finance/bill.html',context={'stu':Student.objects.all()})
+    return render(request, 'finance/bill.html',context={'stu':Student.objects.all(),'last_receipt':last_receipt})
 
 class InvoiceDetailView(LoginRequiredMixin, DetailView):
     model = Invoice

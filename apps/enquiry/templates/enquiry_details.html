@@ -35,7 +35,7 @@
           <div class="float-right">
             <h4>{{ object.name }} </h4>
             <h4>{{ object.enquiry_no }} </h4>
-            <h5>Following Staff: Kumar</h5>
+            <h5>Following Staff: <a href="{% url 'staff-detail' object.counsellor.id%}">{{object.counsellor.name}}</a></h5>
           </div>
         </div>
       </div>

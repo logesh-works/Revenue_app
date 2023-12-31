@@ -3,7 +3,8 @@ from datetime import datetime
 from django.db import models
 from django.urls import reverse
 from django.utils import timezone
-
+from apps.course.models import CourseModel
+from apps.staffs.models import Staff
 from apps.corecode.models import StudentClass
 
 from ..enquiry.models import *
@@ -22,7 +23,7 @@ class Student(models.Model):
         ("Others", "Others"),
     ]
     STATUS_CHOICES = [("active", "Active"), ("inactive", "Inactive")]
-    if_enq = models.ForeignKey(Enquiry,on_delete=models.CASCADE,default=None,null=True)
+    if_enq = models.ForeignKey(Enquiry,on_delete=models.PROTECT,default=None,null=True)
     current_status = models.CharField(
         max_length=10, choices=STATUS_CHOICES, default="active"
     )
@@ -84,7 +85,7 @@ class Student(models.Model):
 
     #course
     date_of_admission = models.DateField(default=timezone.now)
-    course = models.CharField("Course",max_length=1024,null=False,default="HDCA")
+    course = models.ForeignKey(CourseModel,on_delete=models.PROTECT)
     class_time = models.CharField("Class Timinig",default="2pm - 4pm",max_length=255,null=False)
      
 
@@ -106,21 +107,21 @@ class Student(models.Model):
     
     
 class Bookmodel(models.Model):
-    student = models.ForeignKey(Student,on_delete=models.CASCADE)
+    student = models.ForeignKey(Student,on_delete=models.PROTECT)
     received_book = models.CharField("Received Book",max_length=2046,blank=True,default=None)
     received_date = models.DateField("Book received Date",default=timezone.now)
-    handled_by = models.CharField("Handled By",max_length=255,blank=True)
+    handled_by = models.ForeignKey(Staff,verbose_name="Handled Staff",on_delete = models.DO_NOTHING)
     def get_absolute_url(self):
         return reverse("student-detail", kwargs={"pk": self.student.pk})
     remark = models.CharField("Remark",max_length=2046,blank=True,default=None)
     last_updated = models.DateTimeField(auto_now=True)
 class Classmodel(models.Model):
-    student = models.ForeignKey(Student,on_delete=models.CASCADE,blank=True)
+    student = models.ForeignKey(Student,on_delete=models.PROTECT,blank=True)
     finised_subject = models.CharField("Finised Subject",max_length=255,default=None,blank=False)
     start_date = models.DateField("Started on")
     end_date = models.DateField("Ended on")
     class_time = models.CharField("Class Time",max_length=255,blank=True,null=True,default=None)
-    faculty = models.CharField("Handled Faculty",max_length=255,default=None,blank=False)
+    faculty = models.ForeignKey(Staff,verbose_name="Handled Staff",on_delete = models.DO_NOTHING)
     remark = models.CharField("Remark",max_length=2046,blank=True,default=None)
     last_updated = models.DateTimeField(auto_now=True)
     def get_absolute_url(self):
@@ -128,7 +129,7 @@ class Classmodel(models.Model):
 
     
 class Exammodel(models.Model):
-    student = models.ForeignKey(Student,on_delete=models.CASCADE)
+    student = models.ForeignKey(Student,on_delete=models.PROTECT)
     subject = models.CharField("Subject",max_length=355,default=None,blank=True)
     exam_date = models.DateField("Examed date",default=timezone.now)
     contected_mode = models.CharField("Contected mode",choices=[("Online","Online"),("Offline","Offline")],max_length=255,blank=True,null=True,default=None)
@@ -141,14 +142,14 @@ class Exammodel(models.Model):
         return reverse("student-detail", kwargs={"pk": self.student.pk})
 
 class Certificatemodel(models.Model):
-    student = models.ForeignKey(Student,on_delete=models.CASCADE)
+    student = models.ForeignKey(Student,on_delete=models.PROTECT)
     course = models.CharField("Course",max_length=255,blank=True,default=None)
     date_of_complete = models.DateField("Date of Completion",default=timezone.now)
     certificate_no = models.IntegerField("Certificate Number",default=None,blank=True)
     certificate_date = models.DateField("Certificate Date",default=timezone.now)
     certificate_issued_date = models.DateField("Certificate Issued Date",default=timezone.now)
     grade = models.CharField("Grade on Certificate",max_length=10,blank=True,default=None)
-    issued_by = models.CharField("Certificate Issued By",max_length=10,blank=True,default=None)
+    issued_by = models.ForeignKey(Staff,verbose_name ="Certificate Issued By",on_delete = models.DO_NOTHING)
     remark = models.CharField("Remark",max_length=2046,blank=True,default=None)
     last_updated = models.DateTimeField(auto_now=True)
 
