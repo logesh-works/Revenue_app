@@ -1,5 +1,6 @@
 from django import forms
 from .models import BatchModel
+from apps.students.models import Student
 
 class BatchModelForm(forms.ModelForm):
     class Meta:
@@ -8,6 +9,7 @@ class BatchModelForm(forms.ModelForm):
         widgets = {
             'batch_start_date': forms.DateInput(attrs={'type': 'date'}),
             'batch_end_date': forms.DateInput(attrs={'type': 'date'}),
+            'batch_students': forms.SelectMultiple(attrs={'size': 50}),
         }
 
     def clean(self):
@@ -20,3 +22,12 @@ class BatchModelForm(forms.ModelForm):
             raise forms.ValidationError("End date must be after start date")
 
         return cleaned_data
+
+class AddStudentForm(forms.ModelForm):
+    class Meta:
+        model = BatchModel
+        fields = ['batch_students']
+    batch_students = forms.ModelMultipleChoiceField(
+        queryset=Student.objects.all(),  # Replace YourStudentModel with the actual student model
+        widget=forms.SelectMultiple(attrs={'size': 20, 'style': 'width: 500px;'}),  # Adjust the width as needed
+    )

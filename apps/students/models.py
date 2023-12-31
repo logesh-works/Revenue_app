@@ -6,7 +6,7 @@ from django.utils import timezone
 from apps.course.models import CourseModel
 from apps.staffs.models import Staff
 from apps.corecode.models import StudentClass
-
+from apps.corecode.models import Time
 from ..enquiry.models import *
 
 
@@ -86,7 +86,8 @@ class Student(models.Model):
     #course
     date_of_admission = models.DateField(default=timezone.now)
     course = models.ForeignKey(CourseModel,on_delete=models.PROTECT)
-    class_time = models.CharField("Class Timinig",default="2pm - 4pm",max_length=255,null=False)
+    class_time = models.ForeignKey(Time,verbose_name="Class Timing",on_delete=models.DO_NOTHING,blank=True)
+
      
 
     #fees
@@ -119,8 +120,8 @@ class Classmodel(models.Model):
     student = models.ForeignKey(Student,on_delete=models.PROTECT,blank=True)
     finised_subject = models.CharField("Finised Subject",max_length=255,default=None,blank=False)
     start_date = models.DateField("Started on")
-    end_date = models.DateField("Ended on")
-    class_time = models.CharField("Class Time",max_length=255,blank=True,null=True,default=None)
+    end_date = models.DateField("Ended on",null=True,blank=True)
+    class_time = models.ForeignKey(Time,verbose_name="Class Timing",on_delete=models.DO_NOTHING,blank=True)
     faculty = models.ForeignKey(Staff,verbose_name="Handled Staff",on_delete = models.DO_NOTHING)
     remark = models.CharField("Remark",max_length=2046,blank=True,default=None)
     last_updated = models.DateTimeField(auto_now=True)

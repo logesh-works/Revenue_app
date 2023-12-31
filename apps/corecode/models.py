@@ -60,6 +60,16 @@ class Book(models.Model):
 
     def __str__(self):
         return self.name
+class Time(models.Model):
+    """Timing"""
+
+    time = models.CharField(max_length=200,blank=True)
+
+    class Meta:
+        ordering = ["time"]
+
+    def __str__(self):
+        return self.time
 class Exam(models.Model):
     """Exam"""
 

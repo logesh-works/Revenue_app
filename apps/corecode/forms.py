@@ -8,6 +8,7 @@ from .models import (
     StudentClass,
     Subject,
     Book,
+    Time,
     Exam
 )
 
@@ -49,6 +50,12 @@ class BookForm(ModelForm):
     class Meta:
         model = Book
         fields = ["name"]
+class TimeForm(ModelForm):
+    prefix = "Time"
+
+    class Meta:
+        model = Time
+        fields = ["time"]
 class ExamForm(ModelForm):
     prefix = "Exam"
 

@@ -3,12 +3,12 @@
 {% block content-header %}
 <div class="card-header">
   <div class="card-tools">
-    <a href=""><input type="button" class="btn btn-sm btn-primary" value="Add Student"></a>
+    <a href="{% url 'add_student' batch.id%}"><input type="button" class="btn btn-sm btn-primary" value="Add Student"></a>
     <a href="#" class="btn btn-tool">Print</a>
-    <a href="{% url 'batch_update' object.id%}" class="btn btn-tool">
+    <a href="{% url 'batch_update' batch.id%}" class="btn btn-tool">
       <i class="fas fa-edit"></i>
     </a>
-    <a href="{% url 'batch_delete' object.id%}" class="btn btn-tool">
+    <a href="{% url 'batch_delete' batch.id%}" class="btn btn-tool">
       <i class="fas fa-times"></i>
     </a>
   </div>
@@ -135,9 +135,7 @@
             <div class="col-lg-12">
                 <div class="about-text go-to">
                     <h3 class="dark-color">Batch Details</h3>
-                    <a href="{% url 'details_course' batch.batch_course.id %}">
-                    <h4>Batch Course Name : {{batch.batch_course.course_name}}</h4>
-                    </a>
+                    <h4>Batch ID : {{batch.batch_id}}</h4>
                     <div class="row about-list">
                         <div class="col-md-6">
                             <div class="media">
@@ -148,12 +146,9 @@
                                 <label>Id</label>
                                 <p>{{batch.batch_id}}</p>
                             </div>
+                            
                             <div class="media">
-                                <label>Course</label>
-                                <p>{{batch.batch_course.course_name}}</p>
-                            </div>
-                            <div class="media">
-                                <label>Incharge</label>
+                                <label>Staff</label>
                                 <p>{{batch.batch_staff}}</p>
                             </div>
                         </div>
@@ -169,11 +164,12 @@
                             <div class="media">
                                 <label>Timing</label>
                                 <p>{{batch.batch_timing}}</p>
+                                
                             </div>
                             <div class="media">
-                                <label>Duration</label>
-                                <p>{{batch.batch_course.course_duration}}</p>
-                            </div>
+                              <label>students</label>
+                              <p>{{batch.total_student}}</p>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -212,90 +208,8 @@
     {% else %}
         <p>No Students Added for this course</p>
     {% endif %}
-    <h4>Exams</h4>
-    {% if exams %}
-      <table class="table table-sm table-bordered table-hover">
-        <thead class="thead-light">
-          <tr>
-            <th>S/N</th>
-            <th>Exam Name</th>
-            <th>Exam Mode</th>
-            <th>Exam Duration</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for sub in exams %}
-       
-              
-              {% for subject_instance in sub.course_exams.all %}
-              <tr>
-              <td>{{forloop.counter}} </td>
-                  <td>{{ subject_instance.name }}</td>
-                  <td>{{ subject_instance.exam_mode }}</td>
-                  <td>{{ subject_instance.exam_duration}}</td>
-              
-            </tr>
-          {% endfor %}
-          {% endfor %}
-        </tbody>
-      </table>
-    {% else %}
-        <p>No subjects Added for this course</p>
-    {% endif %}
-                
-                <h4>Subject</h4>
-    {% if subject %}
-      <table class="table table-sm table-bordered table-hover">
-        <thead class="thead-light">
-          <tr>
-            <th>S/N</th>
-            <th>Subject Name</th>
-            <th>Subject Duration</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for sub in subject %}
-       
-              
-              {% for subject_instance in sub.sub_name.all %}
-              <tr>
-              <td>{{forloop.counter}} </td>
-                  <td>{{ subject_instance.name }}</td>
-                  <td>{{ subject_instance.duration}}</td>
-              
-            </tr>
-          {% endfor %}
-          {% endfor %}
-        </tbody>
-      </table>
-    {% else %}
-        <p>No subjects Added for this course</p>
-    {% endif %}
-
-                <h4>Book</h4>
-{% if book %}
-  <table class="table table-sm table-bordered table-hover">
-    <thead class="thead-light">
-      <tr>
-        <th>S/N</th>
-        <th>Book Name</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for bo in book %}
-      {% for book_instance in bo.book_name.all %}
-        <tr>
-          <td>{{forloop.counter}} </td>
-          <td>{{book_instance.name}}</td>
-        </tr>
-      {% endfor %}
-      {% endfor %}
-    </tbody>
-  </table>
-{% else %}
-    <p>There are no Books added For this course</p>
-{% endif %}
-            </div>
+   </div>
+   
         </div>
     </div>
 </section>

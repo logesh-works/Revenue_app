@@ -29640,3 +29640,1055 @@ INFO 2023-12-31 14:48:17,786 "GET /static/plugins/Datatables/datatables.min.js H
 INFO 2023-12-31 14:48:17,786 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
 INFO 2023-12-31 14:48:17,858 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
 INFO 2023-12-31 14:48:17,859 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2023-12-31 15:48:49,804 Watching for file changes with StatReloader
+INFO 2023-12-31 15:48:53,144 "GET / HTTP/1.1" 302 0
+INFO 2023-12-31 15:48:53,203 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-31 15:48:53,441 "GET /favicon.ico HTTP/1.1" 302 0
+INFO 2023-12-31 15:48:53,461 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-31 15:48:59,656 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-12-31 15:48:59,723 "GET / HTTP/1.1" 200 13390
+INFO 2023-12-31 15:49:08,629 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 15:49:11,243 "GET /batches/create/ HTTP/1.1" 200 13023
+INFO 2023-12-31 15:49:34,583 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 15:49:38,848 "GET /batches/1/ HTTP/1.1" 200 17994
+INFO 2023-12-31 15:49:58,285 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 15:50:10,781 "GET /course/ HTTP/1.1" 200 10668
+INFO 2023-12-31 15:50:12,687 "GET /course/course-details/1/ HTTP/1.1" 200 14833
+INFO 2023-12-31 15:50:15,109 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 15:50:16,411 "GET /batches/1/ HTTP/1.1" 200 17994
+INFO 2023-12-31 15:50:28,958 "GET /course/course-details/1/ HTTP/1.1" 200 14833
+INFO 2023-12-31 16:00:17,817 Watching for file changes with StatReloader
+INFO 2023-12-31 16:00:21,280 "GET /batches/ HTTP/1.1" 200 10911
+INFO 2023-12-31 16:00:24,982 "GET /batches/1/ HTTP/1.1" 200 15755
+INFO 2023-12-31 16:00:40,618 "GET /student/1/ HTTP/1.1" 200 16375
+INFO 2023-12-31 16:01:54,175 "GET /batches/ HTTP/1.1" 200 10911
+INFO 2023-12-31 16:01:55,353 "GET /batches/create/ HTTP/1.1" 200 12982
+INFO 2023-12-31 16:02:05,229 "GET /batches/ HTTP/1.1" 200 10911
+INFO 2023-12-31 16:02:06,613 "GET /batches/1/ HTTP/1.1" 200 15755
+INFO 2023-12-31 16:02:07,749 "GET /batches/1/update/ HTTP/1.1" 200 13041
+INFO 2023-12-31 16:05:09,371 Watching for file changes with StatReloader
+INFO 2023-12-31 16:05:14,019 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 16:05:15,359 "GET /enquiry/list HTTP/1.1" 200 10845
+INFO 2023-12-31 16:05:16,840 "GET /enquiry/create/ HTTP/1.1" 200 23133
+INFO 2023-12-31 16:06:59,969 "POST /enquiry/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:07:00,013 "GET /enquiry/2/ HTTP/1.1" 200 12775
+INFO 2023-12-31 16:07:02,927 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 16:07:03,820 "GET /student/select_enquiry/ HTTP/1.1" 200 11523
+INFO 2023-12-31 16:07:07,405 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:07:07,473 "GET /student/create/2/ HTTP/1.1" 200 19148
+INFO 2023-12-31 16:07:31,611 "POST /student/create/2/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:07:31,654 "GET /student/2/ HTTP/1.1" 200 13596
+INFO 2023-12-31 16:07:36,756 "GET /batches/ HTTP/1.1" 200 10911
+INFO 2023-12-31 16:07:38,680 "GET /batches/create/ HTTP/1.1" 200 13031
+INFO 2023-12-31 16:10:39,883 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 16:10:40,552 Watching for file changes with StatReloader
+INFO 2023-12-31 16:10:47,476 "GET /batches/create/ HTTP/1.1" 200 13042
+INFO 2023-12-31 16:10:59,081 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 16:10:59,738 Watching for file changes with StatReloader
+INFO 2023-12-31 16:11:01,082 "GET /batches/create/ HTTP/1.1" 200 13041
+INFO 2023-12-31 16:12:00,640 "POST /batches/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:12:00,678 "GET /batches/2/ HTTP/1.1" 200 16090
+INFO 2023-12-31 16:12:08,202 "GET /batches/batch-stu-delete/2/1/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:12:08,240 "GET /batches/2/ HTTP/1.1" 200 15749
+INFO 2023-12-31 16:12:20,631 "GET /batches/batch-stu-delete/2/2/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:12:20,663 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:12:23,412 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:12:25,374 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:12:26,297 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:12:27,015 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:12:27,617 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:12:28,124 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:12:35,798 "GET /batches/ HTTP/1.1" 200 11219
+INFO 2023-12-31 16:12:37,795 "GET /batches/1/ HTTP/1.1" 200 15755
+INFO 2023-12-31 16:12:38,575 "GET /batches/1/ HTTP/1.1" 200 15755
+INFO 2023-12-31 16:12:39,284 "GET /batches/1/ HTTP/1.1" 200 15755
+INFO 2023-12-31 16:13:02,889 "GET /batches/1/delete/ HTTP/1.1" 200 10231
+INFO 2023-12-31 16:13:03,910 "POST /batches/1/delete/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:13:03,945 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 16:13:05,098 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 16:13:06,252 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:13:08,316 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:13:09,011 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:13:09,698 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:16:24,099 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 16:16:24,959 Watching for file changes with StatReloader
+INFO 2023-12-31 16:21:06,150 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 16:21:07,096 Watching for file changes with StatReloader
+ERROR 2023-12-31 16:21:09,441 Internal Server Error: /batches/2/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py", line 25, in get
+    return render(request, self.template_name, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'batch_update' with arguments '('',)' not found. 1 pattern(s) tried: ['batches/(?P<pk>[0-9]+)/update/\\Z']
+ERROR 2023-12-31 16:21:09,445 "GET /batches/2/ HTTP/1.1" 500 210952
+WARNING 2023-12-31 16:21:09,771 Not Found: /favicon.ico
+WARNING 2023-12-31 16:21:09,772 "GET /favicon.ico HTTP/1.1" 404 8369
+INFO 2023-12-31 16:22:09,423 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:22:12,582 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:22:13,637 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:22:14,430 "GET /batches/2/ HTTP/1.1" 200 15116
+INFO 2023-12-31 16:22:32,935 "GET /batches/2/update/ HTTP/1.1" 200 13062
+INFO 2023-12-31 16:22:36,336 "GET /batches/2/delete/ HTTP/1.1" 200 10231
+INFO 2023-12-31 16:23:16,724 "GET /batches/2/ HTTP/1.1" 200 15832
+INFO 2023-12-31 16:23:23,328 "POST /batches/2/ HTTP/1.1" 200 16910
+INFO 2023-12-31 16:23:29,004 "GET /batches/batch-stu-delete/2/1/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:23:29,042 "GET /batches/2/ HTTP/1.1" 200 16560
+INFO 2023-12-31 16:23:30,476 "GET /batches/batch-stu-delete/2/2/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:23:30,513 "GET /batches/2/ HTTP/1.1" 200 15832
+INFO 2023-12-31 16:25:05,581 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 16:25:06,303 Watching for file changes with StatReloader
+INFO 2023-12-31 16:25:09,005 "GET /batches/2/ HTTP/1.1" 200 15120
+INFO 2023-12-31 16:25:13,245 "GET /batches/2/update/ HTTP/1.1" 200 13062
+INFO 2023-12-31 16:25:17,376 "GET /batches/2/delete/ HTTP/1.1" 200 10231
+INFO 2023-12-31 16:25:54,225 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 16:25:54,923 Watching for file changes with StatReloader
+INFO 2023-12-31 16:27:13,784 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\urls.py changed, reloading.
+INFO 2023-12-31 16:27:14,718 Watching for file changes with StatReloader
+INFO 2023-12-31 16:27:15,970 "GET /batches/2/ HTTP/1.1" 200 15143
+INFO 2023-12-31 16:27:17,247 "GET /batches/2/add-student/ HTTP/1.1" 200 10590
+INFO 2023-12-31 16:27:20,578 "POST /batches/2/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:27:20,623 "GET /batches/2/ HTTP/1.1" 200 16117
+INFO 2023-12-31 16:27:22,331 "GET /batches/batch-stu-delete/2/1/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:27:22,367 "GET /batches/2/ HTTP/1.1" 200 15776
+INFO 2023-12-31 16:27:23,278 "GET /batches/batch-stu-delete/2/2/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:27:23,314 "GET /batches/2/ HTTP/1.1" 200 15143
+INFO 2023-12-31 16:27:24,153 "GET /batches/2/add-student/ HTTP/1.1" 200 10590
+INFO 2023-12-31 16:27:26,778 "POST /batches/2/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:27:26,820 "GET /batches/2/ HTTP/1.1" 200 16117
+INFO 2023-12-31 16:27:29,271 "GET /batches/2/add-student/ HTTP/1.1" 200 10608
+INFO 2023-12-31 16:27:35,889 "GET /batches/2/ HTTP/1.1" 200 16117
+INFO 2023-12-31 16:27:39,823 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 16:27:42,268 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 16:27:43,400 "GET /batches/2/ HTTP/1.1" 200 16117
+INFO 2023-12-31 16:27:50,756 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 16:28:35,693 "GET /batches/2/ HTTP/1.1" 200 16117
+INFO 2023-12-31 16:28:38,528 "GET /student/1/ HTTP/1.1" 200 16375
+INFO 2023-12-31 16:40:03,637 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\models.py changed, reloading.
+INFO 2023-12-31 16:40:04,839 Watching for file changes with StatReloader
+INFO 2023-12-31 16:40:51,344 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 16:40:52,002 Watching for file changes with StatReloader
+INFO 2023-12-31 16:41:12,414 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 16:41:13,157 Watching for file changes with StatReloader
+INFO 2023-12-31 16:41:20,498 "GET /student/1/ HTTP/1.1" 200 16375
+INFO 2023-12-31 16:41:24,662 "GET /student/classdel/1/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:41:24,705 "GET /student/1/ HTTP/1.1" 200 15758
+INFO 2023-12-31 16:41:26,604 "GET /course/ HTTP/1.1" 200 10668
+INFO 2023-12-31 16:41:27,373 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 16:41:29,324 "GET /batches/2/ HTTP/1.1" 200 16117
+INFO 2023-12-31 16:41:30,865 "GET /batches/batch-stu-delete/2/1/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:41:30,912 "GET /batches/2/ HTTP/1.1" 200 15776
+INFO 2023-12-31 16:41:31,864 "GET /batches/batch-stu-delete/2/2/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:41:31,907 "GET /batches/2/ HTTP/1.1" 200 15143
+INFO 2023-12-31 16:41:32,906 "GET /batches/2/add-student/ HTTP/1.1" 200 10590
+ERROR 2023-12-31 16:41:37,821 Internal Server Error: /batches/2/add-student/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: students_classmodel.end_date
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py", line 52, in post
+    class_model_instance = Classmodel.objects.create(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\base.py", line 901, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\base.py", line 1059, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\base.py", line 1100, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\query.py", line 1845, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: students_classmodel.end_date
+ERROR 2023-12-31 16:41:37,827 "POST /batches/2/add-student/ HTTP/1.1" 500 176541
+INFO 2023-12-31 16:42:34,182 Watching for file changes with StatReloader
+INFO 2023-12-31 16:42:40,405 "POST /batches/2/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:42:40,460 "GET /batches/2/ HTTP/1.1" 200 16117
+INFO 2023-12-31 16:42:43,962 "GET /student/1/ HTTP/1.1" 200 16391
+INFO 2023-12-31 16:43:05,416 "GET /batches/batch-stu-delete/2/1/ HTTP/1.1" 302 0
+INFO 2023-12-31 16:43:05,450 "GET /batches/2/ HTTP/1.1" 200 15776
+INFO 2023-12-31 16:43:06,865 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 16:43:09,088 "GET /enquiry/list HTTP/1.1" 200 11130
+INFO 2023-12-31 16:43:10,523 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 16:43:11,322 "GET /student/select_enquiry/ HTTP/1.1" 200 11460
+INFO 2023-12-31 16:43:12,573 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 16:43:13,467 "GET /student/list HTTP/1.1" 200 11018
+INFO 2023-12-31 16:43:14,976 "GET /student/1/ HTTP/1.1" 200 15758
+INFO 2023-12-31 16:44:13,145 "GET /staff/list/ HTTP/1.1" 200 10699
+INFO 2023-12-31 16:44:13,576 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 16:44:14,556 "GET /student/list HTTP/1.1" 200 11018
+INFO 2023-12-31 16:44:16,151 "GET /student/2/ HTTP/1.1" 200 13827
+INFO 2023-12-31 16:44:24,395 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 16:44:25,250 "GET /batches/create/ HTTP/1.1" 200 13042
+INFO 2023-12-31 16:47:37,814 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 16:47:39,045 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 16:47:39,922 "GET /batches/2/ HTTP/1.1" 200 15776
+INFO 2023-12-31 16:47:41,121 "GET /batches/2/add-student/ HTTP/1.1" 200 10599
+INFO 2023-12-31 16:47:43,411 "GET /batches/2/update/ HTTP/1.1" 200 13072
+INFO 2023-12-31 16:49:59,588 Watching for file changes with StatReloader
+INFO 2023-12-31 16:50:01,963 "GET /batches/2/update/ HTTP/1.1" 200 13063
+INFO 2023-12-31 16:50:06,312 "GET /batches/2/ HTTP/1.1" 200 15776
+INFO 2023-12-31 16:50:07,737 "GET /batches/2/add-student/ HTTP/1.1" 200 10590
+INFO 2023-12-31 16:50:10,406 "GET /batches/2/update/ HTTP/1.1" 200 13063
+INFO 2023-12-31 16:51:26,227 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 16:51:27,069 Watching for file changes with StatReloader
+INFO 2023-12-31 16:51:34,497 "GET /batches/2/update/ HTTP/1.1" 200 12684
+INFO 2023-12-31 16:52:04,436 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 16:52:05,251 Watching for file changes with StatReloader
+INFO 2023-12-31 16:52:05,915 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 16:52:07,060 "GET /batches/create/ HTTP/1.1" 200 13033
+INFO 2023-12-31 16:52:25,748 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 16:52:26,385 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 16:52:27,341 "GET /batches/create/ HTTP/1.1" 200 13033
+INFO 2023-12-31 16:53:12,712 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 16:53:13,643 Watching for file changes with StatReloader
+INFO 2023-12-31 16:53:14,392 "GET /batches/create/ HTTP/1.1" 200 12653
+INFO 2023-12-31 16:54:25,436 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 16:54:26,427 Watching for file changes with StatReloader
+INFO 2023-12-31 16:54:26,941 "GET /batches/create/ HTTP/1.1" 200 12653
+INFO 2023-12-31 17:00:19,439 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:00:20,233 Watching for file changes with StatReloader
+INFO 2023-12-31 17:00:21,563 "GET /batches/create/ HTTP/1.1" 200 12676
+INFO 2023-12-31 17:00:48,027 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:00:49,016 Watching for file changes with StatReloader
+INFO 2023-12-31 17:00:49,626 "GET /batches/create/ HTTP/1.1" 200 12670
+INFO 2023-12-31 17:00:55,181 "GET /batches/create/ HTTP/1.1" 200 12670
+INFO 2023-12-31 17:01:25,378 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:01:26,170 Watching for file changes with StatReloader
+INFO 2023-12-31 17:01:28,843 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:01:29,820 Watching for file changes with StatReloader
+INFO 2023-12-31 17:01:30,426 "GET /batches/create/ HTTP/1.1" 200 12666
+INFO 2023-12-31 17:01:55,096 "GET /batches/ HTTP/1.1" 200 10916
+INFO 2023-12-31 17:01:57,654 "GET /batches/2/ HTTP/1.1" 200 15776
+INFO 2023-12-31 17:01:58,643 "GET /batches/2/delete/ HTTP/1.1" 200 10231
+INFO 2023-12-31 17:01:59,469 "POST /batches/2/delete/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:01:59,504 "GET /batches/ HTTP/1.1" 200 10608
+INFO 2023-12-31 17:02:01,097 "GET /batches/create/ HTTP/1.1" 200 12666
+INFO 2023-12-31 17:02:12,456 "POST /batches/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:02:12,489 "GET /batches/3/ HTTP/1.1" 200 15286
+INFO 2023-12-31 17:02:14,904 "GET /batches/3/add-student/ HTTP/1.1" 200 10581
+INFO 2023-12-31 17:02:17,039 "POST /batches/3/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:02:17,078 "GET /batches/3/ HTTP/1.1" 200 15776
+INFO 2023-12-31 17:02:18,943 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 17:02:20,294 "GET /student/list HTTP/1.1" 200 11018
+INFO 2023-12-31 17:02:21,849 "GET /student/2/ HTTP/1.1" 200 14030
+INFO 2023-12-31 17:02:33,109 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:05:59,828 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\models.py changed, reloading.
+INFO 2023-12-31 17:06:00,762 Watching for file changes with StatReloader
+INFO 2023-12-31 17:06:02,370 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:06:03,044 Watching for file changes with StatReloader
+INFO 2023-12-31 17:06:09,851 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:06:10,815 Watching for file changes with StatReloader
+INFO 2023-12-31 17:06:13,310 "GET /batches/3/ HTTP/1.1" 200 15776
+INFO 2023-12-31 17:06:15,584 "GET /student/2/ HTTP/1.1" 200 14030
+INFO 2023-12-31 17:06:20,598 "GET /batches/3/ HTTP/1.1" 200 15776
+INFO 2023-12-31 17:06:22,169 "GET /batches/batch-stu-delete/3/2/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:06:22,203 "GET /batches/3/ HTTP/1.1" 200 15143
+INFO 2023-12-31 17:06:24,305 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 17:06:25,878 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 17:06:27,150 "GET /student/list HTTP/1.1" 200 11018
+INFO 2023-12-31 17:06:28,263 "GET /student/2/ HTTP/1.1" 200 13344
+INFO 2023-12-31 17:06:31,823 "GET /course/ HTTP/1.1" 200 10668
+INFO 2023-12-31 17:06:33,739 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:06:34,825 "GET /batches/create/ HTTP/1.1" 200 12666
+INFO 2023-12-31 17:06:41,177 "POST /batches/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:06:41,212 "GET /batches/4/ HTTP/1.1" 200 15286
+INFO 2023-12-31 17:06:42,583 "GET /batches/4/add-student/ HTTP/1.1" 200 10581
+INFO 2023-12-31 17:06:46,477 "POST /batches/4/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:06:46,519 "GET /batches/4/ HTTP/1.1" 200 16117
+INFO 2023-12-31 17:06:47,831 "GET /student/1/ HTTP/1.1" 200 16136
+INFO 2023-12-31 17:06:51,225 "GET /student/2/ HTTP/1.1" 200 13825
+INFO 2023-12-31 17:06:54,790 "GET /batches/ HTTP/1.1" 200 11220
+INFO 2023-12-31 17:07:04,029 "GET /batches/3/ HTTP/1.1" 200 15143
+INFO 2023-12-31 17:07:07,789 "GET /batches/4/ HTTP/1.1" 200 16117
+INFO 2023-12-31 17:07:09,547 "GET /student/1/ HTTP/1.1" 200 16136
+INFO 2023-12-31 17:07:15,023 "GET /student/2/ HTTP/1.1" 200 13825
+INFO 2023-12-31 17:07:21,541 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 17:07:23,240 "GET /batches/ HTTP/1.1" 200 11220
+INFO 2023-12-31 17:07:24,230 "GET /batches/3/ HTTP/1.1" 200 15143
+INFO 2023-12-31 17:07:26,862 "GET /batches/3/add-student/ HTTP/1.1" 200 10581
+INFO 2023-12-31 17:07:30,337 "POST /batches/3/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:07:30,380 "GET /batches/3/ HTTP/1.1" 200 16117
+INFO 2023-12-31 17:07:34,813 "GET /student/1/ HTTP/1.1" 200 16339
+INFO 2023-12-31 17:07:38,856 "GET /student/2/ HTTP/1.1" 200 14028
+INFO 2023-12-31 17:07:44,439 "GET /batches/ HTTP/1.1" 200 11220
+INFO 2023-12-31 17:07:45,380 "GET /batches/3/ HTTP/1.1" 200 16117
+INFO 2023-12-31 17:07:48,177 "GET /batches/3/ HTTP/1.1" 200 16117
+INFO 2023-12-31 17:07:49,366 "GET /batches/3/delete/ HTTP/1.1" 200 10231
+INFO 2023-12-31 17:07:50,303 "POST /batches/3/delete/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:07:50,336 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:07:51,230 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 17:07:52,919 "GET /student/list HTTP/1.1" 200 11018
+INFO 2023-12-31 17:07:54,237 "GET /student/1/ HTTP/1.1" 200 15652
+INFO 2023-12-31 17:07:57,839 "GET /student/2/ HTTP/1.1" 200 13344
+INFO 2023-12-31 17:08:01,707 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:08:02,447 "GET /batches/4/ HTTP/1.1" 200 16117
+INFO 2023-12-31 17:08:04,103 "GET /student/1/ HTTP/1.1" 200 15652
+INFO 2023-12-31 17:08:08,122 "GET /batches/batch-stu-delete/4/1/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:08:08,162 "GET /batches/4/ HTTP/1.1" 200 15776
+INFO 2023-12-31 17:08:09,093 "GET /batches/batch-stu-delete/4/2/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:08:09,136 "GET /batches/4/ HTTP/1.1" 200 15143
+INFO 2023-12-31 17:08:12,369 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:08:13,404 "GET /batches/4/ HTTP/1.1" 200 15143
+INFO 2023-12-31 17:08:29,371 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\models.py changed, reloading.
+INFO 2023-12-31 17:08:30,142 Watching for file changes with StatReloader
+INFO 2023-12-31 17:08:36,939 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\models.py changed, reloading.
+INFO 2023-12-31 17:08:37,983 Watching for file changes with StatReloader
+INFO 2023-12-31 17:08:38,613 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:08:40,003 "GET /batches/4/ HTTP/1.1" 200 15143
+INFO 2023-12-31 17:08:43,289 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:08:44,881 "GET /batches/4/ HTTP/1.1" 200 15143
+INFO 2023-12-31 17:08:46,266 "GET /batches/4/add-student/ HTTP/1.1" 200 10581
+INFO 2023-12-31 17:08:49,743 "POST /batches/4/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:08:49,781 "GET /batches/4/ HTTP/1.1" 200 16117
+INFO 2023-12-31 17:08:51,984 "GET /student/1/ HTTP/1.1" 200 16136
+INFO 2023-12-31 17:08:55,384 "GET /batches/batch-stu-delete/4/1/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:08:55,421 "GET /batches/4/ HTTP/1.1" 200 15776
+INFO 2023-12-31 17:08:59,001 "GET /batches/batch-stu-delete/4/2/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:08:59,037 "GET /batches/4/ HTTP/1.1" 200 15143
+INFO 2023-12-31 17:09:04,726 "GET /batches/4/update/ HTTP/1.1" 200 12684
+INFO 2023-12-31 17:09:54,296 "GET /batches/4/ HTTP/1.1" 200 14964
+INFO 2023-12-31 17:10:36,483 "GET /batches/4/ HTTP/1.1" 200 14964
+INFO 2023-12-31 17:10:45,647 "GET /batches/4/ HTTP/1.1" 200 14964
+INFO 2023-12-31 17:11:01,624 "GET /batches/4/ HTTP/1.1" 200 15003
+INFO 2023-12-31 17:11:10,248 "GET /batches/4/ HTTP/1.1" 200 15020
+INFO 2023-12-31 17:11:21,024 "GET /batches/4/ HTTP/1.1" 200 15014
+INFO 2023-12-31 17:11:26,630 "GET /batches/4/add-student/ HTTP/1.1" 200 10581
+INFO 2023-12-31 17:11:53,582 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 17:11:54,457 "GET /staff/list/ HTTP/1.1" 200 10699
+INFO 2023-12-31 17:11:56,326 "GET /staff/1/ HTTP/1.1" 200 15330
+INFO 2023-12-31 17:11:56,458 "GET /media/staff/certificates/text_3ZwEyYY.jpg HTTP/1.1" 200 581326
+INFO 2023-12-31 17:11:59,518 "GET /staff/list/ HTTP/1.1" 200 10699
+INFO 2023-12-31 17:12:01,759 "GET /course/ HTTP/1.1" 200 10668
+INFO 2023-12-31 17:12:03,524 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:12:04,470 "GET /course/ HTTP/1.1" 200 10668
+INFO 2023-12-31 17:12:05,224 "GET /course/course-details/1/ HTTP/1.1" 200 14833
+INFO 2023-12-31 17:12:11,594 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 17:12:12,917 "GET /student/list HTTP/1.1" 200 11018
+INFO 2023-12-31 17:12:13,952 "GET /student/1/ HTTP/1.1" 200 15652
+ERROR 2023-12-31 17:13:18,073 Internal Server Error: /student/1/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'course_detail' not found. 'course_detail' is not a valid view function or pattern name.
+ERROR 2023-12-31 17:13:18,077 "GET /student/1/ HTTP/1.1" 500 207791
+ERROR 2023-12-31 17:13:23,078 Internal Server Error: /student/1/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'course_details' not found. 'course_details' is not a valid view function or pattern name.
+ERROR 2023-12-31 17:13:23,080 "GET /student/1/ HTTP/1.1" 500 207818
+INFO 2023-12-31 17:13:41,881 "GET /student/1/ HTTP/1.1" 200 15692
+INFO 2023-12-31 17:13:44,098 "GET /course/course-details/1/ HTTP/1.1" 200 14833
+INFO 2023-12-31 17:13:50,874 "GET /course/course-details/1/ HTTP/1.1" 200 14833
+INFO 2023-12-31 17:13:54,680 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:13:59,105 "GET /batches/4/ HTTP/1.1" 200 15014
+INFO 2023-12-31 17:14:06,813 "GET /batches/4/add-student/ HTTP/1.1" 200 10581
+INFO 2023-12-31 17:14:09,821 "POST /batches/4/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:14:09,858 "GET /batches/4/ HTTP/1.1" 200 15988
+INFO 2023-12-31 17:14:13,213 "GET /batches/4/update/ HTTP/1.1" 200 12684
+INFO 2023-12-31 17:14:21,129 "POST /batches/4/update/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:14:21,166 "GET /batches/4/ HTTP/1.1" 200 16140
+INFO 2023-12-31 17:14:22,468 "GET /student/1/ HTTP/1.1" 200 16176
+INFO 2023-12-31 17:16:19,071 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:16:19,856 Watching for file changes with StatReloader
+INFO 2023-12-31 17:16:25,015 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:16:26,416 "GET /batches/4/ HTTP/1.1" 200 15997
+INFO 2023-12-31 17:16:28,086 "GET /batches/4/update/ HTTP/1.1" 200 12703
+ERROR 2023-12-31 17:16:36,344 Internal Server Error: /batches/4/update/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'end_date'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\edit.py", line 206, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\edit.py", line 151, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py", line 118, in form_valid
+    self.object.batch_students.all().update(end_date=new_end_date)
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\query.py", line 1226, in update
+    query.add_update_values(kwargs)
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\sql\subqueries.py", line 88, in add_update_values
+    field = self.get_meta().get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Student has no field named 'end_date'
+ERROR 2023-12-31 17:16:36,347 "POST /batches/4/update/ HTTP/1.1" 500 112856
+INFO 2023-12-31 17:20:50,392 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:20:51,125 Watching for file changes with StatReloader
+INFO 2023-12-31 17:20:54,009 "POST /batches/4/update/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:20:54,062 "GET /batches/4/ HTTP/1.1" 200 16277
+INFO 2023-12-31 17:20:58,099 "GET /student/1/ HTTP/1.1" 200 16185
+INFO 2023-12-31 17:21:02,005 "GET /batches/4/ HTTP/1.1" 200 15997
+INFO 2023-12-31 17:21:02,962 "GET /student/2/ HTTP/1.1" 200 13874
+INFO 2023-12-31 17:21:51,449 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:21:52,207 Watching for file changes with StatReloader
+INFO 2023-12-31 17:21:53,358 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:21:54,738 "GET /batches/create/ HTTP/1.1" 200 12666
+ERROR 2023-12-31 17:22:09,611 Internal Server Error: /batches/create/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py", line 98, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py", line 104, in form_valid
+    for student in self.object.batch_students.all():
+                   ^^^^^^^^^^^
+AttributeError: 'BatchCreateView' object has no attribute 'object'
+ERROR 2023-12-31 17:22:09,612 "POST /batches/create/ HTTP/1.1" 500 91219
+INFO 2023-12-31 17:23:22,510 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:23:23,519 Watching for file changes with StatReloader
+ERROR 2023-12-31 17:23:24,847 Internal Server Error: /batches/create/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py", line 98, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py", line 104, in form_valid
+    for student in self.object.batch_students.all():
+                   ^^^^^^^^^^^
+AttributeError: 'BatchCreateView' object has no attribute 'object'
+ERROR 2023-12-31 17:23:24,849 "POST /batches/create/ HTTP/1.1" 500 91219
+INFO 2023-12-31 17:24:14,410 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:24:15,166 Watching for file changes with StatReloader
+ERROR 2023-12-31 17:24:17,380 Internal Server Error: /batches/create/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py", line 98, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py", line 104, in form_valid
+    for student in form.cleaned_data['batch_students'].all():
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'batch_students'
+ERROR 2023-12-31 17:24:17,382 "POST /batches/create/ HTTP/1.1" 500 91100
+INFO 2023-12-31 17:25:01,812 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\views.py changed, reloading.
+INFO 2023-12-31 17:25:02,768 Watching for file changes with StatReloader
+INFO 2023-12-31 17:25:11,288 "GET /batches/create/ HTTP/1.1" 200 12666
+INFO 2023-12-31 17:25:19,146 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 17:25:20,347 "GET /staff/list/ HTTP/1.1" 200 10699
+INFO 2023-12-31 17:25:52,578 "GET /staff/list/ HTTP/1.1" 200 10703
+INFO 2023-12-31 17:25:54,039 "GET /staff/1/ HTTP/1.1" 200 15330
+INFO 2023-12-31 17:26:03,942 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:26:05,379 "GET /batches/create/ HTTP/1.1" 200 12666
+INFO 2023-12-31 17:26:17,299 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:26:18,072 "GET /batches/4/ HTTP/1.1" 200 15997
+INFO 2023-12-31 17:26:21,222 "GET /batches/4/add-student/ HTTP/1.1" 200 10599
+INFO 2023-12-31 17:27:37,772 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:27:38,476 Watching for file changes with StatReloader
+INFO 2023-12-31 17:27:56,921 "GET /batches/4/add-student/ HTTP/1.1" 200 10599
+INFO 2023-12-31 17:28:10,036 "GET /batches/4/add-student/ HTTP/1.1" 200 10599
+INFO 2023-12-31 17:29:58,551 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:29:59,471 Watching for file changes with StatReloader
+INFO 2023-12-31 17:30:00,100 "GET /batches/4/add-student/ HTTP/1.1" 200 10609
+INFO 2023-12-31 17:30:05,424 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:30:06,338 Watching for file changes with StatReloader
+INFO 2023-12-31 17:30:06,813 "GET /batches/4/add-student/ HTTP/1.1" 200 10609
+INFO 2023-12-31 17:31:03,376 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:31:04,229 Watching for file changes with StatReloader
+INFO 2023-12-31 17:31:04,768 "GET /batches/4/add-student/ HTTP/1.1" 200 10609
+INFO 2023-12-31 17:31:26,872 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:31:27,624 Watching for file changes with StatReloader
+INFO 2023-12-31 17:31:27,992 "GET /batches/4/add-student/ HTTP/1.1" 200 10599
+INFO 2023-12-31 17:31:40,812 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:31:41,677 Watching for file changes with StatReloader
+INFO 2023-12-31 17:31:42,201 "GET /batches/4/add-student/ HTTP/1.1" 200 10599
+INFO 2023-12-31 17:31:42,939 "GET /batches/4/add-student/ HTTP/1.1" 200 10599
+INFO 2023-12-31 17:31:48,602 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:31:49,328 Watching for file changes with StatReloader
+INFO 2023-12-31 17:33:00,706 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:33:01,616 Watching for file changes with StatReloader
+INFO 2023-12-31 17:33:02,270 "GET /batches/4/add-student/ HTTP/1.1" 200 10599
+INFO 2023-12-31 17:33:28,522 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:33:29,345 Watching for file changes with StatReloader
+INFO 2023-12-31 17:33:30,237 "GET /batches/4/add-student/ HTTP/1.1" 200 10640
+INFO 2023-12-31 17:33:40,354 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:33:41,134 Watching for file changes with StatReloader
+INFO 2023-12-31 17:33:41,601 "GET /batches/4/add-student/ HTTP/1.1" 200 10640
+INFO 2023-12-31 17:34:00,476 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:34:01,150 Watching for file changes with StatReloader
+INFO 2023-12-31 17:34:14,340 "GET /batches/4/add-student/ HTTP/1.1" 200 10640
+INFO 2023-12-31 17:34:16,969 "POST /batches/4/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:34:17,009 "GET /batches/4/ HTTP/1.1" 200 15997
+INFO 2023-12-31 17:34:20,520 "GET /batches/4/add-student/ HTTP/1.1" 200 10640
+INFO 2023-12-31 17:35:34,464 "GET /batches/4/add-student/ HTTP/1.1" 200 10640
+INFO 2023-12-31 17:35:45,218 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:35:46,028 Watching for file changes with StatReloader
+INFO 2023-12-31 17:36:05,302 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:36:05,953 Watching for file changes with StatReloader
+INFO 2023-12-31 17:36:51,202 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:36:52,042 Watching for file changes with StatReloader
+INFO 2023-12-31 17:37:01,732 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:37:02,641 Watching for file changes with StatReloader
+INFO 2023-12-31 17:37:03,343 "GET /batches/4/add-student/ HTTP/1.1" 200 10756
+INFO 2023-12-31 17:37:12,243 "POST /batches/4/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:37:12,286 "GET /batches/4/ HTTP/1.1" 200 15997
+INFO 2023-12-31 17:37:14,703 "GET /batches/4/add-student/ HTTP/1.1" 200 10756
+INFO 2023-12-31 17:37:16,617 "POST /batches/4/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:37:16,652 "GET /batches/4/ HTTP/1.1" 200 15997
+INFO 2023-12-31 17:37:17,833 "GET /batches/4/add-student/ HTTP/1.1" 200 10756
+INFO 2023-12-31 17:37:20,807 "POST /batches/4/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:37:20,848 "GET /batches/4/ HTTP/1.1" 200 15997
+INFO 2023-12-31 17:37:22,148 "GET /batches/4/add-student/ HTTP/1.1" 200 10756
+INFO 2023-12-31 17:37:27,656 C:\Users\LOGI\Desktop\New folder\csc\apps\batch\forms.py changed, reloading.
+INFO 2023-12-31 17:37:28,481 Watching for file changes with StatReloader
+INFO 2023-12-31 17:37:29,027 "GET /batches/4/add-student/ HTTP/1.1" 200 10640
+INFO 2023-12-31 17:37:39,169 "GET /batches/4/ HTTP/1.1" 200 15997
+INFO 2023-12-31 17:37:49,490 "GET /batches/4/add-student/ HTTP/1.1" 200 10640
+INFO 2023-12-31 17:37:55,543 "GET /batches/4/ HTTP/1.1" 200 15997
+INFO 2023-12-31 17:37:59,253 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 17:38:11,260 "GET /student/ HTTP/1.1" 200 14418
+INFO 2023-12-31 17:38:15,076 "GET /course/ HTTP/1.1" 200 10668
+INFO 2023-12-31 17:38:16,143 "GET /course/course-details/1/ HTTP/1.1" 200 14833
+INFO 2023-12-31 17:38:18,169 "GET /course/1/update/ HTTP/1.1" 200 11809
+INFO 2023-12-31 17:38:21,038 "GET /course/ HTTP/1.1" 200 10668
+INFO 2023-12-31 17:38:21,817 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:49:04,737 Watching for file changes with StatReloader
+INFO 2023-12-31 17:49:07,106 "GET /batches/ HTTP/1.1" 200 10914
+INFO 2023-12-31 17:49:37,950 "GET /batches/ HTTP/1.1" 200 11188
+INFO 2023-12-31 17:49:39,415 "GET /site-config HTTP/1.1" 200 11164
+INFO 2023-12-31 17:49:41,624 "GET /time/list/ HTTP/1.1" 200 11830
+INFO 2023-12-31 17:49:53,223 "POST /class/create/ HTTP/1.1" 200 10909
+INFO 2023-12-31 17:50:02,856 "POST /class/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:50:02,891 "GET /class/list/ HTTP/1.1" 200 12836
+WARNING 2023-12-31 17:50:07,287 Not Found: /student/classdel/3/
+WARNING 2023-12-31 17:50:07,287 "GET /student/classdel/3/ HTTP/1.1" 404 10669
+INFO 2023-12-31 17:50:10,440 "GET /class/list/ HTTP/1.1" 200 12693
+INFO 2023-12-31 17:50:15,646 "GET /time/list/ HTTP/1.1" 200 11830
+INFO 2023-12-31 17:51:27,301 "POST /class/create/ HTTP/1.1" 200 10909
+INFO 2023-12-31 17:51:36,543 "GET /time/list/ HTTP/1.1" 200 11829
+INFO 2023-12-31 17:51:39,781 "POST /time/create/ HTTP/1.1" 302 0
+ERROR 2023-12-31 17:51:39,857 Internal Server Error: /time/list/
+Traceback (most recent call last):
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LOGI\Desktop\New folder\env\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'time-delete' not found. 'time-delete' is not a valid view function or pattern name.
+ERROR 2023-12-31 17:51:39,860 "GET /time/list/ HTTP/1.1" 500 205992
+INFO 2023-12-31 17:52:37,098 "GET /time/list/ HTTP/1.1" 200 12252
+INFO 2023-12-31 17:52:39,942 "GET /time/1/delete/ HTTP/1.1" 200 10980
+INFO 2023-12-31 17:52:41,070 "POST /time/1/delete/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:52:41,102 "GET /time/list/ HTTP/1.1" 200 11829
+INFO 2023-12-31 17:52:44,253 "POST /time/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:52:44,287 "GET /time/list/ HTTP/1.1" 200 12252
+INFO 2023-12-31 17:52:45,364 "GET /time/2/update/ HTTP/1.1" 200 10819
+INFO 2023-12-31 17:52:46,855 "POST /time/2/update/ HTTP/1.1" 302 0
+INFO 2023-12-31 17:52:46,892 "GET /time/list/ HTTP/1.1" 200 12251
+INFO 2023-12-31 17:52:51,784 "GET /exam/list/ HTTP/1.1" 200 12704
+INFO 2023-12-31 17:52:54,867 "GET /subject/list/ HTTP/1.1" 200 13220
+INFO 2023-12-31 17:52:59,295 "GET /exam/list/ HTTP/1.1" 200 12704
+INFO 2023-12-31 17:53:02,292 "GET /book/list/ HTTP/1.1" 200 12338
+INFO 2023-12-31 17:53:05,497 "GET /subject/list/ HTTP/1.1" 200 13220
+INFO 2023-12-31 17:53:08,766 "GET /student/ HTTP/1.1" 200 14692
+INFO 2023-12-31 17:53:09,775 "GET /enquiry/list HTTP/1.1" 200 11404
+INFO 2023-12-31 17:53:10,819 "GET /enquiry/1/ HTTP/1.1" 200 13586
+INFO 2023-12-31 17:53:15,044 "GET /student/ HTTP/1.1" 200 14692
+INFO 2023-12-31 17:53:15,979 "GET /student/select_enquiry/ HTTP/1.1" 200 11734
+INFO 2023-12-31 17:56:19,248 C:\Users\LOGI\Desktop\New folder\csc\apps\students\models.py changed, reloading.
+INFO 2023-12-31 17:56:19,929 Watching for file changes with StatReloader
+INFO 2023-12-31 18:11:36,213 Watching for file changes with StatReloader
+INFO 2023-12-31 18:11:41,323 "GET /student/select_enquiry/ HTTP/1.1" 200 11734
+INFO 2023-12-31 18:11:42,169 "GET /student/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:11:42,188 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2023-12-31 18:11:47,325 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:11:47,386 "GET / HTTP/1.1" 200 13656
+INFO 2023-12-31 18:11:48,507 "GET /student/ HTTP/1.1" 200 14692
+INFO 2023-12-31 18:11:49,485 "GET /enquiry/list HTTP/1.1" 200 10833
+INFO 2023-12-31 18:11:50,921 "GET /enquiry/create/ HTTP/1.1" 200 23370
+INFO 2023-12-31 18:12:26,718 "GET /staff/list/ HTTP/1.1" 200 10747
+INFO 2023-12-31 18:12:28,054 "GET /staff/create/ HTTP/1.1" 200 17079
+INFO 2023-12-31 18:12:48,219 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:12:48,317 "GET /staff/1/ HTTP/1.1" 200 15243
+INFO 2023-12-31 18:12:52,942 "GET /course/ HTTP/1.1" 200 10735
+INFO 2023-12-31 18:12:54,127 "GET /course/create/ HTTP/1.1" 200 12130
+INFO 2023-12-31 18:13:01,204 "POST /course/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:13:01,265 "GET /course/ HTTP/1.1" 200 10942
+INFO 2023-12-31 18:13:03,198 "GET /student/ HTTP/1.1" 200 14692
+INFO 2023-12-31 18:13:04,213 "GET /enquiry/list HTTP/1.1" 200 10833
+INFO 2023-12-31 18:13:05,469 "GET /enquiry/create/ HTTP/1.1" 200 23408
+INFO 2023-12-31 18:13:17,404 "POST /enquiry/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:13:17,466 "GET /enquiry/1/ HTTP/1.1" 200 13049
+INFO 2023-12-31 18:13:20,515 "GET /student/ HTTP/1.1" 200 14692
+INFO 2023-12-31 18:13:23,643 "GET /student/select_enquiry/ HTTP/1.1" 200 11734
+INFO 2023-12-31 18:13:26,123 "GET /student/ HTTP/1.1" 200 14692
+INFO 2023-12-31 18:13:26,818 "GET /enquiry/list HTTP/1.1" 200 11119
+INFO 2023-12-31 18:13:27,950 "GET /enquiry/1/ HTTP/1.1" 200 12903
+INFO 2023-12-31 18:13:30,626 "GET /enquiry/1/update/ HTTP/1.1" 200 23601
+INFO 2023-12-31 18:13:34,382 "POST /enquiry/1/update/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:13:34,441 "GET /enquiry/1/ HTTP/1.1" 200 13047
+INFO 2023-12-31 18:13:35,588 "GET /student/ HTTP/1.1" 200 14692
+INFO 2023-12-31 18:13:36,722 "GET /student/select_enquiry/ HTTP/1.1" 200 11794
+INFO 2023-12-31 18:13:39,799 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:13:39,929 "GET /student/create/1/ HTTP/1.1" 200 19444
+INFO 2023-12-31 18:13:56,676 "GET /time/list/ HTTP/1.1" 200 11829
+INFO 2023-12-31 18:14:02,138 "POST /time/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:14:02,188 "GET /time/list/ HTTP/1.1" 200 12252
+INFO 2023-12-31 18:14:05,875 "GET /student/create/1/ HTTP/1.1" 200 19484
+INFO 2023-12-31 18:14:23,367 "POST /student/create/1/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:14:23,438 "GET /student/1/ HTTP/1.1" 200 13798
+INFO 2023-12-31 18:14:27,998 "GET /batches/ HTTP/1.1" 200 10882
+INFO 2023-12-31 18:14:29,182 "GET /batches/create/ HTTP/1.1" 200 12874
+INFO 2023-12-31 18:14:41,772 "GET /subject/list/ HTTP/1.1" 200 12094
+INFO 2023-12-31 18:14:48,640 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:14:48,724 "GET /subject/list/ HTTP/1.1" 200 12521
+INFO 2023-12-31 18:14:50,425 "GET /revenue/revenue HTTP/1.1" 200 11002
+INFO 2023-12-31 18:14:52,715 "GET /batches/ HTTP/1.1" 200 10882
+INFO 2023-12-31 18:14:54,176 "GET /batches/create/ HTTP/1.1" 200 12909
+INFO 2023-12-31 18:15:01,774 "POST /batches/create/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:15:01,841 "GET /batches/1/ HTTP/1.1" 200 15432
+INFO 2023-12-31 18:15:06,156 "GET /batches/1/add-student/ HTTP/1.1" 200 10847
+INFO 2023-12-31 18:15:08,610 "POST /batches/1/add-student/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:15:08,687 "GET /batches/1/ HTTP/1.1" 200 15919
+INFO 2023-12-31 18:15:10,188 "GET /student/1/ HTTP/1.1" 200 14137
+INFO 2023-12-31 18:15:21,922 "GET /finance/bill/ HTTP/1.1" 200 13331
+INFO 2023-12-31 18:15:37,461 "POST /finance/bill/ HTTP/1.1" 302 0
+INFO 2023-12-31 18:15:37,582 "GET /finance/bill/ HTTP/1.1" 200 13348
+INFO 2023-12-31 18:15:43,278 "GET /student/ HTTP/1.1" 200 14692
+INFO 2023-12-31 18:15:45,349 "GET /student/list HTTP/1.1" 200 11011
+INFO 2023-12-31 18:15:49,772 "GET /enquiry/list HTTP/1.1" 200 11119
+INFO 2023-12-31 18:15:52,239 "GET /student/select_enquiry/ HTTP/1.1" 200 11734
+INFO 2023-12-31 18:15:54,378 "GET /student/ HTTP/1.1" 200 14692
+INFO 2023-12-31 18:15:55,164 "GET /student/list HTTP/1.1" 200 11011
+INFO 2023-12-31 18:15:56,654 "GET /student/1/ HTTP/1.1" 200 14137
+INFO 2023-12-31 18:16:01,991 "GET /public/student/1/ HTTP/1.1" 200 7008
+INFO 2023-12-31 18:16:21,666 "GET /revenue/revenue HTTP/1.1" 200 11280
+INFO 2023-12-31 18:16:22,200 "GET /revenue/month HTTP/1.1" 200 12387
+INFO 2023-12-31 18:16:22,777 "GET /revenue/today HTTP/1.1" 200 11742
+INFO 2023-12-31 18:16:23,478 "GET /finance/bill/ HTTP/1.1" 200 13348
+INFO 2023-12-31 18:16:24,672 "GET /student/ HTTP/1.1" 200 14692
+INFO 2023-12-31 18:16:25,461 "GET /staff/list/ HTTP/1.1" 200 10978
+INFO 2023-12-31 18:16:25,978 "GET /course/ HTTP/1.1" 200 10942
+INFO 2023-12-31 18:16:26,443 "GET /batches/ HTTP/1.1" 200 11189
+INFO 2023-12-31 18:16:27,223 "GET /finance/bill/ HTTP/1.1" 200 13348
+INFO 2023-12-31 18:16:27,733 "GET /revenue/today HTTP/1.1" 200 11742
+INFO 2023-12-31 18:16:28,210 "GET /revenue/month HTTP/1.1" 200 12387

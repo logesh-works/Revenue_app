@@ -16,7 +16,8 @@ from .forms import (
     StudentClassForm,
     SubjectForm,
     BookForm,
-    ExamForm
+    ExamForm,
+    TimeForm
     
 )
 from .models import (
@@ -25,7 +26,7 @@ from .models import (
     SiteConfig,
     StudentClass,
     Subject,
-    Book,Exam
+    Book,Exam,Time
 )
 
 
@@ -279,6 +280,42 @@ class BookDeleteView(LoginRequiredMixin, DeleteView):
     success_url = reverse_lazy("book")
     template_name = "corecode/core_confirm_delete.html"
     success_message = "The Book {} has been deleted with all its attached content"
+
+    def delete(self, request, *args, **kwargs):
+        obj = self.get_object()
+        messages.success(self.request, self.success_message.format(obj.name))
+        return super(BookDeleteView, self).delete(request, *args, **kwargs)
+class TimeListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
+    model = Time
+    template_name = "corecode/time_list.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["form"] = TimeForm()
+        return context
+
+
+class TimeCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+    model = Time
+    form_class = TimeForm
+    template_name = "corecode/mgt_form.html"
+    success_url = reverse_lazy("time")
+    success_message = "New time successfully added"
+
+
+class TimeUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
+    model = Time
+    fields = ["time"]
+    success_url = reverse_lazy("time")
+    success_message = "time successfully updated."
+    template_name = "corecode/mgt_form.html"
+
+
+class TimeDeleteView(LoginRequiredMixin, DeleteView):
+    model = Time
+    success_url = reverse_lazy("time")
+    template_name = "corecode/core_confirm_delete.html"
+    success_message = "The time {} has been deleted with all its attached content"
 
     def delete(self, request, *args, **kwargs):
         obj = self.get_object()

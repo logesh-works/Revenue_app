@@ -28,7 +28,11 @@ from .views import (
     ExamCreateView,
     ExamDeleteView,
     ExamListView,
-    ExamUpdateView
+    ExamUpdateView,
+    TimeCreateView,
+    TimeDeleteView,
+    TimeListView,
+    TimeUpdateView
 )
 
 urlpatterns = [
@@ -92,5 +96,17 @@ urlpatterns = [
         "exam/<int:pk>/delete/",
         ExamDeleteView.as_view(),
         name="examdelete",
+    ),
+    path("time/list/", TimeListView.as_view(), name="time"),
+    path("time/create/", TimeCreateView.as_view(), name="time-create"),
+    path(
+        "time/<int:pk>/update/",
+        TimeUpdateView.as_view(),
+        name="time-update",
+    ),
+    path(
+        "time/<int:pk>/delete/",
+        TimeDeleteView.as_view(),
+        name="timedelete",
     ),
 ]
