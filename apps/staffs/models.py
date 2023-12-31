@@ -18,7 +18,7 @@ class Staff(models.Model):
     name = models.CharField(max_length=200)
     gender = models.CharField(max_length=10, choices=GENDER, default="male")
     date_of_birth = models.DateField(default=timezone.now)
-    date_of_admission = models.DateField(default=timezone.now)
+    date_of_admission = models.DateField("Date of Join",default=timezone.now)
     quali = models.CharField("Qualification",blank=True, max_length=500,null=True)
     study_year = models.IntegerField("If undergoing Year",blank=True,default=None,null=True)
     study_colleg = models.CharField("College Name",max_length=1024,blank=True)
@@ -36,7 +36,12 @@ class Staff(models.Model):
     email = models.EmailField("Email", blank=False, default="")
 
 
-    address = models.TextField(blank=True)
+    address = models.CharField("Address", max_length=255,default=None,blank=True)
+    address1 = models.CharField("Address Line 2", max_length=255,default=None,blank=True,null=True)
+    address2 = models.CharField("Address Line 3", max_length=255,default=None,blank=True,null=True)
+    taluka = models.CharField("Taluk",max_length=255,null=True,default=None,blank=True)
+    district = models.CharField("District",max_length=255,default="",blank=True)
+    pincode = models.IntegerField("Pincode", blank=True, default=None)
     passport = models.ImageField("Photo",blank=True, upload_to="staff/certificates/")
     aadhar_card = models.ImageField("Aadhar Card",blank=True, upload_to="staff/certificates/")
     degree_certificate = models.ImageField("Degree Certificate",blank=True, upload_to="staff/certificates/")
