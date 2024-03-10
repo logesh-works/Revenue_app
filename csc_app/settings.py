@@ -98,7 +98,7 @@ DATABASES = {
 		'ENGINE': 'django.db.backends.mysql',
 		'NAME': 'cscdb',
 		'USER': 'cscdb',
-		'PASSWORD': 'Csc@606001',
+		'PASSWORD': 'csc@606001',
 		'HOST':'localhost',
 		'PORT':'3306',
 	}
