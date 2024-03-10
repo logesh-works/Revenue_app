@@ -4,6 +4,8 @@ from django.urls import reverse
 from django.utils import timezone
 from datetime import date
 from apps.staffs.models import Staff
+from apps.corecode.models import Time
+from apps.course.models import CourseModel
 
 
 class Enquiry(models.Model):
@@ -85,10 +87,14 @@ class Enquiry(models.Model):
     known_csc = models.CharField(
         "How You Know about CSC", choices=KNOWN_CSC_CHOICES, default="Newspaper", max_length=1024
     )
-    course_to_join = models.CharField(
-        "Course Interested to Join", max_length=1024, default=""
+    course_to_join = models.ForeignKey(CourseModel,on_delete=models.CASCADE,blank=True,null=True)
+    new_course = models.CharField(
+        "New Courese Intersed", max_length=1024, default="",blank=True,null=True
     )
-    time_to_study = models.CharField("Prefered Timing",max_length=255, default="")
+    time_to_study = models.ForeignKey(Time,on_delete=models.CASCADE,blank=True,null=True)
+    new_time = models.CharField(
+        "New Time to study", max_length=1024, default="",blank=True,null=True
+    )
     
     def save(self, *args, **kwargs):
         if not self.pk:
@@ -153,7 +159,7 @@ class Enquirylogs(models.Model):
     staff_contact = models.ForeignKey(Staff,on_delete=models.DO_NOTHING)
     exp_date = models.DateField("Expected date",default=timezone.now)
     contact_by = models.CharField("Contact By",max_length=255,choices=contact_choice,default="Phone")
-    log_date = models.DateField("Enquired Date",auto_now=True)
+    log_date = models.DateField("Enquired Date",default=timezone.now)
     comment = models.TextField("Remark",default=None,blank=True,null=True)
     def get_absolute_url(self):
         return reverse("enquiry-detail", kwargs={"pk": self.student.pk})

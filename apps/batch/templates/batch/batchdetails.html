@@ -67,21 +67,11 @@
       position: relative;
     }
     .about-list label:after {
-      content: "";
+      content: ":";
       position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 11px;
-      width: 1px;
+      right: 12px;
       height: 12px;
-      background: #20247b;
-      -moz-transform: rotate(15deg);
-      -o-transform: rotate(15deg);
-      -ms-transform: rotate(15deg);
-      -webkit-transform: rotate(15deg);
-      transform: rotate(15deg);
       margin: auto;
-      opacity: 0.5;
     }
     .about-list p {
       margin: 0;
@@ -138,6 +128,10 @@
                     <h4>Batch ID : {{batch.batch_id}}</h4>
                     <div class="row about-list">
                         <div class="col-md-6">
+                            <div class="media">
+                                <label>Subject</label>
+                                <p>{{batch.batch_course.name}}</p>
+                            </div>
                             <div class="media">
                                 <label>status</label>
                                 <p>{{batch.batch_status}}</p>

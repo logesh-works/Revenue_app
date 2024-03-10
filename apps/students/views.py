@@ -2,6 +2,13 @@ import csv
 from django.contrib.auth.mixins import AccessMixin
 from datetime import datetime
 from django import forms
+from io import BytesIO
+from reportlab.pdfgen import canvas
+from django.http import HttpResponse
+from PIL import Image
+import qrcode
+import os
+from csc_app import settings
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.messages.views import SuccessMessageMixin
 from django.forms import widgets
@@ -25,6 +32,60 @@ from apps.finance.models import Invoice
 
 from ..enquiry.models import *
 from .models import Student, StudentBulkUpload,Bookmodel,Classmodel,Exammodel,Certificatemodel
+from reportlab.lib.pagesizes import letter  # Adjust for desired page size
+
+def generate_student_id_card(request, student_id):
+    student = Student.objects.get(id=student_id)
+    
+    # Create a file-like buffer to receive PDF data
+    buffer = BytesIO()
+    
+    # Create a new PDF with ReportLab
+    pdf = canvas.Canvas(buffer, pagesize=letter)
+    
+    # Set font
+    pdf.setFont("Helvetica", 12)
+    
+    # Add student's photo
+    if student.passport:
+        photo_path = student.passport.path
+        photo = Image.open(photo_path)
+        photo_width, photo_height = photo.size
+        photo.thumbnail((150, 150))
+        pdf.drawInlineImage(photo, 50, 630, width=100, height=100)
+    
+    # Add student's details
+    pdf.drawString(200, 700, "Student ID Card")
+    pdf.drawString(200, 680, f"Name: {student.student_name}")
+    pdf.drawString(200, 660, f"Enrollment Number: {student.enrol_no}")
+    pdf.drawString(200, 640, f"Course: {student.course}")
+    # Add more details as needed
+    
+    # Generate QR code with student's website link
+    public_student_profile_url = reverse('public_student_profile', args=[student.id])
+    qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_L,
+        box_size=10,
+        border=4,
+    )
+    qr.add_data(request.get_host()+ public_student_profile_url)
+    qr.make(fit=True)
+    qr_img = qr.make_image(fill_color="black", back_color="white")
+    qr_img_path = os.path.join(os.path.join(settings.BASE_DIR, "static"), 'qr_codes', f'qr_code_{student_id}.png')
+    qr_img.save(qr_img_path)
+    
+    # Add QR code to the PDF
+    qr_code = Image.open(qr_img_path)
+    qr_code.thumbnail((100, 100))
+    pdf.drawInlineImage(qr_code, 400, 630, width=100, height=100)
+    
+    # Save the PDF to the buffer
+    pdf.save()
+    
+    # FileResponse sets the Content-Disposition header so that browsers
+    # present the option to save the file.
+    return HttpResponse(buffer.getvalue(), content_type='application/pdf')
 
 def handler404(request, exception):
     return render(request, '404.html', status=404)
@@ -198,7 +259,7 @@ class StudentUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
             attrs={"type": "date"}
         )
         form.fields["address"].widget = widgets.Textarea(attrs={"rows": 2})
-      
+        del form.fields['total_fee']
         return form
 
 

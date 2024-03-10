@@ -19,10 +19,11 @@ from .views import (
     delete_certificate_log,
     CreateCertificateLog,
     PublicView,
-
+    generate_student_id_card,
 )
 
 urlpatterns = [
+    path('generate_student_id_card/<int:student_id>/', generate_student_id_card, name='generate_student_id_card'),
     path("",Studentdashboard,name="dashboard"),
     path('select_enquiry/', select_enquiry, name='select_enquiry'),
     path("list", StudentListView.slist, name="student-list"),

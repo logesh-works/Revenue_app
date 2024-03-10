@@ -13,14 +13,21 @@
     <link rel="icon" href="https://content.jdmagicbox.com/comp/krishnagiri/d9/9999p4343.4343.160817161634.c1d9/catalogue/csc-computer-education-krishnagiri-ho-krishnagiri-computer-training-institutes-mmcytnevnv-250.jpg">
     <style>
       .jumbotron-fluid {
+        background-image: url('https://directory.edugorilla.com/wp-content/uploads/sites/6/2017/03/401796_131874550339991_1737478160_n-1.jpeg');
         background-color: #7dcfeb !important;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     .logo {
+      position: relative;
+      left: 50%;
         font-size: 90px !important;
         font-weight: 500!important;
         color: #fff;
     }
     .lgtx{
+      position: relative;
+      left: 50%;
       font-size: 25px!important;
       font-weight: 500 !important;
       color: #ffff !important;;
@@ -79,7 +86,15 @@ data-aos-duration="2000">
     <div class= " card col-lg-12 mb-3 mx-auto " style="max-width: 550px;">
       <div class="row no-gutters cards">
         <div class="col-md-4">
-          <img class="imgs" src="https://img.freepik.com/free-vector/academic-excellence-illustration_24877-52355.jpg" alt="">
+          {% if object.passport %}
+          <img
+            class="imgs"
+            src="{{ object.passport.url }}" style="width: 120px; height: 120px;">
+        {% else %}
+          <img
+            class="imgs"
+            src="https://img.freepik.com/free-vector/academic-excellence-illustration_24877-52355.jpg">
+        {% endif %}
         </div>
         <div class="col-md-8 ">
           <div class="card-body bgco">

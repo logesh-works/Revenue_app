@@ -5,7 +5,7 @@ from django.urls import reverse
 from django.utils import timezone
 from apps.course.models import CourseModel
 from apps.staffs.models import Staff
-from apps.corecode.models import StudentClass
+from apps.corecode.models import StudentClass , Book , Subject 
 from apps.corecode.models import Time
 from ..enquiry.models import *
 
@@ -109,7 +109,7 @@ class Student(models.Model):
     
 class Bookmodel(models.Model):
     student = models.ForeignKey(Student,on_delete=models.PROTECT)
-    received_book = models.CharField("Received Book",max_length=2046,blank=True,default=None)
+    received_book = models.ForeignKey(Book , on_delete=models.CASCADE)
     received_date = models.DateField("Book received Date",default=timezone.now)
     handled_by = models.ForeignKey(Staff,verbose_name="Handled Staff",on_delete = models.DO_NOTHING)
     def get_absolute_url(self):
@@ -131,7 +131,7 @@ class Classmodel(models.Model):
     
 class Exammodel(models.Model):
     student = models.ForeignKey(Student,on_delete=models.PROTECT)
-    subject = models.CharField("Subject",max_length=355,default=None,blank=True)
+    subject = models.ForeignKey(Subject,on_delete=models.CASCADE)
     exam_date = models.DateField("Examed date",default=timezone.now)
     contected_mode = models.CharField("Contected mode",choices=[("Online","Online"),("Offline","Offline")],max_length=255,blank=True,null=True,default=None)
     theory_mark =models.FloatField("Theory mark",blank=True,null=True,default=None)
@@ -144,7 +144,7 @@ class Exammodel(models.Model):
 
 class Certificatemodel(models.Model):
     student = models.ForeignKey(Student,on_delete=models.PROTECT)
-    course = models.CharField("Course",max_length=255,blank=True,default=None)
+    course = models.ForeignKey(CourseModel,on_delete=models.CASCADE)
     date_of_complete = models.DateField("Date of Completion",default=timezone.now)
     certificate_no = models.IntegerField("Certificate Number",default=None,blank=True)
     certificate_date = models.DateField("Certificate Date",default=timezone.now)

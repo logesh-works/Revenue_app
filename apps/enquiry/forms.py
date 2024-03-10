@@ -34,7 +34,7 @@ class EnquiryForm(forms.ModelForm):
         qualification_fiedls = ['qualification', 'qualification_status', 'studying_year', 'studying_course','student_college_name']
         others_fields = [
             
-             'need_of_study', 'course_to_join', 'time_to_study', 'known_csc'
+             'need_of_study', 'course_to_join','new_course', 'time_to_study','new_time', 'known_csc'
         ]
 
         # Set fieldsets for sections
@@ -55,11 +55,12 @@ class LogForm(forms.ModelForm):
     
     class Meta:
         model = Enquirylogs
-        fields = ['contact_by','staff_contact','exp_date','comment','student']
+        fields = ['contact_by','staff_contact','exp_date','comment','student','log_date']
     def __init__(self,*args, **kwargs):
         super(LogForm, self).__init__(*args, **kwargs)
         self.fields['student'].widget.attrs['style'] = "display:none;"
         self.fields['student'].label = ""
         self.fields['comment'].widget = forms.widgets.Textarea(attrs={"rows": 1,"cols":25})
         self.fields["exp_date"].widget = forms.widgets.DateInput(attrs={"type": "date"})
+        self.fields["log_date"].widget = forms.widgets.DateInput(attrs={"type": "date"})
 
