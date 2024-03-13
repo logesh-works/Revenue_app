@@ -53,9 +53,9 @@ class Enquiry(models.Model):
         regex="^[0-9]{10,15}$", message="Entered mobile number isn't in a right format!"
     )
     mobile_number = models.CharField("Mobile Number",
-        validators=[mobile_num_regex], max_length=13, blank=True
+        validators=[mobile_num_regex], max_length=13, blank=True , null=True
     )
-    email = models.EmailField("Email", blank=False, default="")
+    email = models.EmailField("Email", blank=True, default="" ,null=True)
     date_of_birth = models.DateField("Date of Birth",default=timezone.now)
     gender = models.CharField("Gender", max_length=10, choices=GENDER_CHOICES, default="male")
     student_role = models.CharField(
@@ -89,12 +89,9 @@ class Enquiry(models.Model):
     )
     course_to_join = models.ForeignKey(CourseModel,on_delete=models.CASCADE,blank=True,null=True)
     new_course = models.CharField(
-        "New Courese Intersed", max_length=1024, default="",blank=True,null=True
+        "Others", max_length=1024, default="",blank=True,null=True
     )
     time_to_study = models.ForeignKey(Time,on_delete=models.CASCADE,blank=True,null=True)
-    new_time = models.CharField(
-        "New Time to study", max_length=1024, default="",blank=True,null=True
-    )
     
     def save(self, *args, **kwargs):
         if not self.pk:

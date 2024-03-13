@@ -34,7 +34,7 @@ class EnquiryForm(forms.ModelForm):
         qualification_fiedls = ['qualification', 'qualification_status', 'studying_year', 'studying_course','student_college_name']
         others_fields = [
             
-             'need_of_study', 'course_to_join','new_course', 'time_to_study','new_time', 'known_csc'
+             'need_of_study', 'course_to_join','new_course', 'time_to_study', 'known_csc'
         ]
 
         # Set fieldsets for sections

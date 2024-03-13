@@ -3,10 +3,10 @@ appdirs
 asgiref 
 black 
 click 
+cryptography
 colorama 
 Django 
 qrcode[pil]
-reportlab
 django-widget-tweaks 
 flake8 
 isort 

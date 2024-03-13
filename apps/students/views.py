@@ -2,8 +2,6 @@ import csv
 from django.contrib.auth.mixins import AccessMixin
 from datetime import datetime
 from django import forms
-from io import BytesIO
-from reportlab.pdfgen import canvas
 from django.http import HttpResponse
 from PIL import Image
 import qrcode
@@ -25,6 +23,10 @@ from django.views.generic.edit import (
     FormMixin,
     UpdateView,
 )
+import qrcode
+import datetime
+from PIL import Image, ImageDraw, ImageFont
+import os
 from ..finance.models import Invoice,InvoiceItem
 from django.views.generic import DetailView
 
@@ -32,36 +34,76 @@ from apps.finance.models import Invoice
 
 from ..enquiry.models import *
 from .models import Student, StudentBulkUpload,Bookmodel,Classmodel,Exammodel,Certificatemodel
-from reportlab.lib.pagesizes import letter  # Adjust for desired page size
-
-def generate_student_id_card(request, student_id):
+from reportlab.lib.pagesizes import letter
+def generate_student_id_card(request,student_id):
+        # Create a blank image
+    image = Image.new('RGB', (1000, 900), (255, 255, 255))
+    draw = ImageDraw.Draw(image)
     student = Student.objects.get(id=student_id)
     
-    # Create a file-like buffer to receive PDF data
-    buffer = BytesIO()
-    
-    # Create a new PDF with ReportLab
-    pdf = canvas.Canvas(buffer, pagesize=letter)
-    
-    # Set font
-    pdf.setFont("Helvetica", 12)
-    
-    # Add student's photo
-    if student.passport:
-        photo_path = student.passport.path
-        photo = Image.open(photo_path)
-        photo_width, photo_height = photo.size
-        photo.thumbnail((150, 150))
-        pdf.drawInlineImage(photo, 50, 630, width=100, height=100)
-    
-    # Add student's details
-    pdf.drawString(200, 700, "Student ID Card")
-    pdf.drawString(200, 680, f"Name: {student.student_name}")
-    pdf.drawString(200, 660, f"Enrollment Number: {student.enrol_no}")
-    pdf.drawString(200, 640, f"Course: {student.course}")
-    # Add more details as needed
-    
-    # Generate QR code with student's website link
+
+# Get the path of the system font
+
+
+    # Use the system font for ImageFont
+    font = ImageFont.truetype('arial.ttf', size=45)
+
+
+    d_date = datetime.datetime.now()
+    reg_format_date = d_date.strftime("  %d-%m-%Y\t\t\t\t\t ID CARD Generator\t\t\t\t\t  %I:%M:%S %p")
+
+    # Company Name
+    text_color = 'rgb(255, 255, 0)'  # yellow color
+    background_color = 'rgb(255, 0, 0)'  # red color
+    draw.rectangle([(0, 0), (1000, 150)], fill='red')
+    (x, y) = (300, 50)
+    company = "CSC ANNAMALAINAGAR"
+    color = 'rgb(0, 0, 0)' # black color
+    draw.text((x, y), company, fill=text_color, font=font)
+
+    # ID Number
+    (x, y) = (50, 200)
+    idno = student.enrol_no
+    message = str('Roll Number: ' + str(idno))
+    draw.text((x, y), message, fill=color, font=font)
+
+    # Name
+    (x, y) = (50, 300)
+    name = student.student_name
+    fname = str('Name: ' + str(name))
+    draw.text((x, y), fname, fill=color, font=font)
+
+    (x, y) = (50, 400)
+    name = student.course
+    fname = str('Course: ' + str(name))
+    draw.text((x, y), fname, fill=color, font=font)
+
+    # Gender
+    (x, y) = (50, 500)
+    gender = student.gender
+    fgender = str('Gender: ' + str(gender))
+    draw.text((x, y), fgender, fill=color, font=font)
+
+    # DOB
+    (x, y) = (50, 600)
+    dob = student.date_of_birth
+    fdob = str('Date of Birth: ' + str(dob))
+    draw.text((x, y), fdob, fill=color, font=font)
+
+    # Blood Group
+
+    # Mobile Number
+    (x, y) = (50, 700)
+    mobile_number = student.mobile_number
+    fmobile_number = str('Mobile Number: ' + str(mobile_number))
+    draw.text((x, y), fmobile_number, fill=color, font=font)
+
+
+    # Save the edited image
+    image_path = os.path.join(settings.BASE_DIR, "media\\idcards", f"student_id_card_{student_id}.png")
+    image.save(image_path)
+
+    # Generate QR code
     public_student_profile_url = reverse('public_student_profile', args=[student.id])
     qr = qrcode.QRCode(
         version=1,
@@ -69,24 +111,29 @@ def generate_student_id_card(request, student_id):
         box_size=10,
         border=4,
     )
-    qr.add_data(request.get_host()+ public_student_profile_url)
+    qr.add_data(request.get_host() + public_student_profile_url)
     qr.make(fit=True)
-    qr_img = qr.make_image(fill_color="black", back_color="white")
-    qr_img_path = os.path.join(os.path.join(settings.BASE_DIR, "static"), 'qr_codes', f'qr_code_{student_id}.png')
-    qr_img.save(qr_img_path)
-    
-    # Add QR code to the PDF
-    qr_code = Image.open(qr_img_path)
-    qr_code.thumbnail((100, 100))
-    pdf.drawInlineImage(qr_code, 400, 630, width=100, height=100)
-    
-    # Save the PDF to the buffer
-    pdf.save()
-    
-    # FileResponse sets the Content-Disposition header so that browsers
-    # present the option to save the file.
-    return HttpResponse(buffer.getvalue(), content_type='application/pdf')
+    qr_image = qr.make_image(fill_color="black", back_color="white")
 
+    qr_path = os.path.join('media\\qrcodes', f'qr_code{student_id}.png')
+    qr_image.save(qr_path)
+
+    # Paste QR code onto the ID card
+    if student.passport.path:
+        student_photo = Image.open(student.passport.path)
+    id_card = Image.open(image_path)
+    qr_code = Image.open(qr_path)
+    student_photo = student_photo.resize((320, 200))
+    qr_code = qr_code.resize((320, 400))
+    id_card.paste(student_photo,(650,200))
+    id_card.paste(qr_code, (650, id_card.height // 2))
+    id_card.save(image_path)
+
+    # Serve the image as a downloadable file
+    with open(image_path, 'rb') as file:
+        response = HttpResponse(file.read(), content_type='image/png')
+        response['Content-Disposition'] = 'attachment; filename=student_id_card.png'
+    return response
 def handler404(request, exception):
     return render(request, '404.html', status=404)
 

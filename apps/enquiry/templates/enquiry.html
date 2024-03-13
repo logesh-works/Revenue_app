@@ -29,8 +29,13 @@
             <td>{{ student.name}}</td>
             <td>{{ student.enquiry_status}}</td>
             <td>{{ student.mobile_number}}</td>
-            <td>{{ student.course_to_join}}</td>
-            <td>Santhi</td>
+            <td>{% if student.course_to_join %}
+              {{student.course_to_join}}
+              {% else %}
+              {{student.new_course}}
+              {% endif %}
+            </td>
+            <td>{{ student.counsellor}}</td>
             <td>{{ student.counsellor_remark}}</td>
           </tr>
         {% endfor %}
