@@ -34,7 +34,6 @@ from apps.finance.models import Invoice
 
 from ..enquiry.models import *
 from .models import Student, StudentBulkUpload,Bookmodel,Classmodel,Exammodel,Certificatemodel
-from reportlab.lib.pagesizes import letter
 def generate_student_id_card(request,student_id):
         # Create a blank image
     image = Image.new('RGB', (1000, 900), (255, 255, 255))
