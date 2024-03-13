@@ -2053,3 +2053,255 @@ INFO 2024-03-14 02:32:15,743 "GET /revenue/today HTTP/1.1" 200 11681
 INFO 2024-03-14 02:32:16,603 "GET /revenue/month HTTP/1.1" 200 12325
 INFO 2024-03-14 02:32:17,330 "GET /revenue/revenue HTTP/1.1" 200 11218
 INFO 2024-03-14 02:32:21,398 "GET /student/ HTTP/1.1" 200 14908
+INFO 2024-03-14 03:34:02,485 Watching for file changes with StatReloader
+INFO 2024-03-14 03:34:16,954 "GET / HTTP/1.1" 302 0
+INFO 2024-03-14 03:34:18,573 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2024-03-14 03:34:18,948 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-03-14 03:34:18,949 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2024-03-14 03:34:18,950 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2024-03-14 03:34:18,957 "GET /static/dist/css/login-page.css HTTP/1.1" 200 9064
+INFO 2024-03-14 03:34:18,967 "GET /static/dist/img/login.png HTTP/1.1" 200 48197
+INFO 2024-03-14 03:34:18,983 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2024-03-14 03:34:19,010 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2024-03-14 03:34:19,018 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2024-03-14 03:34:19,039 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2024-03-14 03:34:19,053 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2024-03-14 03:34:19,061 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2024-03-14 03:34:19,065 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2024-03-14 03:34:19,100 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2024-03-14 03:34:19,113 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2024-03-14 03:34:19,218 "GET /favicon.ico HTTP/1.1" 302 0
+INFO 2024-03-14 03:34:19,245 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2024-03-14 03:34:24,761 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-03-14 03:34:25,976 "GET / HTTP/1.1" 200 13872
+INFO 2024-03-14 03:34:26,159 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2024-03-14 03:34:26,740 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-03-14 03:34:27,610 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2024-03-14 03:34:35,923 "POST /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-03-14 03:34:35,941 "GET / HTTP/1.1" 302 0
+INFO 2024-03-14 03:34:35,968 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2024-03-14 03:34:36,171 "GET /favicon.ico HTTP/1.1" 302 0
+INFO 2024-03-14 03:34:36,189 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2024-03-14 03:34:42,404 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-03-14 03:34:42,513 "GET / HTTP/1.1" 200 13872
+INFO 2024-03-14 03:34:44,408 "GET /student/ HTTP/1.1" 200 14908
+INFO 2024-03-14 03:34:45,662 "GET /staff/list/ HTTP/1.1" 200 10963
+INFO 2024-03-14 03:34:53,118 "GET /staff/list/ HTTP/1.1" 200 10963
+INFO 2024-03-14 03:34:54,296 "GET /student/ HTTP/1.1" 200 14908
+INFO 2024-03-14 03:34:58,885 "GET /student/ HTTP/1.1" 200 14908
+INFO 2024-03-14 03:35:00,297 "GET /enquiry/list HTTP/1.1" 200 11049
+INFO 2024-03-14 03:35:03,012 "GET /enquiry/create/ HTTP/1.1" 200 23977
+INFO 2024-03-14 03:35:32,359 "GET /subject/list/ HTTP/1.1" 200 12310
+INFO 2024-03-14 03:36:19,488 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-03-14 03:36:19,589 "GET /subject/list/ HTTP/1.1" 200 12739
+INFO 2024-03-14 03:36:22,963 "GET /book/list/ HTTP/1.1" 200 12000
+INFO 2024-03-14 03:36:27,196 "POST /book/create/ HTTP/1.1" 302 0
+INFO 2024-03-14 03:36:27,300 "GET /book/list/ HTTP/1.1" 200 12420
+INFO 2024-03-14 03:36:31,233 "GET /time/list/ HTTP/1.1" 200 12045
+INFO 2024-03-14 03:36:35,763 "POST /time/create/ HTTP/1.1" 302 0
+INFO 2024-03-14 03:36:35,866 "GET /time/list/ HTTP/1.1" 200 12468
+INFO 2024-03-14 03:36:37,338 "GET /course/ HTTP/1.1" 200 10951
+INFO 2024-03-14 03:36:39,193 "GET /course/create/ HTTP/1.1" 200 12346
+INFO 2024-03-14 03:36:53,459 "POST /course/create/ HTTP/1.1" 302 0
+INFO 2024-03-14 03:36:53,570 "GET /course/ HTTP/1.1" 200 11158
+INFO 2024-03-14 03:36:55,466 "GET /student/ HTTP/1.1" 200 14908
+INFO 2024-03-14 03:36:56,828 "GET /enquiry/list HTTP/1.1" 200 11049
+INFO 2024-03-14 03:36:57,744 "GET /enquiry/create/ HTTP/1.1" 200 24052
+INFO 2024-03-14 03:37:50,738 "GET /staff/list/ HTTP/1.1" 200 10963
+INFO 2024-03-14 03:37:52,186 "GET /staff/create/ HTTP/1.1" 200 18570
+INFO 2024-03-14 03:38:44,376 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-03-14 03:38:45,026 "GET /staff/1/ HTTP/1.1" 200 15642
+INFO 2024-03-14 03:38:45,230 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2024-03-14 03:38:47,423 "GET /student/ HTTP/1.1" 200 14908
+INFO 2024-03-14 03:38:49,636 "GET /enquiry/list HTTP/1.1" 200 11049
+INFO 2024-03-14 03:38:51,079 "GET /enquiry/create/ HTTP/1.1" 200 24087
+INFO 2024-03-14 03:39:39,009 "POST /enquiry/create/ HTTP/1.1" 302 0
+INFO 2024-03-14 03:39:39,374 "GET /enquiry/1/ HTTP/1.1" 200 13264
+INFO 2024-03-14 03:39:43,240 "GET /staff/1/ HTTP/1.1" 200 15499
+INFO 2024-03-14 03:39:45,479 "GET /enquiry/1/ HTTP/1.1" 200 13118
+INFO 2024-03-14 03:39:48,607 "GET /student/ HTTP/1.1" 200 14908
+INFO 2024-03-14 03:39:49,972 "GET /student/select_enquiry/ HTTP/1.1" 200 12008
+INFO 2024-03-14 03:39:52,339 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+ERROR 2024-03-14 03:39:53,341 Internal Server Error: /student/create/1/
+Traceback (most recent call last):
+  File "D:\Projects\Pro\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\revapp\apps\students\views.py", line 217, in get
+    form.initial['enrol_no'] = self.automatic_ro()
+                               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\revapp\apps\students\views.py", line 175, in automatic_ro
+    year = str(datetime.now().year)[-2:]  # Last two digits of the current year
+               ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+ERROR 2024-03-14 03:39:53,350 "GET /student/create/1/ HTTP/1.1" 500 90196
+WARNING 2024-03-14 03:39:54,013 Not Found: /favicon.ico
+WARNING 2024-03-14 03:39:54,014 "GET /favicon.ico HTTP/1.1" 404 9105
+INFO 2024-03-14 03:40:06,223 "GET /student/select_enquiry/ HTTP/1.1" 200 12008
+INFO 2024-03-14 03:40:08,426 "GET /student/ HTTP/1.1" 200 14908
+INFO 2024-03-14 03:40:09,948 "GET /student/select_enquiry/ HTTP/1.1" 200 12008
+INFO 2024-03-14 03:40:12,143 "POST /student/select_enquiry/ HTTP/1.1" 302 0
+ERROR 2024-03-14 03:40:12,320 Internal Server Error: /student/create/1/
+Traceback (most recent call last):
+  File "D:\Projects\Pro\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\env\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\revapp\apps\students\views.py", line 217, in get
+    form.initial['enrol_no'] = self.automatic_ro()
+                               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\revapp\apps\students\views.py", line 175, in automatic_ro
+    year = str(datetime.now().year)[-2:]  # Last two digits of the current year
+               ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+ERROR 2024-03-14 03:40:12,326 "GET /student/create/1/ HTTP/1.1" 500 90196
+INFO 2024-03-14 03:41:46,899 D:\Projects\Pro\revapp\apps\students\views.py changed, reloading.
+INFO 2024-03-14 03:41:49,213 Watching for file changes with StatReloader
+INFO 2024-03-14 03:41:50,724 "GET /student/create/1/ HTTP/1.1" 200 19673
+INFO 2024-03-14 03:41:50,892 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,895 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,911 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,926 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,930 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,934 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,939 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,941 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,941 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,943 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,943 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,945 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:50,949 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:51,180 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-03-14 03:41:51,180 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-03-14 03:42:10,929 "POST /student/create/1/ HTTP/1.1" 302 0
+INFO 2024-03-14 03:42:11,249 "GET /student/1/ HTTP/1.1" 200 14027
+ERROR 2024-03-14 03:42:15,311 Internal Server Error: /student/generate_student_id_card/1/
+Traceback (most recent call last):
+  File "D:\Projects\Pro\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Pro\revapp\apps\students\views.py", line 103, in generate_student_id_card
+    image.save(image_path)
+  File "D:\Projects\Pro\env\Lib\site-packages\PIL\Image.py", line 2436, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Projects\\Pro\\revapp\\media\\idcards\\student_id_card_1.png'
+ERROR 2024-03-14 03:42:15,326 "GET /student/generate_student_id_card/1/ HTTP/1.1" 500 80132
+INFO 2024-03-14 03:43:37,693 "GET /student/1/ HTTP/1.1" 200 13881
+INFO 2024-03-14 03:43:39,756 "GET /student/1/update/ HTTP/1.1" 200 19524
+INFO 2024-03-14 03:43:50,664 "POST /student/1/update/ HTTP/1.1" 302 0
+INFO 2024-03-14 03:43:51,110 "GET /student/1/ HTTP/1.1" 200 14052
+INFO 2024-03-14 03:43:51,713 "GET /media/students/passports/photo_2023-11-04_00-25-17.jpg HTTP/1.1" 200 78032
+INFO 2024-03-14 03:44:40,551 "GET /student/generate_student_id_card/1/ HTTP/1.1" 200 152975
+INFO 2024-03-14 03:46:53,773 "GET /public/student/1/ HTTP/1.1" 200 6580
+INFO 2024-03-14 03:46:54,059 "GET /media/students/passports/photo_2023-11-04_00-25-17.jpg HTTP/1.1" 304 0
+INFO 2024-03-14 03:47:06,922 "GET /public/student/1/ HTTP/1.1" 200 6580
+INFO 2024-03-14 03:52:27,558 "GET /public/student/1/ HTTP/1.1" 200 6586
+INFO 2024-03-14 03:52:28,024 "GET /media/students/passports/photo_2023-11-04_00-25-17.jpg HTTP/1.1" 304 0
+INFO 2024-03-14 03:52:33,312 "GET /public/student/1/ HTTP/1.1" 200 6586
+INFO 2024-03-14 03:52:45,607 "GET /public/student/1/ HTTP/1.1" 200 6580
+INFO 2024-03-14 03:52:57,489 "GET /public/student/1/ HTTP/1.1" 200 6580
+INFO 2024-03-14 03:53:15,051 "GET /public/student/1/ HTTP/1.1" 200 6579
+INFO 2024-03-14 03:53:43,835 "GET /public/student/1/ HTTP/1.1" 200 6579
+INFO 2024-03-14 03:53:44,250 "GET /media/students/passports/photo_2023-11-04_00-25-17.jpg HTTP/1.1" 304 0
+INFO 2024-03-14 03:56:58,625 "GET /public/student/1/ HTTP/1.1" 200 6581
+INFO 2024-03-14 03:56:58,708 "GET /media/students/passports/photo_2023-11-04_00-25-17.jpg HTTP/1.1" 304 0
+INFO 2024-03-14 03:57:18,083 "GET /public/student/1/ HTTP/1.1" 200 6581
+INFO 2024-03-14 03:57:37,052 "GET /public/student/1/ HTTP/1.1" 200 6564
+INFO 2024-03-14 03:57:50,749 "GET /public/student/1/ HTTP/1.1" 200 6522
+INFO 2024-03-14 04:00:00,007 "GET /public/student/1/ HTTP/1.1" 200 6586
+INFO 2024-03-14 04:00:00,147 "GET /media/students/passports/photo_2023-11-04_00-25-17.jpg HTTP/1.1" 304 0
+INFO 2024-03-14 04:00:07,501 "GET /public/student/1/ HTTP/1.1" 200 6586
+INFO 2024-03-14 04:00:15,131 "GET /public/student/1/ HTTP/1.1" 200 6586
+INFO 2024-03-14 04:01:31,182 "GET /public/student/1/ HTTP/1.1" 200 6599
+INFO 2024-03-14 04:02:07,641 "GET /public/student/1/ HTTP/1.1" 200 6594
+INFO 2024-03-14 04:02:07,723 "GET /media/students/passports/photo_2023-11-04_00-25-17.jpg HTTP/1.1" 304 0
+INFO 2024-03-14 04:02:34,795 "GET /public/student/1/ HTTP/1.1" 200 6594
+INFO 2024-03-14 04:02:46,345 "GET /public/student/1/ HTTP/1.1" 200 6594
+INFO 2024-03-14 04:02:57,985 "GET /public/student/1/ HTTP/1.1" 200 6588
+INFO 2024-03-14 04:03:29,351 "GET /public/student/1/ HTTP/1.1" 200 6579
+INFO 2024-03-14 04:03:36,670 "GET /public/student/1/ HTTP/1.1" 200 6579
+INFO 2024-03-14 04:03:38,068 "GET /public/student/1/ HTTP/1.1" 200 6579
+INFO 2024-03-14 04:03:46,485 "GET / HTTP/1.1" 200 13878
+INFO 2024-03-14 04:03:46,676 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,695 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,705 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,714 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,725 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,726 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,728 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,728 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,733 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,734 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,743 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,746 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:46,748 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:47,335 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:47,337 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-03-14 04:03:51,223 "GET /staff/list/ HTTP/1.1" 200 11189
+INFO 2024-03-14 04:03:52,016 "GET /student/ HTTP/1.1" 200 14908
+INFO 2024-03-14 04:03:53,996 "GET /student/list HTTP/1.1" 200 11225
+INFO 2024-03-14 04:03:55,532 "GET /student/1/ HTTP/1.1" 200 13909
+INFO 2024-03-14 04:03:58,545 "GET /public/student/1/ HTTP/1.1" 200 6579
+INFO 2024-03-14 04:03:58,713 "GET /media/students/passports/photo_2023-11-04_00-25-17.jpg HTTP/1.1" 304 0
+INFO 2024-03-14 04:05:25,242 "GET /public/student/1/ HTTP/1.1" 200 6660
+INFO 2024-03-14 04:05:52,708 "GET /public/student/1/ HTTP/1.1" 200 6618
+INFO 2024-03-14 04:06:06,646 "GET /public/student/1/ HTTP/1.1" 200 6590
+INFO 2024-03-14 04:06:06,715 "GET /media/students/passports/photo_2023-11-04_00-25-17.jpg HTTP/1.1" 304 0
+INFO 2024-03-14 04:06:18,478 "GET /public/student/1/ HTTP/1.1" 200 6580
+INFO 2024-03-14 04:06:21,641 "GET /public/student/1/ HTTP/1.1" 200 6580
+INFO 2024-03-14 04:06:30,578 "GET /public/student/1/ HTTP/1.1" 200 6541
+INFO 2024-03-14 04:07:04,624 "GET /public/student/1/ HTTP/1.1" 200 6541
+INFO 2024-03-14 04:07:14,488 "GET /public/student/1/ HTTP/1.1" 200 6541
+INFO 2024-03-14 04:07:29,200 "GET /public/student/1/ HTTP/1.1" 200 6541
+INFO 2024-03-14 04:07:36,529 "GET /public/student/1/ HTTP/1.1" 200 6541
+INFO 2024-03-14 04:08:18,383 "GET /public/student/1/ HTTP/1.1" 200 6697
+INFO 2024-03-14 04:08:27,681 "GET /public/student/1/ HTTP/1.1" 200 6697
+INFO 2024-03-14 04:08:27,774 "GET /media/students/passports/photo_2023-11-04_00-25-17.jpg HTTP/1.1" 304 0
+INFO 2024-03-14 04:08:46,696 "GET /public/student/1/ HTTP/1.1" 200 6697
+INFO 2024-03-14 04:09:20,938 "GET / HTTP/1.1" 302 0
+INFO 2024-03-14 04:09:22,930 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2024-03-14 04:09:23,095 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2024-03-14 04:09:23,129 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2024-03-14 04:09:23,277 "GET /favicon.ico HTTP/1.1" 302 0
+INFO 2024-03-14 04:09:23,306 "GET /accounts/login/ HTTP/1.1" 200 3819
+INFO 2024-03-14 04:09:31,420 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-03-14 04:09:31,474 "GET / HTTP/1.1" 200 13878
+INFO 2024-03-14 04:09:35,320 "GET /finance/bill/ HTTP/1.1" 200 13545
+INFO 2024-03-14 04:09:56,399 "POST /finance/bill/ HTTP/1.1" 302 0
+INFO 2024-03-14 04:09:56,498 "GET /finance/bill/ HTTP/1.1" 200 13560
+INFO 2024-03-14 04:10:04,402 "GET /student/ HTTP/1.1" 200 14908
+INFO 2024-03-14 04:10:06,543 "GET / HTTP/1.1" 200 13877
+INFO 2024-03-14 04:10:10,928 "GET /student/ HTTP/1.1" 200 14908
+INFO 2024-03-14 04:10:13,521 "GET /student/list HTTP/1.1" 200 11225
+INFO 2024-03-14 04:10:15,541 "GET /student/1/ HTTP/1.1" 200 13911
+INFO 2024-03-14 04:10:15,630 "GET /media/students/passports/photo_2023-11-04_00-25-17.jpg HTTP/1.1" 200 78032
+INFO 2024-03-14 04:10:17,807 "GET /public/student/1/ HTTP/1.1" 200 6699
+INFO 2024-03-14 04:10:28,983 "GET /student/1/examlog/ HTTP/1.1" 200 12919
+INFO 2024-03-14 04:10:33,162 "GET /student/generate_student_id_card/1/ HTTP/1.1" 200 152975

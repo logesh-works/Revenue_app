@@ -27,8 +27,8 @@
     }
     .lgtx{
       position: relative;
-      left: 50%;
-      font-size: 25px!important;
+      left: 70%;
+      font-size: 4rem!important;
       font-weight: 500 !important;
       color: #ffff !important;;
 
@@ -64,7 +64,16 @@
    background-color: #7dcfeb !important;; 
    border-color: black !important;
 } 
+@media (max-width: 500px) {
+  .lgtx{
+      position: relative;
+      left: 70%;
+      font-size: 1rem!important;
+      font-weight: 500 !important;
+      color: #ffff !important;;
 
+    }
+}
     </style>
   </head>
   <div data-aos="fade-right"
@@ -74,8 +83,7 @@
     
     <div class=" container">
       <div data-aos="zoom-in">
-      <h1 class="display-4 logo">CSC</h1>
-      <p class="lead lgtx">Vridachalam - Improve Your Skill Point </p>
+      <p class="lead lgtx">Vridachalam</p>
       </div>
     </div>
   </div>
@@ -89,7 +97,7 @@ data-aos-duration="2000">
           {% if object.passport %}
           <img
             class="imgs"
-            src="{{ object.passport.url }}" style="width: 120px; height: 120px;">
+            src="{{ object.passport.url }}" style="width: 100%; height: 120px;">
         {% else %}
           <img
             class="imgs"

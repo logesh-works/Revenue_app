@@ -172,8 +172,8 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     success_message = "New student successfully added."
     def automatic_ro(self):
             id = Student.objects.count()
-            year = str(datetime.now().year)[-2:]  # Last two digits of the current year
-            month = str(datetime.now().month).zfill(2)  # Month with leading zero if needed
+            year = str(datetime.datetime.now().year)[-2:]  # Last two digits of the current year
+            month = str(datetime.datetime.now().month).zfill(2)  # Month with leading zero if needed
             object_id = str(id).zfill(4)  # Object ID with leading zeros if needed
             return f'{year}{month}{object_id}'
     def get(self, request, *args, **kwargs):
